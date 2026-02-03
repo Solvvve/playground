@@ -1,0 +1,321 @@
+[
+    {
+        "output": {
+            "full_name": "Abdolrahman Nooreddini",
+            "first_name": "Abdolrahman",
+            "last_name": "Nooreddini",
+            "email": "nooreddini@gmx.de",
+            "linkedin_url": null,
+            "phone": "+49 176 343 22 445",
+            "location": "Berlin- Steglitz, Germany",
+            "address": "Oehlertring 33, 12169 Berlin- Steglitz",
+            "other_contact": null,
+            "summary": null,
+            "current_position": "Bau- und Projektmanager",
+            "current_company": "JKB Servicegesellschaft mbH",
+            "years_of_experience": null,
+            "diploma": "Dipl.-Ing.",
+            "university": "Islamic Azad University",
+            "date_of_birth": "1984-09-13",
+            "gender": null,
+            "nationalities": [],
+            "visa_status": null,
+            "driving_license": "B",
+            "education": [
+                {
+                    "institution": "Softsara, Online-Kurs",
+                    "degree": null,
+                    "field_of_study": "Projektmanagement mit Microsoft Projekt (MSP)",
+                    "start_date": "2023-02",
+                    "end_date": "2023-04",
+                    "gpa": null,
+                    "key_skills": []
+                },
+                {
+                    "institution": "Alfatraining Bildungszentrum GmbH, Berlin",
+                    "degree": null,
+                    "field_of_study": "Baumanager (Bau- und Bauvertragsrecht nach VOB & BGB)",
+                    "start_date": "2023-01",
+                    "end_date": "2023-01",
+                    "gpa": null,
+                    "key_skills": []
+                },
+                {
+                    "institution": "Deutsche Akademie, Berlin",
+                    "degree": null,
+                    "field_of_study": "Deutschkurs C1",
+                    "start_date": "2019-04",
+                    "end_date": "2019-05",
+                    "gpa": null,
+                    "key_skills": []
+                },
+                {
+                    "institution": "Arian Sadr Kulturhaus, Iran",
+                    "degree": null,
+                    "field_of_study": "Deutschkurs von A1 bis B2",
+                    "start_date": "2017-06",
+                    "end_date": "2018-03",
+                    "gpa": null,
+                    "key_skills": []
+                },
+                {
+                    "institution": "Baukammer des Bundeslandes, Iran",
+                    "degree": null,
+                    "field_of_study": "Als Ausbilder im Aufsichtskommitee",
+                    "start_date": "2009-07",
+                    "end_date": "2009-10",
+                    "gpa": null,
+                    "key_skills": []
+                },
+                {
+                    "institution": "Organisation für technische und berufliche Bildung (TVTO) - Iran",
+                    "degree": null,
+                    "field_of_study": null,
+                    "start_date": "2010-06",
+                    "end_date": "2010-09",
+                    "gpa": null,
+                    "key_skills": [
+                        "Analyst und Designer von 3D-Strukturen mit Software ETABS",
+                        "Techniker für die Umsetzung von der Stahlbauen",
+                        "Microsoft Word",
+                        "AutoCAD 14 (Windows) 2D & 3D",
+                        "AutoCAD (Anwendung in Grafiken) 2D"
+                    ]
+                },
+                {
+                    "institution": "Islamische Azad Universität (Iran)",
+                    "degree": "Bachelor",
+                    "field_of_study": "Bauingenieurwesen",
+                    "start_date": "2006",
+                    "end_date": "2009",
+                    "gpa": null,
+                    "key_skills": []
+                },
+                {
+                    "institution": "Fachhochschule für Herren (Iran)",
+                    "degree": null,
+                    "field_of_study": "Gebäude-Allg. Gebäuden Arbeit",
+                    "start_date": "2003",
+                    "end_date": "2005",
+                    "gpa": null,
+                    "key_skills": []
+                },
+                {
+                    "institution": "Shahid Fahmideh Gymnasium (Iran)",
+                    "degree": "Abitur",
+                    "field_of_study": "Mathematik und Physik",
+                    "start_date": "1998",
+                    "end_date": "2002",
+                    "gpa": null,
+                    "key_skills": []
+                }
+            ],
+            "experience": [
+                {
+                    "title": "Bau- und Projektmanager",
+                    "company": "JKB Servicegesellschaft mbH",
+                    "location": "Berlin",
+                    "start_date": "2023-05",
+                    "end_date": null,
+                    "is_current": true,
+                    "description": "Als Bau- und Projektmanager (Bauherrenvertretung, LPH 1-9) Gesamtveratwortung für Neubau eines Krankenhausgebäudes (11.500 m2 Stahlbetonbau, 200 Betten), Koordination der intern und externer Projektbeteiligter, Mitwirkung und Durchführung von Vergaben über e-Vergabe-Plattform, Vertragsverhandlung, Nachtrags-management, Bauleitung interner Hochbau- und TGA-Sanierungsmaßnahmen im laufenden Betrieb",
+                    "technologies": []
+                },
+                {
+                    "title": "Bauleiter Hochbau",
+                    "company": "DGI Bauwerk Gesellschaft von Architekten mbH",
+                    "location": "Berlin",
+                    "start_date": "2022-07",
+                    "end_date": "2022-11",
+                    "is_current": false,
+                    "description": "Bauüberwachung für Wohnungsbauprojekte (HOWOGE und BWB), Schulbauprojekte im Rahmen der Berliner Schulbauoffensive (BSO II), Modularbau, Fertigteilbau, Rechnungsprü-fung sowie Nachtragsmanagement und Kostenverfolgung",
+                    "technologies": []
+                },
+                {
+                    "title": "Bauingenieur",
+                    "company": "Architekturbüro Die Brücke",
+                    "location": "Berlin",
+                    "start_date": "2020-05",
+                    "end_date": "2022-06",
+                    "is_current": false,
+                    "description": "Bei der Projektsteuerung und Objektsplannung Gehnehmigungs- und Ausführungplanung sowie Mitwirkung bei der Ausschreibung und Ver-gabe für Grundinstandsetzung und barrierefreier Ausbau für BVG-U-Bahhöfe",
+                    "technologies": []
+                },
+                {
+                    "title": "Werkstudent Bauüberwachung",
+                    "company": "Emch + Berger Projekt GmbH",
+                    "location": "Berlin",
+                    "start_date": "2019-11",
+                    "end_date": "2020-04",
+                    "is_current": false,
+                    "description": "S-Bahn-Projekt (LPH8) Bauoberleitung und Bauüberwachung Tunnelbau und Trogbauwerk vor Ort, Baustellen-dokumentation, Rechnungsprüfung",
+                    "technologies": []
+                },
+                {
+                    "title": "Technikabteilungsleiter und Bauüberwacher",
+                    "company": "„Fardano“ Beratende Ingenieur AG",
+                    "location": "Teheran, Iran",
+                    "start_date": "2013-02",
+                    "end_date": "2018-03",
+                    "is_current": false,
+                    "description": "BOL und BÜ, LPH 1-9) Gesamtverantwortung für neue Stadtentwicklung mit 4.500 Wohneinheiten inkl. Kompletter Infrastrukturen, Hotelbau , Wohnungsbauprojekte (Stahlbetonbau), Wasserversorgung (5.000 m3 Stahlbetonbautank), konstruktiver Ingenieurbau, Straßenbau inkl. Parkplätze, Grünflächen, Kanalisierung, Wasser- und Abwassernetz, Glasfasernetz, Trafo-Gebäude (Mittelspannung), Telekommunikationsgebäude, Rechnungsprüfung, Ausschreibung",
+                    "technologies": []
+                },
+                {
+                    "title": "Fachgebiet der Genehmigung: Bauingenieurwesen-Bauingenieur",
+                    "company": "Ministerium für Straßen -und Städtebau",
+                    "location": "Iran",
+                    "start_date": "2014-05",
+                    "end_date": "2017-05",
+                    "is_current": false,
+                    "description": "Stufe drei, Baubeaufsichtigung – Baukammer Teheran, Iran",
+                    "technologies": []
+                },
+                {
+                    "title": "Technische Zeichner",
+                    "company": "Bauingenieurunternehmen „Farash Nooran Sazeh“ GmbH",
+                    "location": "Iran",
+                    "start_date": "2011-09",
+                    "end_date": "2012-12",
+                    "is_current": false,
+                    "description": "Autocad 2D), Statiker (Etabs & Safe), Bauüberwacher und Bauleiter bei: Hoch- und Tiefbau, Wohn- und Gewerbauprojekte, Stahlbeton-bau, Stahlbau, Schlüssel-fertigbau, konstruktiver Ingenieurbau, LPH 1 – 9",
+                    "technologies": []
+                },
+                {
+                    "title": "Experte für berufliche Weiterbildung",
+                    "company": "Verein der Bauingenieure",
+                    "location": "Bundesland - Iran",
+                    "start_date": "2009-12",
+                    "end_date": "2010-06",
+                    "is_current": false,
+                    "description": null,
+                    "technologies": []
+                },
+                {
+                    "title": "Entwurfplaner",
+                    "company": "Bauingenieurunternehmen „Benapad“ AG",
+                    "location": "Iran",
+                    "start_date": "2003-10",
+                    "end_date": "2009-06",
+                    "is_current": false,
+                    "description": "Autocad 2D, 3D), Designer (Innen und Außen), Statiker (Etabs & Safe), Bauleitung (MSP), Vermesser-Assistent für Straßenbauprojekte (Straßen Stufe 2), Bauleiter-Assistent, Bauüberwacher und Bauleiter bei: Hoch- und Tiefbau, Wohn- und Gewerbegebäude, Stahlbetonbau, Stahlbau, Schlüsselfertigbau, konstruktiver Ingenieurbau, LPH 1 - 9",
+                    "technologies": []
+                }
+            ],
+            "projects": [],
+            "skills": [
+                {
+                    "name": "AutoCAD (2D)",
+                    "category": "Fortgeschritten",
+                    "level": null,
+                    "years_used": null
+                },
+                {
+                    "name": "MicroStation Power Draft (Bently)",
+                    "category": "Fortgeschritten",
+                    "level": null,
+                    "years_used": null
+                },
+                {
+                    "name": "Microsoft Project (MSP)",
+                    "category": "Fortgeschritten",
+                    "level": null,
+                    "years_used": null
+                },
+                {
+                    "name": "Microsoft Office (Excel, Word, Power point, Outlook, Teams)",
+                    "category": "Fortgeschritten",
+                    "level": null,
+                    "years_used": null
+                },
+                {
+                    "name": "Etabs & Safe (CSI)",
+                    "category": "Fortgeschritten",
+                    "level": null,
+                    "years_used": null
+                },
+                {
+                    "name": "HOAI, AHO, VOB",
+                    "category": "Fortgeschritten",
+                    "level": null,
+                    "years_used": null
+                },
+                {
+                    "name": "Dalux - BIM System (Bauausführung, Mängelmanagement, Checklisten usw.)",
+                    "category": "Fortgeschritten",
+                    "level": null,
+                    "years_used": null
+                },
+                {
+                    "name": "Capmo – BIM System (Bauausführung, Mängelmanagement, Checklisten usw.)",
+                    "category": "Fortgeschritten",
+                    "level": null,
+                    "years_used": null
+                },
+                {
+                    "name": "AutoCAD (3D)",
+                    "category": "Gute Kenntnisse",
+                    "level": null,
+                    "years_used": null
+                },
+                {
+                    "name": "Orca AVA (Kostenrechnung und Ausschreibung)",
+                    "category": "Gute Kenntnisse",
+                    "level": null,
+                    "years_used": null
+                },
+                {
+                    "name": "BPU (Bau Projekt Unterlagen)",
+                    "category": "Gute Kenntnisse",
+                    "level": null,
+                    "years_used": null
+                },
+                {
+                    "name": "Photoshop",
+                    "category": "Gute Kenntnisse",
+                    "level": null,
+                    "years_used": null
+                },
+                {
+                    "name": "Tekla Structure (X-Steel)",
+                    "category": "Mittlere Kenntnisse",
+                    "level": null,
+                    "years_used": null
+                },
+                {
+                    "name": "Archicad",
+                    "category": "Mittlere Kenntnisse",
+                    "level": null,
+                    "years_used": null
+                }
+            ],
+            "languages": [
+                {
+                    "name": "Deutsch",
+                    "proficiency": "C1"
+                },
+                {
+                    "name": "Englisch",
+                    "proficiency": "Gut in Wort und Schrift"
+                },
+                {
+                    "name": "Türkisch",
+                    "proficiency": "Fließend in Wort"
+                },
+                {
+                    "name": "Turkmenisch",
+                    "proficiency": "Muttersprache"
+                },
+                {
+                    "name": "Persisch",
+                    "proficiency": "Muttersprache"
+                }
+            ],
+            "certifications": [],
+            "publications": [],
+            "volunteering": [],
+            "awards": [],
+            "links": []
+        }
+    }
+]

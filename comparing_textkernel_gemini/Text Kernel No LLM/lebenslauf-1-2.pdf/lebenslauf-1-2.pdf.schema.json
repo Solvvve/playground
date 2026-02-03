@@ -1,0 +1,791 @@
+{
+  "type": "object",
+  "path": "root",
+  "properties": {
+    "ContactInformation": {
+      "type": "object",
+      "path": "ContactInformation",
+      "properties": {
+        "CandidateName": {
+          "type": "object",
+          "path": "ContactInformation.CandidateName",
+          "properties": {
+            "FormattedName": {
+              "type": "string",
+              "path": "ContactInformation.CandidateName.FormattedName",
+              "example": "Al Efish Abdulwali"
+            },
+            "GivenName": {
+              "type": "string",
+              "path": "ContactInformation.CandidateName.GivenName",
+              "example": "Al"
+            },
+            "MiddleName": {
+              "type": "string",
+              "path": "ContactInformation.CandidateName.MiddleName",
+              "example": "Efish"
+            },
+            "FamilyName": {
+              "type": "string",
+              "path": "ContactInformation.CandidateName.FamilyName",
+              "example": "Abdulwali"
+            }
+          }
+        },
+        "Telephones": {
+          "type": "array",
+          "path": "ContactInformation.Telephones",
+          "items": {
+            "type": "object",
+            "path": "ContactInformation.Telephones[]",
+            "properties": {
+              "Raw": {
+                "type": "string",
+                "path": "ContactInformation.Telephones[].Raw",
+                "example": "+4915732206892"
+              },
+              "Normalized": {
+                "type": "string",
+                "path": "ContactInformation.Telephones[].Normalized",
+                "example": "+49 15732206892"
+              },
+              "InternationalCountryCode": {
+                "type": "string",
+                "path": "ContactInformation.Telephones[].InternationalCountryCode",
+                "example": "49"
+              },
+              "SubscriberNumber": {
+                "type": "string",
+                "path": "ContactInformation.Telephones[].SubscriberNumber",
+                "example": "15732206892"
+              }
+            }
+          },
+          "length": 1
+        },
+        "EmailAddresses": {
+          "type": "array",
+          "path": "ContactInformation.EmailAddresses",
+          "items": {
+            "type": "string",
+            "path": "ContactInformation.EmailAddresses[]",
+            "example": "abdulwalialefish@gmail.com"
+          },
+          "length": 1
+        },
+        "Location": {
+          "type": "object",
+          "path": "ContactInformation.Location",
+          "properties": {
+            "CountryCode": {
+              "type": "string",
+              "path": "ContactInformation.Location.CountryCode",
+              "example": "DE"
+            },
+            "PostalCode": {
+              "type": "string",
+              "path": "ContactInformation.Location.PostalCode",
+              "example": "63452"
+            },
+            "Regions": {
+              "type": "array",
+              "path": "ContactInformation.Location.Regions",
+              "items": {
+                "type": "string",
+                "path": "ContactInformation.Location.Regions[]",
+                "example": "DE-HE"
+              },
+              "length": 1
+            },
+            "Municipality": {
+              "type": "string",
+              "path": "ContactInformation.Location.Municipality",
+              "example": "Hanau"
+            },
+            "StreetAddressLines": {
+              "type": "array",
+              "path": "ContactInformation.Location.StreetAddressLines",
+              "items": {
+                "type": "string",
+                "path": "ContactInformation.Location.StreetAddressLines[]",
+                "example": "Büdingerstraße 8"
+              },
+              "length": 1
+            }
+          }
+        }
+      }
+    },
+    "Objective": {
+      "type": "string",
+      "path": "Objective",
+      "example": "Erfahrung\n\nIndustria Immobilien GmbH              ..."
+    },
+    "PersonalAttributes": {
+      "type": "object",
+      "path": "PersonalAttributes",
+      "properties": {
+        "DateOfBirth": {
+          "type": "object",
+          "path": "PersonalAttributes.DateOfBirth",
+          "properties": {
+            "Date": {
+              "type": "string",
+              "path": "PersonalAttributes.DateOfBirth.Date",
+              "example": "1988-11-10"
+            },
+            "IsCurrentDate": {
+              "type": "boolean",
+              "path": "PersonalAttributes.DateOfBirth.IsCurrentDate",
+              "example": false
+            },
+            "FoundYear": {
+              "type": "boolean",
+              "path": "PersonalAttributes.DateOfBirth.FoundYear",
+              "example": true
+            },
+            "FoundMonth": {
+              "type": "boolean",
+              "path": "PersonalAttributes.DateOfBirth.FoundMonth",
+              "example": true
+            },
+            "FoundDay": {
+              "type": "boolean",
+              "path": "PersonalAttributes.DateOfBirth.FoundDay",
+              "example": true
+            }
+          }
+        },
+        "Gender": {
+          "type": "string",
+          "path": "PersonalAttributes.Gender",
+          "example": "Male"
+        }
+      }
+    },
+    "Education": {
+      "type": "object",
+      "path": "Education",
+      "properties": {
+        "HighestDegree": {
+          "type": "object",
+          "path": "Education.HighestDegree",
+          "properties": {
+            "Name": {
+              "type": "object",
+              "path": "Education.HighestDegree.Name",
+              "properties": {
+                "Raw": {
+                  "type": "string",
+                  "path": "Education.HighestDegree.Name.Raw",
+                  "example": "Bachelor"
+                },
+                "Normalized": {
+                  "type": "string",
+                  "path": "Education.HighestDegree.Name.Normalized",
+                  "example": "bachelors"
+                }
+              }
+            },
+            "Type": {
+              "type": "string",
+              "path": "Education.HighestDegree.Type",
+              "example": "bachelors"
+            },
+            "NormalizedLocal": {
+              "type": "object",
+              "path": "Education.HighestDegree.NormalizedLocal",
+              "properties": {
+                "Code": {
+                  "type": "string",
+                  "path": "Education.HighestDegree.NormalizedLocal.Code",
+                  "example": "DE_7"
+                },
+                "Description": {
+                  "type": "string",
+                  "path": "Education.HighestDegree.NormalizedLocal.Description",
+                  "example": "Bachelor"
+                }
+              }
+            },
+            "NormalizedInternational": {
+              "type": "object",
+              "path": "Education.HighestDegree.NormalizedInternational",
+              "properties": {
+                "Code": {
+                  "type": "string",
+                  "path": "Education.HighestDegree.NormalizedInternational.Code",
+                  "example": "3"
+                },
+                "Description": {
+                  "type": "string",
+                  "path": "Education.HighestDegree.NormalizedInternational.Description",
+                  "example": "Bachelor"
+                }
+              }
+            }
+          }
+        },
+        "EducationDetails": {
+          "type": "array",
+          "path": "Education.EducationDetails",
+          "items": {
+            "type": "object",
+            "path": "Education.EducationDetails[]",
+            "properties": {
+              "Id": {
+                "type": "string",
+                "path": "Education.EducationDetails[].Id",
+                "example": "DEG-1"
+              },
+              "Text": {
+                "type": "string",
+                "path": "Education.EducationDetails[].Text"
+              },
+              "SchoolName": {
+                "type": "object",
+                "path": "Education.EducationDetails[].SchoolName",
+                "properties": {
+                  "Raw": {
+                    "type": "string",
+                    "path": "Education.EducationDetails[].SchoolName.Raw",
+                    "example": "Damaskus Universität"
+                  },
+                  "Normalized": {
+                    "type": "string",
+                    "path": "Education.EducationDetails[].SchoolName.Normalized",
+                    "example": "Damaskus Universität"
+                  }
+                }
+              },
+              "SchoolType": {
+                "type": "string",
+                "path": "Education.EducationDetails[].SchoolType",
+                "example": "university"
+              },
+              "Degree": {
+                "type": "object",
+                "path": "Education.EducationDetails[].Degree",
+                "properties": {
+                  "Name": {
+                    "type": "object",
+                    "path": "Education.EducationDetails[].Degree.Name",
+                    "properties": {
+                      "Raw": {
+                        "type": "string",
+                        "path": "Education.EducationDetails[].Degree.Name.Raw",
+                        "example": "Bachelor"
+                      },
+                      "Normalized": {
+                        "type": "string",
+                        "path": "Education.EducationDetails[].Degree.Name.Normalized",
+                        "example": "bachelors"
+                      }
+                    }
+                  },
+                  "Type": {
+                    "type": "string",
+                    "path": "Education.EducationDetails[].Degree.Type",
+                    "example": "bachelors"
+                  },
+                  "NormalizedLocal": {
+                    "type": "object",
+                    "path": "Education.EducationDetails[].Degree.NormalizedLocal",
+                    "properties": {
+                      "Code": {
+                        "type": "string",
+                        "path": "Education.EducationDetails[].Degree.NormalizedLocal.Code",
+                        "example": "DE_7"
+                      },
+                      "Description": {
+                        "type": "string",
+                        "path": "Education.EducationDetails[].Degree.NormalizedLocal.Description",
+                        "example": "Bachelor"
+                      }
+                    }
+                  },
+                  "NormalizedInternational": {
+                    "type": "object",
+                    "path": "Education.EducationDetails[].Degree.NormalizedInternational",
+                    "properties": {
+                      "Code": {
+                        "type": "string",
+                        "path": "Education.EducationDetails[].Degree.NormalizedInternational.Code",
+                        "example": "3"
+                      },
+                      "Description": {
+                        "type": "string",
+                        "path": "Education.EducationDetails[].Degree.NormalizedInternational.Description",
+                        "example": "Bachelor"
+                      }
+                    }
+                  }
+                }
+              },
+              "Majors": {
+                "type": "array",
+                "path": "Education.EducationDetails[].Majors",
+                "items": {
+                  "type": "string",
+                  "path": "Education.EducationDetails[].Majors[]",
+                  "example": "Buchhaltung"
+                },
+                "length": 1
+              },
+              "LastEducationDate": {
+                "type": "object",
+                "path": "Education.EducationDetails[].LastEducationDate",
+                "properties": {
+                  "Date": {
+                    "type": "string",
+                    "path": "Education.EducationDetails[].LastEducationDate.Date",
+                    "example": "2012-06-30"
+                  },
+                  "IsCurrentDate": {
+                    "type": "boolean",
+                    "path": "Education.EducationDetails[].LastEducationDate.IsCurrentDate",
+                    "example": false
+                  },
+                  "FoundYear": {
+                    "type": "boolean",
+                    "path": "Education.EducationDetails[].LastEducationDate.FoundYear",
+                    "example": true
+                  },
+                  "FoundMonth": {
+                    "type": "boolean",
+                    "path": "Education.EducationDetails[].LastEducationDate.FoundMonth",
+                    "example": true
+                  },
+                  "FoundDay": {
+                    "type": "boolean",
+                    "path": "Education.EducationDetails[].LastEducationDate.FoundDay",
+                    "example": true
+                  }
+                }
+              },
+              "StartDate": {
+                "type": "object",
+                "path": "Education.EducationDetails[].StartDate",
+                "properties": {
+                  "Date": {
+                    "type": "string",
+                    "path": "Education.EducationDetails[].StartDate.Date",
+                    "example": "2007-09-01"
+                  },
+                  "IsCurrentDate": {
+                    "type": "boolean",
+                    "path": "Education.EducationDetails[].StartDate.IsCurrentDate",
+                    "example": false
+                  },
+                  "FoundYear": {
+                    "type": "boolean",
+                    "path": "Education.EducationDetails[].StartDate.FoundYear",
+                    "example": true
+                  },
+                  "FoundMonth": {
+                    "type": "boolean",
+                    "path": "Education.EducationDetails[].StartDate.FoundMonth",
+                    "example": true
+                  },
+                  "FoundDay": {
+                    "type": "boolean",
+                    "path": "Education.EducationDetails[].StartDate.FoundDay",
+                    "example": false
+                  }
+                }
+              },
+              "EndDate": {
+                "type": "object",
+                "path": "Education.EducationDetails[].EndDate",
+                "properties": {
+                  "Date": {
+                    "type": "string",
+                    "path": "Education.EducationDetails[].EndDate.Date",
+                    "example": "2012-06-30"
+                  },
+                  "IsCurrentDate": {
+                    "type": "boolean",
+                    "path": "Education.EducationDetails[].EndDate.IsCurrentDate",
+                    "example": false
+                  },
+                  "FoundYear": {
+                    "type": "boolean",
+                    "path": "Education.EducationDetails[].EndDate.FoundYear",
+                    "example": true
+                  },
+                  "FoundMonth": {
+                    "type": "boolean",
+                    "path": "Education.EducationDetails[].EndDate.FoundMonth",
+                    "example": true
+                  },
+                  "FoundDay": {
+                    "type": "boolean",
+                    "path": "Education.EducationDetails[].EndDate.FoundDay",
+                    "example": true
+                  }
+                }
+              },
+              "Graduated": {
+                "type": "object",
+                "path": "Education.EducationDetails[].Graduated",
+                "properties": {
+                  "Value": {
+                    "type": "boolean",
+                    "path": "Education.EducationDetails[].Graduated.Value",
+                    "example": true
+                  }
+                }
+              }
+            }
+          },
+          "length": 1
+        }
+      }
+    },
+    "EmploymentHistory": {
+      "type": "object",
+      "path": "EmploymentHistory",
+      "properties": {
+        "ExperienceSummary": {
+          "type": "object",
+          "path": "EmploymentHistory.ExperienceSummary",
+          "properties": {
+            "Description": {
+              "type": "string",
+              "path": "EmploymentHistory.ExperienceSummary.Description",
+              "example": "Die Erfahrung von Al Efish Abdulwali scheint einst..."
+            },
+            "MonthsOfWorkExperience": {
+              "type": "integer",
+              "path": "EmploymentHistory.ExperienceSummary.MonthsOfWorkExperience",
+              "example": 0
+            },
+            "MonthsOfManagementExperience": {
+              "type": "integer",
+              "path": "EmploymentHistory.ExperienceSummary.MonthsOfManagementExperience",
+              "example": 0
+            },
+            "ExecutiveType": {
+              "type": "string",
+              "path": "EmploymentHistory.ExperienceSummary.ExecutiveType",
+              "example": "NONE"
+            },
+            "AverageMonthsPerEmployer": {
+              "type": "integer",
+              "path": "EmploymentHistory.ExperienceSummary.AverageMonthsPerEmployer",
+              "example": 0
+            },
+            "FulltimeDirectHirePredictiveIndex": {
+              "type": "integer",
+              "path": "EmploymentHistory.ExperienceSummary.FulltimeDirectHirePredictiveIndex",
+              "example": -1
+            },
+            "ManagementStory": {
+              "type": "string",
+              "path": "EmploymentHistory.ExperienceSummary.ManagementStory"
+            },
+            "CurrentManagementLevel": {
+              "type": "string",
+              "path": "EmploymentHistory.ExperienceSummary.CurrentManagementLevel"
+            },
+            "ManagementScore": {
+              "type": "integer",
+              "path": "EmploymentHistory.ExperienceSummary.ManagementScore",
+              "example": 0
+            },
+            "AttentionNeeded": {
+              "type": "string",
+              "path": "EmploymentHistory.ExperienceSummary.AttentionNeeded",
+              "example": "WARNUNG: Kandidat sucht einen mittleren Niveau Man..."
+            }
+          }
+        }
+      }
+    },
+    "Skills": {
+      "type": "object",
+      "path": "Skills",
+      "properties": {
+        "Raw": {
+          "type": "array",
+          "path": "Skills.Raw",
+          "items": {
+            "type": "object",
+            "path": "Skills.Raw[]",
+            "properties": {
+              "Name": {
+                "type": "string",
+                "path": "Skills.Raw[].Name",
+                "example": "Buchhaltung"
+              },
+              "FoundIn": {
+                "type": "array",
+                "path": "Skills.Raw[].FoundIn",
+                "items": {
+                  "type": "object",
+                  "path": "Skills.Raw[].FoundIn[]",
+                  "properties": {
+                    "SectionType": {
+                      "type": "string",
+                      "path": "Skills.Raw[].FoundIn[].SectionType",
+                      "example": "EDUCATION"
+                    },
+                    "Id": {
+                      "type": "string",
+                      "path": "Skills.Raw[].FoundIn[].Id",
+                      "example": "DEG-1"
+                    }
+                  }
+                },
+                "length": 1
+              },
+              "MonthsExperience": {
+                "type": "object",
+                "path": "Skills.Raw[].MonthsExperience",
+                "properties": {
+                  "Value": {
+                    "type": "integer",
+                    "path": "Skills.Raw[].MonthsExperience.Value",
+                    "example": 1
+                  }
+                }
+              }
+            }
+          },
+          "length": 6
+        },
+        "Normalized": {
+          "type": "array",
+          "path": "Skills.Normalized",
+          "items": {
+            "type": "object",
+            "path": "Skills.Normalized[]",
+            "properties": {
+              "Name": {
+                "type": "string",
+                "path": "Skills.Normalized[].Name",
+                "example": "Buchhaltung"
+              },
+              "Id": {
+                "type": "string",
+                "path": "Skills.Normalized[].Id",
+                "example": "KS1203W702ND09XHKJR5"
+              },
+              "Type": {
+                "type": "string",
+                "path": "Skills.Normalized[].Type",
+                "example": "Professional"
+              },
+              "FoundIn": {
+                "type": "array",
+                "path": "Skills.Normalized[].FoundIn",
+                "items": {
+                  "type": "object",
+                  "path": "Skills.Normalized[].FoundIn[]",
+                  "properties": {
+                    "SectionType": {
+                      "type": "string",
+                      "path": "Skills.Normalized[].FoundIn[].SectionType",
+                      "example": "ENTIRE_DOCUMENT"
+                    }
+                  }
+                },
+                "length": 2
+              },
+              "MonthsExperience": {
+                "type": "object",
+                "path": "Skills.Normalized[].MonthsExperience",
+                "properties": {
+                  "Value": {
+                    "type": "integer",
+                    "path": "Skills.Normalized[].MonthsExperience.Value",
+                    "example": 1
+                  }
+                }
+              },
+              "RawSkills": {
+                "type": "array",
+                "path": "Skills.Normalized[].RawSkills",
+                "items": {
+                  "type": "string",
+                  "path": "Skills.Normalized[].RawSkills[]",
+                  "example": "Rechnungswesen"
+                },
+                "length": 2
+              }
+            }
+          },
+          "length": 4
+        },
+        "RelatedProfessionClasses": {
+          "type": "array",
+          "path": "Skills.RelatedProfessionClasses",
+          "items": {
+            "type": "object",
+            "path": "Skills.RelatedProfessionClasses[]",
+            "properties": {
+              "Name": {
+                "type": "string",
+                "path": "Skills.RelatedProfessionClasses[].Name",
+                "example": "Verkauf und Handel"
+              },
+              "Id": {
+                "type": "string",
+                "path": "Skills.RelatedProfessionClasses[].Id",
+                "example": "21"
+              },
+              "Percent": {
+                "type": "integer",
+                "path": "Skills.RelatedProfessionClasses[].Percent",
+                "example": 50
+              },
+              "Groups": {
+                "type": "array",
+                "path": "Skills.RelatedProfessionClasses[].Groups",
+                "items": {
+                  "type": "object",
+                  "path": "Skills.RelatedProfessionClasses[].Groups[]",
+                  "properties": {
+                    "Name": {
+                      "type": "string",
+                      "path": "Skills.RelatedProfessionClasses[].Groups[].Name",
+                      "example": "Immobilienmakler (m/w)"
+                    },
+                    "Id": {
+                      "type": "string",
+                      "path": "Skills.RelatedProfessionClasses[].Groups[].Id",
+                      "example": "215"
+                    },
+                    "Percent": {
+                      "type": "integer",
+                      "path": "Skills.RelatedProfessionClasses[].Groups[].Percent",
+                      "example": 29
+                    },
+                    "NormalizedSkills": {
+                      "type": "array",
+                      "path": "Skills.RelatedProfessionClasses[].Groups[].NormalizedSkills",
+                      "items": {
+                        "type": "string",
+                        "path": "Skills.RelatedProfessionClasses[].Groups[].NormalizedSkills[]",
+                        "example": "KS128F265DV4XTBR70H7"
+                      },
+                      "length": 2
+                    }
+                  }
+                },
+                "length": 2
+              }
+            }
+          },
+          "length": 3
+        }
+      }
+    },
+    "LanguageCompetencies": {
+      "type": "array",
+      "path": "LanguageCompetencies",
+      "items": {
+        "type": "object",
+        "path": "LanguageCompetencies[]",
+        "properties": {
+          "Language": {
+            "type": "string",
+            "path": "LanguageCompetencies[].Language",
+            "example": "Arabic"
+          },
+          "LanguageCode": {
+            "type": "string",
+            "path": "LanguageCompetencies[].LanguageCode",
+            "example": "ar"
+          },
+          "FoundInContext": {
+            "type": "string",
+            "path": "LanguageCompetencies[].FoundInContext"
+          }
+        }
+      },
+      "length": 2
+    },
+    "ResumeMetadata": {
+      "type": "object",
+      "path": "ResumeMetadata",
+      "properties": {
+        "FoundSections": {
+          "type": "array",
+          "path": "ResumeMetadata.FoundSections"
+        },
+        "ReservedData": {
+          "type": "object",
+          "path": "ResumeMetadata.ReservedData",
+          "properties": {
+            "Phones": {
+              "type": "array",
+              "path": "ResumeMetadata.ReservedData.Phones",
+              "items": {
+                "type": "string",
+                "path": "ResumeMetadata.ReservedData.Phones[]",
+                "example": "+4915732206892"
+              },
+              "length": 1
+            },
+            "Names": {
+              "type": "array",
+              "path": "ResumeMetadata.ReservedData.Names",
+              "items": {
+                "type": "string",
+                "path": "ResumeMetadata.ReservedData.Names[]",
+                "example": "Al Efish Abdulwali"
+              },
+              "length": 1
+            },
+            "EmailAddresses": {
+              "type": "array",
+              "path": "ResumeMetadata.ReservedData.EmailAddresses",
+              "items": {
+                "type": "string",
+                "path": "ResumeMetadata.ReservedData.EmailAddresses[]",
+                "example": "abdulwalialefish@gmail.com"
+              },
+              "length": 1
+            },
+            "OtherData": {
+              "type": "array",
+              "path": "ResumeMetadata.ReservedData.OtherData",
+              "items": {
+                "type": "string",
+                "path": "ResumeMetadata.ReservedData.OtherData[]",
+                "example": "Büdingerstraße 8"
+              },
+              "length": 1
+            }
+          }
+        },
+        "PlainText": {
+          "type": "string",
+          "path": "ResumeMetadata.PlainText",
+          "example": "Abdulwali\n                                        ..."
+        },
+        "DocumentLanguage": {
+          "type": "string",
+          "path": "ResumeMetadata.DocumentLanguage",
+          "example": "de"
+        },
+        "DocumentCulture": {
+          "type": "string",
+          "path": "ResumeMetadata.DocumentCulture",
+          "example": "de-DE"
+        },
+        "ParserSettings": {
+          "type": "string",
+          "path": "ResumeMetadata.ParserSettings",
+          "example": "Coverage.PersonalAttributes = True; Coverage.Train..."
+        },
+        "DocumentLastModified": {
+          "type": "string",
+          "path": "ResumeMetadata.DocumentLastModified",
+          "example": "2025-02-19"
+        }
+      }
+    }
+  }
+}

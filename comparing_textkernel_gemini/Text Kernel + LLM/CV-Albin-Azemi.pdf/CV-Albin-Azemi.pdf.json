@@ -1,0 +1,1814 @@
+{
+  "ContactInformation": {
+    "CandidateName": {
+      "FormattedName": "Albin Azemi",
+      "GivenName": "Albin",
+      "FamilyName": "Azemi"
+    },
+    "Telephones": [
+      {
+        "Raw": "+49 1733937763",
+        "Normalized": "+49 1733937763",
+        "InternationalCountryCode": "49",
+        "SubscriberNumber": "1733937763"
+      }
+    ],
+    "EmailAddresses": [
+      "albin.azemi@icloud.com"
+    ],
+    "Location": {
+      "CountryCode": "DE",
+      "PostalCode": "81835",
+      "Municipality": "München",
+      "StreetAddressLines": [
+        "Deisenhofener Str. 6"
+      ]
+    }
+  },
+  "ProfessionalSummary": "This person has extensive experience in real estate analysis and transaction advisory, coupled with effective leadership skills and the ability to optimize teams and improve efficiency. They have excellent analytical skills supported by strong knowledge of cash flow modeling and the creation and presentation of precise analysis and market reports.",
+  "PersonalAttributes": {
+    "DrivingLicense": "B",
+    "Gender": "Male"
+  },
+  "Education": {
+    "HighestDegree": {
+      "Name": {
+        "Raw": "Bachelor",
+        "Normalized": "bachelors"
+      },
+      "Type": "bachelors",
+      "NormalizedLocal": {
+        "Code": "DE_7",
+        "Description": "Bachelor"
+      },
+      "NormalizedInternational": {
+        "Code": "3",
+        "Description": "Bachelor"
+      }
+    },
+    "EducationDetails": [
+      {
+        "Id": "DEG-1",
+        "Text": "",
+        "SchoolName": {
+          "Raw": "MODUL Universty",
+          "Normalized": "MODUL University"
+        },
+        "SchoolType": "college",
+        "Location": {
+          "CountryCode": "AT",
+          "Regions": [
+            "Wien"
+          ],
+          "Municipality": "Vienna"
+        },
+        "Degree": {
+          "Name": {
+            "Raw": "Bachelor",
+            "Normalized": "bachelors"
+          },
+          "Type": "bachelors",
+          "NormalizedLocal": {
+            "Code": "DE_7",
+            "Description": "Bachelor"
+          },
+          "NormalizedInternational": {
+            "Code": "3",
+            "Description": "Bachelor"
+          }
+        },
+        "Majors": [
+          "Business Management in Tourism Management"
+        ],
+        "LastEducationDate": {
+          "Date": "2014-01-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": false,
+          "FoundDay": false
+        },
+        "StartDate": {
+          "Date": "2014-01-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": false,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "2014-01-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": false,
+          "FoundDay": false
+        }
+      }
+    ]
+  },
+  "EmploymentHistory": {
+    "ExperienceSummary": {
+      "Description": "This person has extensive experience in real estate analysis and transaction advisory, coupled with effective leadership skills and the ability to optimize teams and improve efficiency. They have excellent analytical skills supported by strong knowledge of cash flow modeling and the creation and presentation of precise analysis and market reports. This person holds a Bachelor's degree in Business Management in Tourism Management from MODUL Universty in Vienna, Austria.",
+      "MonthsOfWorkExperience": 109,
+      "MonthsOfManagementExperience": 56,
+      "ExecutiveType": "GENERAL",
+      "AverageMonthsPerEmployer": 8,
+      "FulltimeDirectHirePredictiveIndex": 50,
+      "ManagementStory": "Starting on 4/1/2024, the candidate held the following mid-level management position for 14 months:\n\tTitle: Relationship Manager for Airbus Bank GmbH\nStarting on 10/1/2022, the candidate held the following mid-level management position for 15 months:\n\tTitle: Relationship Manager for Ziegert Group GmbH\nStarting on 3/1/2022, the candidate held the following mid-level management position for 6 months:\n\tTitle: Relationship Manager for Ziegert Group GmbH\nStarting on 9/1/2019, the candidate held the following low-level management position for 21 months:\n\tTitle: Team Lead Investment Analysis for Colliers International Group Inc\n\tTitle: Cluster Junior Sales Manager",
+      "CurrentManagementLevel": "mid-level",
+      "ManagementScore": 55
+    },
+    "Positions": [
+      {
+        "Id": "POS-1",
+        "Employer": {
+          "Name": {
+            "Probability": "Confident",
+            "Raw": "Airbus Bank GmbH",
+            "Normalized": "Airbus Bank"
+          },
+          "Location": {
+            "CountryCode": "DE",
+            "Municipality": "München"
+          }
+        },
+        "IsSelfEmployed": false,
+        "IsCurrent": false,
+        "JobTitle": {
+          "Raw": "Relationship Manager",
+          "Normalized": "Relationship Manager",
+          "Probability": "Confident"
+        },
+        "StartDate": {
+          "Date": "2024-04-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "2025-06-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "JobType": "UNSPECIFIED",
+        "JobLevel": "Manager",
+        "TaxonomyPercentage": 0,
+        "NormalizedProfession": {
+          "Profession": {
+            "CodeId": 1955,
+            "Description": "Kundenbetreuer (m/w/d)"
+          },
+          "Group": {
+            "CodeId": 209,
+            "Description": "Vertriebsleiter / Sales Manager (m/w)"
+          },
+          "Class": {
+            "CodeId": 21,
+            "Description": "Verkauf und Handel"
+          },
+          "ISCO": {
+            "Version": "ISCO-08",
+            "CodeId": 3322,
+            "Description": "Commercial sales representatives"
+          },
+          "ONET": {
+            "Version": "2019",
+            "CodeId": "11-2032.00",
+            "Description": "Public Relations Managers"
+          },
+          "Confidence": 1.0
+        }
+      },
+      {
+        "Id": "POS-2",
+        "Employer": {
+          "Name": {
+            "Probability": "Confident",
+            "Raw": "Ziegert Group GmbH",
+            "Normalized": "Ziegert Group"
+          },
+          "Location": {
+            "CountryCode": "DE",
+            "Municipality": "Berlin"
+          }
+        },
+        "IsSelfEmployed": false,
+        "IsCurrent": false,
+        "JobTitle": {
+          "Raw": "Relationship Manager",
+          "Normalized": "Relationship Manager",
+          "Probability": "Confident"
+        },
+        "StartDate": {
+          "Date": "2022-10-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "2024-01-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "JobType": "UNSPECIFIED",
+        "JobLevel": "Manager",
+        "TaxonomyPercentage": 0,
+        "NormalizedProfession": {
+          "Profession": {
+            "CodeId": 1955,
+            "Description": "Kundenbetreuer (m/w/d)"
+          },
+          "Group": {
+            "CodeId": 209,
+            "Description": "Vertriebsleiter / Sales Manager (m/w)"
+          },
+          "Class": {
+            "CodeId": 21,
+            "Description": "Verkauf und Handel"
+          },
+          "ISCO": {
+            "Version": "ISCO-08",
+            "CodeId": 3322,
+            "Description": "Commercial sales representatives"
+          },
+          "ONET": {
+            "Version": "2019",
+            "CodeId": "11-2032.00",
+            "Description": "Public Relations Managers"
+          },
+          "Confidence": 1.0
+        }
+      },
+      {
+        "Id": "POS-3",
+        "Employer": {
+          "Name": {
+            "Probability": "Confident",
+            "Raw": "Ziegert Group GmbH",
+            "Normalized": "Ziegert Group"
+          },
+          "Location": {
+            "CountryCode": "DE",
+            "Municipality": "Berlin"
+          }
+        },
+        "IsSelfEmployed": false,
+        "IsCurrent": false,
+        "JobTitle": {
+          "Raw": "Relationship Manager",
+          "Normalized": "Relationship Manager",
+          "Probability": "Confident"
+        },
+        "StartDate": {
+          "Date": "2022-03-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "2022-09-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "JobType": "UNSPECIFIED",
+        "JobLevel": "Manager",
+        "TaxonomyPercentage": 0,
+        "NormalizedProfession": {
+          "Profession": {
+            "CodeId": 1955,
+            "Description": "Kundenbetreuer (m/w/d)"
+          },
+          "Group": {
+            "CodeId": 209,
+            "Description": "Vertriebsleiter / Sales Manager (m/w)"
+          },
+          "Class": {
+            "CodeId": 21,
+            "Description": "Verkauf und Handel"
+          },
+          "ISCO": {
+            "Version": "ISCO-08",
+            "CodeId": 3322,
+            "Description": "Commercial sales representatives"
+          },
+          "ONET": {
+            "Version": "2019",
+            "CodeId": "11-2032.00",
+            "Description": "Public Relations Managers"
+          },
+          "Confidence": 1.0
+        }
+      },
+      {
+        "Id": "POS-4",
+        "Employer": {
+          "Location": {
+            "CountryCode": "DE",
+            "Municipality": "Remote"
+          }
+        },
+        "IsSelfEmployed": false,
+        "IsCurrent": false,
+        "JobTitle": {
+          "Raw": "Freelance",
+          "Normalized": "Freelance",
+          "Probability": "Confident"
+        },
+        "StartDate": {
+          "Date": "2021-07-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "2022-02-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "JobType": "UNSPECIFIED",
+        "JobLevel": "Entry Level",
+        "TaxonomyPercentage": 0
+      },
+      {
+        "Id": "POS-5",
+        "Employer": {
+          "Name": {
+            "Probability": "Confident",
+            "Raw": "Colliers International Group Inc",
+            "Normalized": "Colliers International Group"
+          },
+          "Location": {
+            "CountryCode": "DE",
+            "Municipality": "Hamburg"
+          }
+        },
+        "IsSelfEmployed": false,
+        "IsCurrent": false,
+        "JobTitle": {
+          "Raw": "Team Lead Investment Analysis",
+          "Normalized": "Team Lead Investment Analysis",
+          "Probability": "Confident"
+        },
+        "StartDate": {
+          "Date": "2019-09-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "2021-06-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "JobType": "UNSPECIFIED",
+        "JobLevel": "Entry Level",
+        "TaxonomyPercentage": 0
+      },
+      {
+        "Id": "POS-6",
+        "Employer": {
+          "Location": {
+            "CountryCode": "DE",
+            "Municipality": "Remote"
+          }
+        },
+        "IsSelfEmployed": false,
+        "IsCurrent": false,
+        "JobTitle": {
+          "Raw": "Freelance",
+          "Normalized": "Freelance",
+          "Probability": "Confident"
+        },
+        "StartDate": {
+          "Date": "2019-03-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "2019-07-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "JobType": "UNSPECIFIED",
+        "JobLevel": "Entry Level",
+        "TaxonomyPercentage": 0
+      },
+      {
+        "Id": "POS-7",
+        "Employer": {
+          "Name": {
+            "Probability": "Confident",
+            "Raw": "Ernst & Young GmbH",
+            "Normalized": "Ernst AND Young"
+          },
+          "Location": {
+            "CountryCode": "DE",
+            "Municipality": "München"
+          }
+        },
+        "IsSelfEmployed": false,
+        "IsCurrent": false,
+        "JobTitle": {
+          "Raw": "Investment Analyst",
+          "Normalized": "Investment Analyst",
+          "Probability": "Confident"
+        },
+        "StartDate": {
+          "Date": "2018-08-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "2019-02-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "JobType": "UNSPECIFIED",
+        "JobLevel": "Entry Level",
+        "TaxonomyPercentage": 0
+      },
+      {
+        "Id": "POS-8",
+        "Employer": {
+          "Name": {
+            "Probability": "Confident",
+            "Raw": "Metzger Real Estate Group",
+            "Normalized": "Metzger Real Estate Group"
+          },
+          "Location": {
+            "CountryCode": "AT",
+            "Municipality": "Wien"
+          }
+        },
+        "IsSelfEmployed": false,
+        "IsCurrent": false,
+        "JobTitle": {
+          "Raw": "Senior Consultant Residential Investment",
+          "Normalized": "Senior Consultant Residential Investment",
+          "Probability": "Confident"
+        },
+        "StartDate": {
+          "Date": "2016-10-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "2018-07-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "JobType": "UNSPECIFIED",
+        "JobLevel": "Experienced (non-manager)",
+        "TaxonomyPercentage": 0
+      },
+      {
+        "Id": "POS-9",
+        "Employer": {
+          "Name": {
+            "Probability": "Confident",
+            "Raw": "Accor Hotels Group - Wien & Salzburg",
+            "Normalized": "Accor Hotels Group Wien AND Salzburg"
+          },
+          "Location": {
+            "CountryCode": "AT",
+            "Municipality": "Wien"
+          }
+        },
+        "IsSelfEmployed": false,
+        "IsCurrent": false,
+        "JobTitle": {
+          "Raw": "Equity Trader",
+          "Normalized": "Equity Trader",
+          "Probability": "Confident"
+        },
+        "StartDate": {
+          "Date": "2015-09-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "2016-09-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "JobType": "UNSPECIFIED",
+        "JobLevel": "Entry Level",
+        "TaxonomyPercentage": 0
+      },
+      {
+        "Id": "POS-10",
+        "Employer": {
+          "Name": {
+            "Probability": "Confident",
+            "Raw": "Albulus Advisors GmbH",
+            "Normalized": "Albulus Advisors"
+          },
+          "Location": {
+            "CountryCode": "DE",
+            "Municipality": "Frankfurt am Main"
+          }
+        },
+        "IsSelfEmployed": false,
+        "IsCurrent": false,
+        "JobTitle": {
+          "Raw": "Consultant Real Estate",
+          "Normalized": "Consultant Real Estate",
+          "Probability": "Confident"
+        },
+        "StartDate": {
+          "Date": "2014-09-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "2014-12-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "JobType": "UNSPECIFIED",
+        "JobLevel": "Entry Level",
+        "TaxonomyPercentage": 0
+      },
+      {
+        "Id": "POS-11",
+        "IsSelfEmployed": false,
+        "IsCurrent": false,
+        "JobTitle": {
+          "Raw": "Investment Analyst Trainee",
+          "Normalized": "Investment Analyst Trainee",
+          "Probability": "Confident"
+        },
+        "JobType": "UNSPECIFIED",
+        "JobLevel": "Entry Level",
+        "TaxonomyPercentage": 0
+      },
+      {
+        "Id": "POS-12",
+        "IsSelfEmployed": false,
+        "IsCurrent": false,
+        "JobTitle": {
+          "Raw": "Cluster Junior Sales Manager",
+          "Normalized": "Cluster Junior Sales Manager",
+          "Probability": "Confident"
+        },
+        "JobType": "UNSPECIFIED",
+        "JobLevel": "Manager",
+        "TaxonomyPercentage": 0
+      },
+      {
+        "Id": "POS-13",
+        "IsSelfEmployed": false,
+        "IsCurrent": false,
+        "JobTitle": {
+          "Raw": "Investment Analyst Real Estate Advisory",
+          "Normalized": "Investment Analyst Real Estate Advisory",
+          "Probability": "Confident"
+        },
+        "JobType": "UNSPECIFIED",
+        "JobLevel": "Entry Level",
+        "TaxonomyPercentage": 0
+      }
+    ]
+  },
+  "Skills": {
+    "Raw": [
+      {
+        "Name": "analytische Fähigkeiten",
+        "FoundIn": [
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-1"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 14
+        },
+        "LastUsed": {
+          "Value": "2025-06-01"
+        }
+      },
+      {
+        "Name": "Finanzmärkte",
+        "FoundIn": [
+          {
+            "SectionType": "PROFESSIONAL AFFILIATIONS"
+          }
+        ]
+      },
+      {
+        "Name": "Cashflow",
+        "FoundIn": [
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-1"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 14
+        },
+        "LastUsed": {
+          "Value": "2025-06-01"
+        }
+      },
+      {
+        "Name": "Advisory",
+        "FoundIn": [
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-10"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 3
+        },
+        "LastUsed": {
+          "Value": "2014-12-01"
+        }
+      },
+      {
+        "Name": "Kulturen",
+        "FoundIn": [
+          {
+            "SectionType": "PROFESSIONAL AFFILIATIONS"
+          }
+        ]
+      },
+      {
+        "Name": "Digitalisierung",
+        "FoundIn": [
+          {
+            "SectionType": "PROFESSIONAL AFFILIATIONS"
+          }
+        ]
+      },
+      {
+        "Name": "Gewerbeimmobilien",
+        "FoundIn": [
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-10"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 3
+        },
+        "LastUsed": {
+          "Value": "2014-12-01"
+        }
+      },
+      {
+        "Name": "Sales",
+        "FoundIn": [
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-10"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 3
+        },
+        "LastUsed": {
+          "Value": "2014-12-01"
+        }
+      },
+      {
+        "Name": "Vorhersage",
+        "FoundIn": [
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-7"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 6
+        },
+        "LastUsed": {
+          "Value": "2019-02-01"
+        }
+      },
+      {
+        "Name": "Investitionsentscheidungen",
+        "FoundIn": [
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-10"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 3
+        },
+        "LastUsed": {
+          "Value": "2014-12-01"
+        }
+      },
+      {
+        "Name": "Marktentwicklungen",
+        "FoundIn": [
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-7"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 6
+        },
+        "LastUsed": {
+          "Value": "2019-02-01"
+        }
+      },
+      {
+        "Name": "Marktanalysen",
+        "FoundIn": [
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-10"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 3
+        },
+        "LastUsed": {
+          "Value": "2014-12-01"
+        }
+      },
+      {
+        "Name": "Markttrends",
+        "FoundIn": [
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-7"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 6
+        },
+        "LastUsed": {
+          "Value": "2019-02-01"
+        }
+      },
+      {
+        "Name": "Immobilienbewertungen",
+        "FoundIn": [
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-10"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 3
+        },
+        "LastUsed": {
+          "Value": "2014-12-01"
+        }
+      },
+      {
+        "Name": "Real Estate",
+        "FoundIn": [
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-1"
+          },
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-10"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 17
+        },
+        "LastUsed": {
+          "Value": "2025-06-01"
+        }
+      },
+      {
+        "Name": "Immobilienbranche",
+        "FoundIn": [
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-10"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 3
+        },
+        "LastUsed": {
+          "Value": "2014-12-01"
+        }
+      },
+      {
+        "Name": "Equity",
+        "FoundIn": [
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-7"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 6
+        },
+        "LastUsed": {
+          "Value": "2019-02-01"
+        }
+      },
+      {
+        "Name": "Präsentation",
+        "FoundIn": [
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-1"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 14
+        },
+        "LastUsed": {
+          "Value": "2025-06-01"
+        }
+      },
+      {
+        "Name": "Präsentationen",
+        "FoundIn": [
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-7"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 6
+        },
+        "LastUsed": {
+          "Value": "2019-02-01"
+        }
+      },
+      {
+        "Name": "Transaktionsberatung",
+        "FoundIn": [
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-1"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 14
+        },
+        "LastUsed": {
+          "Value": "2025-06-01"
+        }
+      },
+      {
+        "Name": "Verwaltung",
+        "FoundIn": [
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-10"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 3
+        },
+        "LastUsed": {
+          "Value": "2014-12-01"
+        }
+      },
+      {
+        "Name": "Basketball",
+        "FoundIn": [
+          {
+            "SectionType": "PROFESSIONAL AFFILIATIONS"
+          }
+        ]
+      },
+      {
+        "Name": "Marktdaten",
+        "FoundIn": [
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-7"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 6
+        },
+        "LastUsed": {
+          "Value": "2019-02-01"
+        }
+      },
+      {
+        "Name": "Fußball",
+        "FoundIn": [
+          {
+            "SectionType": "PROFESSIONAL AFFILIATIONS"
+          }
+        ]
+      }
+    ],
+    "Normalized": [
+      {
+        "Name": "Grundbesitz",
+        "Id": "KS128F265DV4XTBR70H7",
+        "Type": "Professional",
+        "FoundIn": [
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-1"
+          },
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-10"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 17
+        },
+        "LastUsed": {
+          "Value": "2025-06-01"
+        },
+        "RawSkills": [
+          "Real Estate",
+          "Immobilienbranche"
+        ]
+      },
+      {
+        "Name": "Demonstrations-Fähigkeiten",
+        "Id": "KS7G4956GFZ2FR5Y8YBC",
+        "Type": "Professional",
+        "FoundIn": [
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-1"
+          },
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-7"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 20
+        },
+        "LastUsed": {
+          "Value": "2025-06-01"
+        },
+        "RawSkills": [
+          "Präsentation",
+          "Präsentationen"
+        ]
+      },
+      {
+        "Name": "Analytisches Denken",
+        "Id": "KS120GT79SSWNBB5T99H",
+        "Type": "Soft",
+        "FoundIn": [
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-1"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 14
+        },
+        "LastUsed": {
+          "Value": "2025-06-01"
+        },
+        "RawSkills": [
+          "analytische Fähigkeiten"
+        ]
+      },
+      {
+        "Name": "Cash Management",
+        "Id": "KS121FD6V0JF1LKMF37Z",
+        "Type": "Professional",
+        "FoundIn": [
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-1"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 14
+        },
+        "LastUsed": {
+          "Value": "2025-06-01"
+        },
+        "RawSkills": [
+          "Cashflow"
+        ]
+      },
+      {
+        "Name": "Dienstleistungen für Geschäftstransaktionen",
+        "Id": "KS7G4ZZ6DQMW782VKWHY",
+        "Type": "Professional",
+        "FoundIn": [
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-1"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 14
+        },
+        "LastUsed": {
+          "Value": "2025-06-01"
+        },
+        "RawSkills": [
+          "Transaktionsberatung"
+        ]
+      },
+      {
+        "Name": "Kapitalmärkte",
+        "Id": "KS121CY5X6BPXPPMH95R",
+        "Type": "Professional",
+        "FoundIn": [
+          {
+            "SectionType": "PROFESSIONAL AFFILIATIONS"
+          }
+        ],
+        "RawSkills": [
+          "Finanzmärkte"
+        ]
+      },
+      {
+        "Name": "Beratung",
+        "Id": "KS122B071LMGXVTT3Z91",
+        "Type": "Professional",
+        "FoundIn": [
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-10"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 3
+        },
+        "LastUsed": {
+          "Value": "2014-12-01"
+        },
+        "RawSkills": [
+          "Advisory"
+        ]
+      },
+      {
+        "Name": "Kulturelle Vielfalt",
+        "Id": "KS122L46TBBZJ9858RGR",
+        "Type": "Professional",
+        "FoundIn": [
+          {
+            "SectionType": "PROFESSIONAL AFFILIATIONS"
+          }
+        ],
+        "RawSkills": [
+          "Kulturen"
+        ]
+      },
+      {
+        "Name": "Digitalisierung",
+        "Id": "KS122ZF75YVNLXW1BN4Q",
+        "Type": "Professional",
+        "FoundIn": [
+          {
+            "SectionType": "PROFESSIONAL AFFILIATIONS"
+          }
+        ],
+        "RawSkills": [
+          "Digitalisierung"
+        ]
+      },
+      {
+        "Name": "Immobilienverwaltung",
+        "Id": "KS123NJ76GJLK91JS75M",
+        "Type": "Professional",
+        "FoundIn": [
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-10"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 3
+        },
+        "LastUsed": {
+          "Value": "2014-12-01"
+        },
+        "RawSkills": [
+          "Gewerbeimmobilien"
+        ]
+      },
+      {
+        "Name": "Vertrieb",
+        "Id": "KS123X777H5WFNXQ6BPM",
+        "Type": "Professional",
+        "FoundIn": [
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-10"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 3
+        },
+        "LastUsed": {
+          "Value": "2014-12-01"
+        },
+        "RawSkills": [
+          "Sales"
+        ]
+      },
+      {
+        "Name": "Forecasting",
+        "Id": "KS1241P6PXRCKTDSWHTV",
+        "Type": "Professional",
+        "FoundIn": [
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-7"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 6
+        },
+        "LastUsed": {
+          "Value": "2019-02-01"
+        },
+        "RawSkills": [
+          "Vorhersage"
+        ]
+      },
+      {
+        "Name": "Investitionsentscheidungen",
+        "Id": "KS125BD6LRLXQN2CPNS3",
+        "Type": "Professional",
+        "FoundIn": [
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-10"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 3
+        },
+        "LastUsed": {
+          "Value": "2014-12-01"
+        },
+        "RawSkills": [
+          "Investitionsentscheidungen"
+        ]
+      },
+      {
+        "Name": "Marktentwicklung",
+        "Id": "KS1265471ZT1HMHWH9NY",
+        "Type": "Professional",
+        "FoundIn": [
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-7"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 6
+        },
+        "LastUsed": {
+          "Value": "2019-02-01"
+        },
+        "RawSkills": [
+          "Marktentwicklungen"
+        ]
+      },
+      {
+        "Name": "Marktforschung",
+        "Id": "KS1265D6RGJL2Y4J6V5B",
+        "Type": "Professional",
+        "FoundIn": [
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-10"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 3
+        },
+        "LastUsed": {
+          "Value": "2014-12-01"
+        },
+        "RawSkills": [
+          "Marktanalysen"
+        ]
+      },
+      {
+        "Name": "Bullen- und Bärenmarkt",
+        "Id": "KS1265F71V3PY4KH0JW5",
+        "Type": "Professional",
+        "FoundIn": [
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-7"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 6
+        },
+        "LastUsed": {
+          "Value": "2019-02-01"
+        },
+        "RawSkills": [
+          "Markttrends"
+        ]
+      },
+      {
+        "Name": "Immobilienbewertung",
+        "Id": "KS1285371NFM3KH5RT1P",
+        "Type": "Professional",
+        "FoundIn": [
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-10"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 3
+        },
+        "LastUsed": {
+          "Value": "2014-12-01"
+        },
+        "RawSkills": [
+          "Immobilienbewertungen"
+        ]
+      },
+      {
+        "Name": "Equity",
+        "Id": "KS6826S6NSQ8RQF0LG3D",
+        "Type": "Professional",
+        "FoundIn": [
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-7"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 6
+        },
+        "LastUsed": {
+          "Value": "2019-02-01"
+        },
+        "RawSkills": [
+          "Equity"
+        ]
+      },
+      {
+        "Name": "Verwaltungstätigkeiten",
+        "Id": "KS7G7FY6ZT1MQXD1KTDY",
+        "Type": "Professional",
+        "FoundIn": [
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-10"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 3
+        },
+        "LastUsed": {
+          "Value": "2014-12-01"
+        },
+        "RawSkills": [
+          "Verwaltung"
+        ]
+      },
+      {
+        "Name": "Basketball",
+        "Id": "KS9HL86WAEGCSEWJGK6B",
+        "Type": "Professional",
+        "FoundIn": [
+          {
+            "SectionType": "PROFESSIONAL AFFILIATIONS"
+          }
+        ],
+        "RawSkills": [
+          "Basketball"
+        ]
+      },
+      {
+        "Name": "Marktdaten",
+        "Id": "KSBI6GTZSFVUCQ3EFQP2",
+        "Type": "Professional",
+        "FoundIn": [
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-7"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 6
+        },
+        "LastUsed": {
+          "Value": "2019-02-01"
+        },
+        "RawSkills": [
+          "Marktdaten"
+        ]
+      },
+      {
+        "Name": "Fußball",
+        "Id": "KSXMMXPPSMMCO1LXX6AY",
+        "Type": "Professional",
+        "FoundIn": [
+          {
+            "SectionType": "PROFESSIONAL AFFILIATIONS"
+          }
+        ],
+        "RawSkills": [
+          "Fußball"
+        ]
+      }
+    ],
+    "RelatedProfessionClasses": [
+      {
+        "Name": "Versicherungen und Finanzen",
+        "Id": "24",
+        "Percent": 43,
+        "Groups": [
+          {
+            "Name": "Finanzexperten (m/w)",
+            "Id": "254",
+            "Percent": 9,
+            "NormalizedSkills": [
+              "KS7G4ZZ6DQMW782VKWHY",
+              "KS125BD6LRLXQN2CPNS3",
+              "KS6826S6NSQ8RQF0LG3D",
+              "KS120GT79SSWNBB5T99H",
+              "KS1241P6PXRCKTDSWHTV",
+              "KS121FD6V0JF1LKMF37Z",
+              "KS121CY5X6BPXPPMH95R"
+            ]
+          },
+          {
+            "Name": "Manager Versicherungen und Finanzen (m/w)",
+            "Id": "220",
+            "Percent": 7,
+            "NormalizedSkills": [
+              "KS125BD6LRLXQN2CPNS3",
+              "KS122B071LMGXVTT3Z91",
+              "KS120GT79SSWNBB5T99H",
+              "KS1241P6PXRCKTDSWHTV",
+              "KS121FD6V0JF1LKMF37Z",
+              "KS121CY5X6BPXPPMH95R"
+            ]
+          },
+          {
+            "Name": "Finanzdirektoren (m/w)",
+            "Id": "16",
+            "Percent": 7,
+            "NormalizedSkills": [
+              "KS121FD6V0JF1LKMF37Z",
+              "KS125BD6LRLXQN2CPNS3",
+              "KS121CY5X6BPXPPMH95R"
+            ]
+          },
+          {
+            "Name": "Mitarbeiter Versicherungen und Finanzen (m/w)",
+            "Id": "253",
+            "Percent": 6,
+            "NormalizedSkills": [
+              "KS7G4ZZ6DQMW782VKWHY"
+            ]
+          },
+          {
+            "Name": "Wirtschaftsprüfer / Buchhalter / Steuerberater (m/w)",
+            "Id": "218",
+            "Percent": 6,
+            "NormalizedSkills": [
+              "KS121FD6V0JF1LKMF37Z",
+              "KS120GT79SSWNBB5T99H"
+            ]
+          },
+          {
+            "Name": "Mitarbeiter Bankfiliale (m/w)",
+            "Id": "3",
+            "Percent": 5,
+            "NormalizedSkills": [
+              "KS121FD6V0JF1LKMF37Z"
+            ]
+          },
+          {
+            "Name": "Versicherungsexperten (m/w)",
+            "Id": "221",
+            "Percent": 1,
+            "NormalizedSkills": [
+              "KS1285371NFM3KH5RT1P"
+            ]
+          },
+          {
+            "Name": "Berater Versicherungen und Finanzen (m/w)",
+            "Id": "252",
+            "Percent": 1,
+            "NormalizedSkills": [
+              "KS121CY5X6BPXPPMH95R"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Verkauf und Handel",
+        "Id": "21",
+        "Percent": 19,
+        "Groups": [
+          {
+            "Name": "Immobilienmakler (m/w)",
+            "Id": "215",
+            "Percent": 8,
+            "NormalizedSkills": [
+              "KS1285371NFM3KH5RT1P",
+              "KS123NJ76GJLK91JS75M",
+              "KS128F265DV4XTBR70H7"
+            ]
+          },
+          {
+            "Name": "Vertriebsleiter / Sales Manager (m/w)",
+            "Id": "209",
+            "Percent": 5,
+            "NormalizedSkills": [
+              "KS1265F71V3PY4KH0JW5",
+              "KSBI6GTZSFVUCQ3EFQP2",
+              "KS7G4956GFZ2FR5Y8YBC",
+              "KS1265471ZT1HMHWH9NY",
+              "KS1265D6RGJL2Y4J6V5B"
+            ]
+          },
+          {
+            "Name": "Account Manager Unternehmensdienstleistungen (m/w)",
+            "Id": "203",
+            "Percent": 4,
+            "NormalizedSkills": [
+              "KS1265F71V3PY4KH0JW5",
+              "KS7G4956GFZ2FR5Y8YBC"
+            ]
+          },
+          {
+            "Name": "Schalterangestellte und Mitarbeiter Verleih und Vermietung (m/w)",
+            "Id": "214",
+            "Percent": 1,
+            "NormalizedSkills": [
+              "KS123NJ76GJLK91JS75M"
+            ]
+          },
+          {
+            "Name": "Verkäufer (m/w)",
+            "Id": "217",
+            "Percent": 1,
+            "NormalizedSkills": [
+              "KS123X777H5WFNXQ6BPM"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Verwaltung",
+        "Id": "2",
+        "Percent": 20,
+        "Groups": [
+          {
+            "Name": "Manager Betriebsverwaltung und -politik (m/w)",
+            "Id": "275",
+            "Percent": 6,
+            "NormalizedSkills": [
+              "KS7G4ZZ6DQMW782VKWHY"
+            ]
+          },
+          {
+            "Name": "Management, Verwaltung und Politik (Sonstige)",
+            "Id": "284",
+            "Percent": 6,
+            "NormalizedSkills": [
+              "KS7G4ZZ6DQMW782VKWHY"
+            ]
+          },
+          {
+            "Name": "Behördenmitarbeiter (m/w)",
+            "Id": "12",
+            "Percent": 6,
+            "NormalizedSkills": [
+              "KS7G4ZZ6DQMW782VKWHY"
+            ]
+          },
+          {
+            "Name": "Managementanalytiker und -berater (m/w)",
+            "Id": "225",
+            "Percent": 2,
+            "NormalizedSkills": [
+              "KS122B071LMGXVTT3Z91",
+              "KS120GT79SSWNBB5T99H"
+            ]
+          },
+          {
+            "Name": "Generaldirektoren (m/w)",
+            "Id": "11",
+            "Percent": 0,
+            "NormalizedSkills": [
+              "KS6826S6NSQ8RQF0LG3D"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Freizeit, Sport und Tourismus",
+        "Id": "20",
+        "Percent": 7,
+        "Groups": [
+          {
+            "Name": "Trainer und Coaches (m/w)",
+            "Id": "202",
+            "Percent": 3,
+            "NormalizedSkills": [
+              "KSXMMXPPSMMCO1LXX6AY",
+              "KS9HL86WAEGCSEWJGK6B"
+            ]
+          },
+          {
+            "Name": "Sportausbilder / Sportlehrer (m/w)",
+            "Id": "231",
+            "Percent": 2,
+            "NormalizedSkills": [
+              "KSXMMXPPSMMCO1LXX6AY",
+              "KS9HL86WAEGCSEWJGK6B"
+            ]
+          },
+          {
+            "Name": "Sportfunktionäre (m/w)",
+            "Id": "200",
+            "Percent": 1,
+            "NormalizedSkills": [
+              "KS9HL86WAEGCSEWJGK6B"
+            ]
+          },
+          {
+            "Name": "Mitarbeiter im Bereich Freizeit und Erholung (m/w)",
+            "Id": "196",
+            "Percent": 1,
+            "NormalizedSkills": [
+              "KS9HL86WAEGCSEWJGK6B"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Kommunikation, Marketing und Öffentlichkeitsarbeit",
+        "Id": "23",
+        "Percent": 4,
+        "Groups": [
+          {
+            "Name": "Manager Kommunikation, Marketing und Öffentlichkeitsarbeit (m/w)",
+            "Id": "208",
+            "Percent": 4,
+            "NormalizedSkills": [
+              "KS1265F71V3PY4KH0JW5",
+              "KSBI6GTZSFVUCQ3EFQP2",
+              "KS120GT79SSWNBB5T99H",
+              "KS1265D6RGJL2Y4J6V5B"
+            ]
+          },
+          {
+            "Name": "Mitarbeiter Marketing und Werbung (m/w)",
+            "Id": "243",
+            "Percent": 1,
+            "NormalizedSkills": [
+              "KS1265D6RGJL2Y4J6V5B"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Informations- und Kommunikationstechnologie",
+        "Id": "9",
+        "Percent": 5,
+        "Groups": [
+          {
+            "Name": "Berater und Spezialisten (m/w)",
+            "Id": "83",
+            "Percent": 2,
+            "NormalizedSkills": [
+              "KS122ZF75YVNLXW1BN4Q",
+              "KS122B071LMGXVTT3Z91",
+              "KS120GT79SSWNBB5T99H"
+            ]
+          },
+          {
+            "Name": "Systementwickler und -analytiker (m/w)",
+            "Id": "86",
+            "Percent": 2,
+            "NormalizedSkills": [
+              "KS120GT79SSWNBB5T99H"
+            ]
+          },
+          {
+            "Name": "Leitende Angestelle IT (m/w)",
+            "Id": "80",
+            "Percent": 1,
+            "NormalizedSkills": [
+              "KS122ZF75YVNLXW1BN4Q"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Recht, Personalwirtschaft und Sozialwesen",
+        "Id": "19",
+        "Percent": 1,
+        "Groups": [
+          {
+            "Name": "Sozial-gesellschaftliche Arbeiter (m/w)",
+            "Id": "191",
+            "Percent": 1,
+            "NormalizedSkills": [
+              "KS122L46TBBZJ9858RGR",
+              "KS122B071LMGXVTT3Z91"
+            ]
+          },
+          {
+            "Name": "Arbeitsmanager (m/w)",
+            "Id": "281",
+            "Percent": 0,
+            "NormalizedSkills": [
+              "KS6826S6NSQ8RQF0LG3D"
+            ]
+          },
+          {
+            "Name": "Juristen (m/w)",
+            "Id": "184",
+            "Percent": 0,
+            "NormalizedSkills": [
+              "KS6826S6NSQ8RQF0LG3D",
+              "KS122B071LMGXVTT3Z91"
+            ]
+          },
+          {
+            "Name": "Personal- und Arbeitsmarktexperten (m/w)",
+            "Id": "223",
+            "Percent": 0,
+            "NormalizedSkills": [
+              "KS122B071LMGXVTT3Z91"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Ingenieurwesen",
+        "Id": "5",
+        "Percent": 1,
+        "Groups": [
+          {
+            "Name": "Ingenieurwesen (sonstige)",
+            "Id": "287",
+            "Percent": 1,
+            "NormalizedSkills": [
+              "KS1285371NFM3KH5RT1P"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Administration und Kundenbetreuung",
+        "Id": "1",
+        "Percent": 1,
+        "Groups": [
+          {
+            "Name": "Mitarbeiter Verwaltung (m/w)",
+            "Id": "234",
+            "Percent": 1,
+            "NormalizedSkills": [
+              "KS7G7FY6ZT1MQXD1KTDY"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Bildungswesen und Training",
+        "Id": "15",
+        "Percent": 0,
+        "Groups": [
+          {
+            "Name": "Universitätsdozenten (sonstige)",
+            "Id": "309",
+            "Percent": 0,
+            "NormalizedSkills": [
+              "KS6826S6NSQ8RQF0LG3D"
+            ]
+          },
+          {
+            "Name": "Direktoren Bildungsstätte (m/w)",
+            "Id": "137",
+            "Percent": 0,
+            "NormalizedSkills": [
+              "KS6826S6NSQ8RQF0LG3D"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Gesundheitswesen",
+        "Id": "6",
+        "Percent": 0,
+        "Groups": [
+          {
+            "Name": "Psychologen und pädagogische Berater (m/w)",
+            "Id": "55",
+            "Percent": 0,
+            "NormalizedSkills": [
+              "KS122B071LMGXVTT3Z91"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Landwirtschaft, Viehwirtschaft und Fischerei",
+        "Id": "11",
+        "Percent": 0,
+        "Groups": [
+          {
+            "Name": "Tierärzte (m/w)",
+            "Id": "101",
+            "Percent": 0,
+            "NormalizedSkills": [
+              "KS6826S6NSQ8RQF0LG3D"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "LanguageCompetencies": [
+    {
+      "Language": "German",
+      "LanguageCode": "de",
+      "FoundInContext": "Found in SKILLS"
+    },
+    {
+      "Language": "English",
+      "LanguageCode": "en",
+      "FoundInContext": "Found in SKILLS"
+    },
+    {
+      "Language": "Italian",
+      "LanguageCode": "it",
+      "FoundInContext": "Found in SKILLS"
+    },
+    {
+      "Language": "Japanese",
+      "LanguageCode": "ja",
+      "FoundInContext": "Found in SKILLS"
+    }
+  ],
+  "ResumeMetadata": {
+    "FoundSections": [],
+    "ReservedData": {
+      "Phones": [
+        "+49 1733937763"
+      ],
+      "Names": [
+        "Albin Azemi"
+      ],
+      "EmailAddresses": [
+        "albin.azemi@icloud.com"
+      ],
+      "OtherData": [
+        "Deisenhofener Str. 6",
+        "B"
+      ]
+    },
+    "PlainText": "\n                             Albin Azemi\n\n                             Analyst/Relationship Manager\n\n                                   * Umfassende Erfahrung in der Immobilienanalyse und Transaktionsberatung, gepaart\n                                        mit effektiver Führungsqualität und der Fähigkeit, Teams zu optimieren und Effizienz\n                                        zu steigern.\n\n                                   * Hervorragende analytische Fähigkeiten, unterstützt durch fundierte Kenntnisse der\n                                        Cashflow-Modellierung und Erstellung sowie Präsentation präziser Analyse-und\n                                        Marktberichte.\n\n\n     albin.azemi@icloud.com                          +49 1733937763                         Deisenhofener Str. 6, 81835 München\n\nBERUFSERFAHRUNG\n\n     04/2024 - 06/2025\n\n     Airbus Bank GmbH\n     München\n\n\n\n\n     10/2022 - 01/2024\n\n     Ziegert Group GmbH\n     Berlin\n\n\n\n\n     03/2022 - 09/2022\n\n     Ziegert Group GmbH\n     Berlin\n\n\n\n\n     07/2021 - 02/2022\n\n     Freelance\n     Remote\n\n\n\n\n     09/2019 - 06/2021\n\n     Colliers International\n     Group Inc\n     Hamburg\n\n\n\n\n     03/2019 - 07/2019\n\n     Freelance\n     Remote\n\n\n\n\n     08/2018 - 02/2019\n\n     Ernst & Young GmbH\n     München\n\n\n\n\n     10/2016 - 07/2018\n\n     Metzger Real Estate\n     Group\n     Wien\n\n\n\n\n     09/2015 - 09/2016\n\n     Accor Hotels Group -\n     Wien & Salzburg\n     Wien\n\n     09/2014 - 12/2014\n\n     Albulus Advisors\n     GmbH\n     Frankfurt am Main\n\nRelationship Manager\n\n      * Individuelle Beratung von Bestands- und Neukunden durch maßgeschneiderte Finanzlösungen,\n           die zu einer Steigerung der Kundenzufriedenheit und langfristigen Kundenbindung\n           führten.\n\n      * Durchführung detaillierter Analysen von Finanzierungsanfragen sowie Erstellung umfassender\n           Kreditanträge, um maßgeschneiderte Kreditlösungen zu entwickeln und die\n           Entscheidungsfindung in Kreditsitzungen zu unterstützen.\n\n      * Pflege enger Beziehungen zu ausgewählten Kunden durch proaktive Betreuung und\n           kontinuierliche Anpassung der Finanzstrategien an deren Bedürfnisse.\n\n      * Erstellung detaillierter Marktberichte, die abteilungsübergreifend zur strategischen\n           Entscheidungsfindung beitrugen.\n\n\nTeam Lead Investment Analysis\n\n      * Leitung und Entwicklung eines leistungsstarken Investmentanalystenteams, das die\n           Effizienz der Marktanalysen um 30 % steigerte.\n\n      * Durchführung umfassender Immobilienmarktwertermittlungen unter Anwendung\n           nationaler und internationaler Bewertungsstandards, einschließlich Discounted-Cash-Flow-Verfahren,\n           Vergleichswertanalysen und Ertragswertverfahren, um\n           präzise Marktwerteinschätzungen zu gewährleisten.\n\n      * Entwicklung und Durchführung von Pitch-Präsentationen, die wichtige Stakeholder\n           über aktuelle Markttrends informierten und zur erfolgreichen Akquisition neuer Projekte\n           beitrugen.\n\n      * Erstellung und Präsentation detaillierter Marktberichte, die abteilungsübergreifend\n           zur strategischen Entscheidungsfindung beitrugen.\n\n\nInvestment Analyst\n\n      * Durchführung umfassender Immobilienmarktwertermittlungen unter Anwendung nationaler\n           und internationaler Bewertungsstandards.\n\n      * Entwicklung und Durchführung von Pitch-Präsentationen, die wichtige Stakeholder\n           über aktuelle Markttrends informierten und zur erfolgreichen Akquisition neuer Projekte\n           beitrugen.\n\n\n\n\nEquity Trader\n\n      * Durchführung detaillierter Analysen von historischen und aktuellen Marktdaten zur\n           Identifizierung von Mustern und Trends.\n\n      * Verwendung statistischer Modelle zur Vorhersage von Marktentwicklungen.\n\n\nSenior Consultant Residential Investment\n\n      * Identifizierung und Bewertung von Geschäftsmöglichkeiten in Zielmärkten durch\n           umfassende Marktanalysen und strategische Planung zur Förderung des Geschäftswachstums.\n\n\n           * Aufbau und Pflege enger Kundenbeziehungen durch regelmäßige Kommunikation und\n           maßgeschneiderte Investitionsberatung zur Sicherstellung langfristiger Partnerschaften.\n\n\n\n           Work & Travel | Japan/Südkorea/China\n\n      * Förderung der kulturellen Sensibilität und des kulturellen Austauschs durch Teilnahme\n           an lokalen Veranstaltungen und Traditionen.\n\n      * Entwicklung von Fähigkeiten zur Anpassung an unterschiedliche soziale Normen\n\n\nConsultant Real Estate\n\n      * Analyse von Marktbedingungen und Wettbewerbssituationen zur Formulierung von\n           Empfehlungen für Investitionsentscheidungen.\n\n      * Durchführung von Bewertungen für Hotel- und Gewerbeimmobilien gemäß internationalen\n           Bewertungsstandards, um präzise und zuverlässige Marktwerte zu ermitteln.\n\n\nInvestment Analyst Real Estate Advisory\n\n      * Durchführung umfassender Immobilienbewertungen anhand nationaler und internationaler\n           Bewertungsstandards.\n\n      * Erstellung detaillierter Marktanalysen zur Verbesserung der Entscheidungsfindung in\n           der Immobilienbranche.\n\n\nCluster Junior Sales Manager\n\n      * Gezielte Akquise potenzieller Kunden im Unternehmens- und MICE-Segment.\n\n      * Effektive Verwaltung und Analyse der täglichen Verkaufsstatistiken.\n\n\nInvestment Analyst Trainee\n\n      * Vertiefung von Kenntnissen über Immobilienbewertungsmodelle mit Fokus auf die\n           Discounted-Cashflow-Methode.\n\n      * Durchführung detaillierter Analysen von Hotelbetrieben und Hotelimmobilienprojekten.\n\n\n           AUSBILDUNG\n\n     2014                                  Bachelor\n\n     MODUL Universty                       Business Management in Tourism Management\n     Vienna - Wien\n\n\nFÄHIGKEITEN\n\n\n  Analytisches Denken                      Anpassungsfähigkeit                     Berichterstattung                   Cashflow-Prognosen\n\n  Führungsqualitäten                    Immobilienbewertung                         Marktrecherchen                    Sales           Standortanalysen\n\n  Teamfähigkeit                 Transaktionsberatung\n\n\nFÜHRERSCHEINE\n\n  B\n\n\nSPRACHEN\n\n   Deutsch        - Muttersprache\n\n   Englisch       - Verhandlungssicher\n\n   Italienisch        - Grundkenntnisse\n\n   Japanisch         - Grundkenntnisse\n\n\n\nINTERESSEN\n\nFinanzmärkte & Investmentmärkte\n\nReisen & internationale Kulturen\n\nTechnologie & Digitalisierung\n\nTeamsport & Einzelsport (Fußball, Basketball, Squash)\n\n",
+    "DocumentLanguage": "de",
+    "DocumentCulture": "de-DE",
+    "ParserSettings": "Coverage.MilitaryHistoryAndSecurityCredentials = True; Coverage.PatentsPublicationsAndSpeakingEvents = True; Coverage.PersonalAttributes = True; Coverage.Training = True; Culture.CountryCodeForUnitedKingdomIsUK = True; Culture.DefaultCountryCode = DE; Culture.DefaultCultureIsBelgium = True; Culture.DefaultCultureIsGermany = True; Culture.Language = German; Culture.PreferEnglishVersionIfTwoLanguagesInDocument = False; Data.NormalizeSkills = True; Data.UserDefinedParsing = False; Data.UseV2SkillsTaxonomy = True; OutputFormat.AssumeCompanyNameFromPrecedingJob = False; OutputFormat.ContactMethod.PackStyle = Split; OutputFormat.DateOutputStyle = ExplicitlyKnownDateInfoOnly; OutputFormat.NestJobsBasedOnDateRanges = True; OutputFormat.NormalizeRegions = False; OutputFormat.SimpleCustomLinkedIn = True; OutputFormat.SkillsStyle = Default; OutputFormat.StripParsedDataFromPositionHistoryDescription = True; OutputFormat.TelcomNumber.Style = Raw; OutputFormat.XmlFormat = HrXmlResume25",
+    "DocumentLastModified": "2026-01-19"
+  }
+}

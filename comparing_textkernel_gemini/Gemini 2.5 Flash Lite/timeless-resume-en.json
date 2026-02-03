@@ -1,0 +1,459 @@
+[
+    {
+        "output": {
+            "full_name": "Abdeljalil Ounaceur",
+            "first_name": "Abdeljalil",
+            "last_name": "Ounaceur",
+            "email": "ounaceur.abdeljalil@gmail.com",
+            "linkedin_url": "https://linkedin.com/in/abdeljalil-ounaceur",
+            "phone": "+212 701219103",
+            "location": "Agadir, Souss-Massa, Morocco",
+            "address": null,
+            "other_contact": "huggingface.co/Abdeljalil-Ounaceur",
+            "summary": "Data Science graduate student with hands-on experience building production AI systems. Developed and deployed AI image generation service using FastAPI, Celery, and Stable Diffusion models in Docker containers. Proficient in Python, backend API development, and working with generative AI models (Transformers, Diffusers). Strong foundation in algorithms and data structures with experience in async task processing, monitoring systems, and database-driven applications.",
+            "current_position": null,
+            "current_company": null,
+            "years_of_experience": null,
+            "diploma": "Master of Science",
+            "university": "Université Ibn Zohr",
+            "date_of_birth": null,
+            "gender": null,
+            "nationalities": [],
+            "visa_status": null,
+            "driving_license": null,
+            "education": [
+                {
+                    "institution": "Université Ibn Zohr",
+                    "degree": "Master of Science (MS)",
+                    "field_of_study": "Data Science",
+                    "start_date": "2023-09",
+                    "end_date": "2025-07",
+                    "gpa": "15.38/20",
+                    "key_skills": [
+                        "Research Skills",
+                        "Data Analysis"
+                    ]
+                },
+                {
+                    "institution": "Université Ibn Zohr",
+                    "degree": "Bachelor of Science (BS)",
+                    "field_of_study": "Computer Science",
+                    "start_date": "2020-09",
+                    "end_date": "2023-06",
+                    "gpa": "15.34/20",
+                    "key_skills": [
+                        "Algorithms",
+                        "Python",
+                        "Java",
+                        "Data Structures",
+                        "Object-Oriented Programming"
+                    ]
+                }
+            ],
+            "experience": [
+                {
+                    "title": "AI Backend Engineer Intern",
+                    "company": "Richdale AI",
+                    "location": "Agadir, Souss-Massa, Morocco",
+                    "start_date": "2025-02",
+                    "end_date": "2025-07",
+                    "is_current": false,
+                    "description": "Built FastAPI-based AI image generation service with Celery for asynchronous task processing and distributed job queue management\nIntegrated Stable Diffusion models with Transformers and Diffusers libraries for text-to-image and image-to-image generation workflows\nDeployed production system using Docker containers with load balancing and request routing infrastructure\nImplemented monitoring and observability stack to track system performance and resource utilization\nContributed to lartist.fr - an AI platform for transforming text and sketches into artwork using generative models",
+                    "technologies": [
+                        "Python",
+                        "FastAPI",
+                        "Celery",
+                        "Stable Diffusion",
+                        "Transformers",
+                        "Diffusers",
+                        "Docker",
+                        "Prometheus",
+                        "Grafana",
+                        "Cloud Storage"
+                    ]
+                }
+            ],
+            "projects": [
+                {
+                    "title": "Product AI Image Similarity Platform",
+                    "role": null,
+                    "start_date": "2025-10",
+                    "end_date": "2025-11",
+                    "url": "github.com/Abdeljalil-Ounaceur/Product-AI-Image-Similarity-Platform",
+                    "description": "Production-grade microservices-based visual search engine powered by OpenAI CLIP and vector similarity search\nBuilt with 5 containerized services (React frontend, FastAPI backend, BentoML ML service, MinIO object storage, Oracle database)\nImplemented semantic image embeddings using CLIP model for zero-shot visual understanding and vector similarity search with cosine similarity\nDeployed on Kubernetes with horizontal scaling capabilities",
+                    "technologies": [
+                        "React",
+                        "FastAPI",
+                        "Python",
+                        "BentoML",
+                        "OpenAI CLIP",
+                        "Oracle Database",
+                        "MinIO",
+                        "Docker",
+                        "Docker Compose",
+                        "Kubernetes",
+                        "gRPC",
+                        "S3 API"
+                    ]
+                },
+                {
+                    "title": "Real-Time Face Recognition and Surveillance System",
+                    "role": null,
+                    "start_date": "2024-04",
+                    "end_date": "2024-06",
+                    "url": "github.com/Abdeljalil-Ounaceur/Real-Time-Face-Recognition-and-Surveillance-System",
+                    "description": "Real-time surveillance system using VGG-Face for facial recognition\nIntegrated with Apache Spark and Kafka for efficient data processing",
+                    "technologies": [
+                        "Python",
+                        "Spark",
+                        "Kafka",
+                        "VGG-Face"
+                    ]
+                },
+                {
+                    "title": "Sequence-to-Sequence LSTM vs Transformer",
+                    "role": null,
+                    "start_date": "2024-03",
+                    "end_date": "2024-04",
+                    "url": "github.com/Abdeljalil-Ounaceur/Sequence-to-Sequence-LSTM-vs-Transformer",
+                    "description": "Comparison of LSTM and Transformer models for English-French machine translation",
+                    "technologies": [
+                        "Python",
+                        "LSTM",
+                        "Transformer"
+                    ]
+                },
+                {
+                    "title": "Travel Reservation Platform with Django",
+                    "role": null,
+                    "start_date": "2023-12",
+                    "end_date": "2024-02",
+                    "url": "github.com/Abdeljalil-Ounaceur/Travel-Reservation-Platform-with-Django",
+                    "description": "Academic project implementing a travel booking system with search, reservation, and user management features",
+                    "technologies": [
+                        "Django",
+                        "Python",
+                        "JavaScript"
+                    ]
+                },
+                {
+                    "title": "Tamazight NLP Dataset Project",
+                    "role": null,
+                    "start_date": "2025-08",
+                    "end_date": "2025-09",
+                    "url": "github.com/Abdeljalil-Ounaceur/Tamazight-NLP-dataset",
+                    "description": "Cleaned and extracted Tamazight-English dictionary data for NLP research use",
+                    "technologies": [
+                        "Python",
+                        "Data Cleaning",
+                        "NLP"
+                    ]
+                },
+                {
+                    "title": "Online Quiz Platform with Laravel",
+                    "role": null,
+                    "start_date": "2023-02",
+                    "end_date": "2023-06",
+                    "url": "github.com/Abdeljalil-Ounaceur/Online-Quiz-Platform-with-Laravel",
+                    "description": "End-of-studies bachelor project implementing a quiz management system with MySQL database integration",
+                    "technologies": [
+                        "Laravel",
+                        "PHP",
+                        "MySQL",
+                        "HTML",
+                        "CSS"
+                    ]
+                }
+            ],
+            "skills": [
+                {
+                    "name": "Python",
+                    "category": "Programming Languages",
+                    "level": null,
+                    "years_used": null
+                },
+                {
+                    "name": "SQL",
+                    "category": "Programming Languages",
+                    "level": null,
+                    "years_used": null
+                },
+                {
+                    "name": "Java",
+                    "category": "Programming Languages",
+                    "level": null,
+                    "years_used": null
+                },
+                {
+                    "name": "Pandas",
+                    "category": "Frameworks & Libraries",
+                    "level": null,
+                    "years_used": null
+                },
+                {
+                    "name": "NumPy",
+                    "category": "Frameworks & Libraries",
+                    "level": null,
+                    "years_used": null
+                },
+                {
+                    "name": "Django",
+                    "category": "Frameworks & Libraries",
+                    "level": null,
+                    "years_used": null
+                },
+                {
+                    "name": "FastAPI",
+                    "category": "Frameworks & Libraries",
+                    "level": null,
+                    "years_used": null
+                },
+                {
+                    "name": "React",
+                    "category": "Frameworks & Libraries",
+                    "level": null,
+                    "years_used": null
+                },
+                {
+                    "name": "Stable Diffusion",
+                    "category": "AI/ML Tools",
+                    "level": null,
+                    "years_used": null
+                },
+                {
+                    "name": "Transformers",
+                    "category": "AI/ML Tools",
+                    "level": null,
+                    "years_used": null
+                },
+                {
+                    "name": "Diffusers",
+                    "category": "AI/ML Tools",
+                    "level": null,
+                    "years_used": null
+                },
+                {
+                    "name": "Hugging Face",
+                    "category": "AI/ML Tools",
+                    "level": null,
+                    "years_used": null
+                },
+                {
+                    "name": "OpenAI CLIP",
+                    "category": "AI/ML Tools",
+                    "level": null,
+                    "years_used": null
+                },
+                {
+                    "name": "BentoML",
+                    "category": "AI/ML Tools",
+                    "level": null,
+                    "years_used": null
+                },
+                {
+                    "name": "Celery",
+                    "category": "Backend Tools",
+                    "level": null,
+                    "years_used": null
+                },
+                {
+                    "name": "Docker",
+                    "category": "Backend Tools",
+                    "level": null,
+                    "years_used": null
+                },
+                {
+                    "name": "Docker Compose",
+                    "category": "Backend Tools",
+                    "level": null,
+                    "years_used": null
+                },
+                {
+                    "name": "REST APIs",
+                    "category": "Backend Tools",
+                    "level": null,
+                    "years_used": null
+                },
+                {
+                    "name": "gRPC",
+                    "category": "Backend Tools",
+                    "level": null,
+                    "years_used": null
+                },
+                {
+                    "name": "MySQL",
+                    "category": "Data Tools",
+                    "level": null,
+                    "years_used": null
+                },
+                {
+                    "name": "Oracle Database",
+                    "category": "Data Tools",
+                    "level": null,
+                    "years_used": null
+                },
+                {
+                    "name": "Git",
+                    "category": "Data Tools",
+                    "level": null,
+                    "years_used": null
+                },
+                {
+                    "name": "Jupyter",
+                    "category": "Data Tools",
+                    "level": null,
+                    "years_used": null
+                },
+                {
+                    "name": "Google Colab",
+                    "category": "Data Tools",
+                    "level": null,
+                    "years_used": null
+                },
+                {
+                    "name": "Kubernetes",
+                    "category": "DevOps & Infrastructure",
+                    "level": null,
+                    "years_used": null
+                },
+                {
+                    "name": "MinIO",
+                    "category": "DevOps & Infrastructure",
+                    "level": null,
+                    "years_used": null
+                },
+                {
+                    "name": "S3 API",
+                    "category": "DevOps & Infrastructure",
+                    "level": null,
+                    "years_used": null
+                },
+                {
+                    "name": "Prometheus",
+                    "category": "DevOps & Infrastructure",
+                    "level": null,
+                    "years_used": null
+                },
+                {
+                    "name": "Grafana",
+                    "category": "DevOps & Infrastructure",
+                    "level": null,
+                    "years_used": null
+                },
+                {
+                    "name": "n8n",
+                    "category": "Automation",
+                    "level": null,
+                    "years_used": null
+                },
+                {
+                    "name": "Oracle Cloud Infrastructure (OCI)",
+                    "category": "Cloud Platforms",
+                    "level": null,
+                    "years_used": null
+                },
+                {
+                    "name": "Data Processing",
+                    "category": "Specializations",
+                    "level": null,
+                    "years_used": null
+                },
+                {
+                    "name": "Machine Learning",
+                    "category": "Specializations",
+                    "level": null,
+                    "years_used": null
+                },
+                {
+                    "name": "Backend Development",
+                    "category": "Specializations",
+                    "level": null,
+                    "years_used": null
+                },
+                {
+                    "name": "Distributed Systems",
+                    "category": "Specializations",
+                    "level": null,
+                    "years_used": null
+                },
+                {
+                    "name": "Data Science",
+                    "category": "Specializations",
+                    "level": null,
+                    "years_used": null
+                },
+                {
+                    "name": "Analytics",
+                    "category": "Specializations",
+                    "level": null,
+                    "years_used": null
+                },
+                {
+                    "name": "Vector Search",
+                    "category": "Specializations",
+                    "level": null,
+                    "years_used": null
+                },
+                {
+                    "name": "Microservices",
+                    "category": "Specializations",
+                    "level": null,
+                    "years_used": null
+                }
+            ],
+            "languages": [
+                {
+                    "name": "Arabic",
+                    "proficiency": "Native or bilingual"
+                },
+                {
+                    "name": "English",
+                    "proficiency": "Full professional proficiency"
+                },
+                {
+                    "name": "French",
+                    "proficiency": "Professional working proficiency"
+                }
+            ],
+            "certifications": [
+                {
+                    "name": "Oracle Cloud Infrastructure 2025 Certified Generative AI Professional",
+                    "issuer": "Oracle",
+                    "date": "2025-10",
+                    "expiry": null
+                },
+                {
+                    "name": "Oracle AI Vector Search Certified Professional",
+                    "issuer": "Oracle",
+                    "date": "2025-10",
+                    "expiry": "2027-10"
+                },
+                {
+                    "name": "Oracle Cloud Infrastructure 2025 Certified Data Science Professional",
+                    "issuer": "Oracle",
+                    "date": "2025-10",
+                    "expiry": "2027-10"
+                },
+                {
+                    "name": "Oracle Cloud Infrastructure 2025 Certified AI Foundations Associate",
+                    "issuer": "Oracle",
+                    "date": "2025-10",
+                    "expiry": "2027-10"
+                }
+            ],
+            "publications": [],
+            "volunteering": [],
+            "awards": [],
+            "links": [
+                {
+                    "type": "GitHub",
+                    "url": "https://github.com/Abdeljalil-Ounaceur"
+                },
+                {
+                    "type": "Hugging Face",
+                    "url": "https://huggingface.co/Abdeljalil-Ounaceur"
+                }
+            ]
+        }
+    }
+]

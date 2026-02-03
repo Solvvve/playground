@@ -1,0 +1,112 @@
+
+Abdeljalil Ounaceur
+
++212 701219103 | Agadir, Souss-Massa, Morocco |       ounaceur.abdeljalil@gmail.com   |  github.com/Abdeljalil-Ounaceur    |
+linkedin.com/in/abdeljalil-ounaceur  | huggingface.co/Abdeljalil-Ounaceur
+
+Summary
+
+Data Science graduate student with hands-on experience building production AI systems. Developed and deployed AI image
+generation service using FastAPI, Celery, and Stable Diffusion models in Docker containers. Proficient in Python, backend
+API development, and working with generative AI models (Transformers, Diffusers). Strong foundation in algorithms and
+data structures with experience in async task processing, monitoring systems, and database-driven applications.
+
+Education
+
+Université Ibn Zohr                                                                                        Agadir, Morocco
+Master of Science (MS), Data Science                                                                  Sep 2023  —  Jul 2025
+* Cumulative GPA: 15.38/20
+* Key Skills: Research Skills, Data Analysis
+
+Université Ibn Zohr                                                                                        Agadir, Morocco
+Bachelor of Science (BS), Computer Science                                                           Sep 2020  —  Jun 2023
+* Cumulative GPA: 15.34/20
+* Key Skills: Algorithms, Python, Java, Data Structures, Object-Oriented Programming
+
+Work Experience
+
+AI Backend Engineer Intern                                                                            Feb 2025  —  Jul 2025
+Richdale AI                                                                                  Agadir, Souss-Massa, Morocco
+* Built FastAPI-based AI image generation service with Celery for asynchronous task processing and distributed job queue
+  management
+* Integrated Stable Diffusion models with Transformers and Diffusers libraries for text-to-image and image-to-image
+  generation workflows
+* Deployed production system using Docker containers with load balancing and request routing infrastructure
+* Implemented monitoring and observability stack to track system performance and resource utilization
+* Contributed to  lartist.fr - an AI platform for transforming text and sketches into artwork using generative models
+* Technologies: Python, FastAPI, Celery, Stable Diffusion, Transformers, Diffusers, Docker, Prometheus, Grafana, Cloud
+  Storage
+
+Projects
+
+Product AI Image Similarity Platform         (github.com/Abdeljalil-Ounaceur/Product-AI-Image-Similarity-Platform     ) Oct
+2025 —  Nov 2025
+* Production-grade microservices-based visual search engine powered by OpenAI CLIP and vector similarity search
+* Built with 5 containerized services (React frontend, FastAPI backend, BentoML ML service, MinIO object storage, Oracle
+  database)
+* Implemented semantic image embeddings using CLIP model for zero-shot visual understanding and vector similarity
+  search with cosine similarity
+* Deployed on Kubernetes with horizontal scaling capabilities
+* Technologies: React, FastAPI, Python, BentoML, OpenAI CLIP, Oracle Database, MinIO, Docker, Docker Compose,
+  Kubernetes, gRPC, S3 API
+
+Real-Time Face Recognition and Surveillance System              (github.com/Abdeljalil-Ounaceur/Real-Time-Face-Recognition-and-Surveillance-System
+)                                                                       Apr 2024  —   Jun 2024
+* Real-time surveillance system using VGG-Face for facial recognition
+* Integrated with Apache Spark and Kafka for efficient data processing
+* Technologies: Python, Spark, Kafka, VGG-Face
+
+Sequence-to-Sequence LSTM vs Transformer                 (github.com/Abdeljalil-Ounaceur/Sequence-to-Sequence-LSTM-vs-
+Transformer )                                                                                        Mar 2024  —  Apr 2024
+
+
+
+
+* Comparison of LSTM and Transformer models for English-French machine translation
+* Technologies: Python, LSTM, Transformer
+
+Travel Reservation Platform with Django                (github.com/Abdeljalil-Ounaceur/Travel-Reservation-Platform-with-
+Django )                                                                                              Dec 2023  —  Feb 2024
+* Academic project implementing a travel booking system with search, reservation, and user management features
+* Technologies: Django, Python, JavaScript
+
+Tamazight NLP Dataset Project         (github.com/Abdeljalil-Ounaceur/Tamazight-NLP-dataset      )   Aug 2025   —  Sep 2025
+* Cleaned and extracted Tamazight-English dictionary data for NLP research use
+* Technologies: Python, Data Cleaning, NLP
+
+Online Quiz Platform with Laravel        (github.com/Abdeljalil-Ounaceur/Online-Quiz-Platform-with-Laravel    )Feb 2023  —
+Jun 2023
+* End-of-studies bachelor project implementing a quiz management system with MySQL database integration
+* Technologies: Laravel, PHP, MySQL, HTML, CSS
+
+Certifications
+
+* Oracle Cloud Infrastructure 2025 Certified Generative AI Professional, Oracle, Oct 2025
+* Oracle AI Vector Search Certified Professional, Oracle, Oct 2025 (Expires: Oct 2027)
+* Oracle Cloud Infrastructure 2025 Certified Data Science Professional, Oracle, Oct 2025 (Expires: Oct 2027)
+* Oracle Cloud Infrastructure 2025 Certified AI Foundations Associate, Oracle, Oct 2025 (Expires: Oct 2027)
+
+Open Source Contributions
+
+* nllb-tamazight-souss : Translation model for Tamazight Souss language
+* English-Tamazight-Dictionnary-2007   : English-Tamazight dictionary dataset hosted on Hugging Face
+
+Skills
+
+* Programming Languages        : Python, SQL, Java
+* Frameworks & Libraries      : Pandas, NumPy, Django, FastAPI, React
+* AI/ML Tools     : Stable Diffusion, Transformers, Diffusers, Hugging Face, OpenAI CLIP, BentoML
+* Backend Tools    : FastAPI, Celery, Docker, Docker Compose, REST APIs, gRPC
+* Data Tools   : MySQL, Oracle Database, Git, Jupyter, Google Colab
+* DevOps & Infrastructure       : Docker, Kubernetes, MinIO, S3 API, Prometheus, Grafana
+* Automation    : n8n
+* Cloud Platforms     : Oracle Cloud Infrastructure (OCI)
+* Specializations  : Data Processing, Machine Learning, Backend Development, Distributed Systems, Data Science &
+  Analytics, Vector Search, Microservices
+
+Languages
+
+* Arabic  : Native or bilingual
+* English  : Full professional proficiency
+* French  : Professional working proficiency
+

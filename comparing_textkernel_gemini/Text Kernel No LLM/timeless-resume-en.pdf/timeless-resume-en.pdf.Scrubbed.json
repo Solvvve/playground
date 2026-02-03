@@ -1,0 +1,3642 @@
+{
+  "ContactInformation": {},
+  "ProfessionalSummary": "Data Science graduate student with hands-on experience building production AI systems. Developed and deployed AI image\ngeneration service using FastAPI, Celery, and Stable Diffusion models in Docker containers. Proficient in Python, backend\nAPI development, and working with generative AI models (Transformers, Diffusers). Strong foundation in algorithms and\ndata structures with experience in async task processing, monitoring systems, and database-driven applications.",
+  "Education": {
+    "HighestDegree": {
+      "Name": {
+        "Raw": "Master of Science (MS)",
+        "Normalized": "MSc"
+      },
+      "Type": "masters",
+      "NormalizedLocal": {
+        "Code": "US_3",
+        "Description": "Master"
+      },
+      "NormalizedInternational": {
+        "Code": "4",
+        "Description": "Master"
+      }
+    },
+    "EducationDetails": [
+      {
+        "Id": "DEG-1",
+        "Text": "Université Ibn Zohr\tAgadir, Morocco\nMaster of Science (MS), Data Science\tSep 2023  --  Jul 2025\n* Cumulative GPA: 15.38/20\n* Key Skills: Research Skills, Data Analysis",
+        "SchoolName": {
+          "Raw": "Université Ibn Zohr",
+          "Normalized": "Université Ibn Zohr"
+        },
+        "SchoolType": "university",
+        "Degree": {
+          "Name": {
+            "Raw": "Master of Science (MS)",
+            "Normalized": "MSc"
+          },
+          "Type": "masters",
+          "NormalizedLocal": {
+            "Code": "US_3",
+            "Description": "Master"
+          },
+          "NormalizedInternational": {
+            "Code": "4",
+            "Description": "Master"
+          }
+        },
+        "Majors": [
+          "Data Science"
+        ],
+        "GPA": {
+          "Score": "15.38",
+          "ScoringSystem": "GPA",
+          "MaxScore": "20",
+          "MinimumScore": "0",
+          "NormalizedScore": 0.769
+        },
+        "LastEducationDate": {
+          "Date": "2025-07-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "StartDate": {
+          "Date": "2023-09-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "2025-07-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        }
+      },
+      {
+        "Id": "DEG-2",
+        "Text": "Université Ibn Zohr\tAgadir, Morocco\nBachelor of Science (BS), Computer Science\tSep 2020  --  Jun 2023\n* Cumulative GPA: 15.34/20\n* Key Skills: Algorithms, Python, Java, Data Structures, Object-Oriented Programming",
+        "SchoolName": {
+          "Raw": "Université Ibn Zohr",
+          "Normalized": "Université Ibn Zohr"
+        },
+        "SchoolType": "university",
+        "Degree": {
+          "Name": {
+            "Raw": "Bachelor of Science",
+            "Normalized": "BSc"
+          },
+          "Type": "bachelors",
+          "NormalizedLocal": {
+            "Code": "US_4",
+            "Description": "Bachelor"
+          },
+          "NormalizedInternational": {
+            "Code": "3",
+            "Description": "Bachelor"
+          }
+        },
+        "Majors": [
+          "Computer Science"
+        ],
+        "GPA": {
+          "Score": "15.34",
+          "ScoringSystem": "GPA",
+          "MaxScore": "20",
+          "MinimumScore": "0",
+          "NormalizedScore": 0.767
+        },
+        "LastEducationDate": {
+          "Date": "2023-06-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "StartDate": {
+          "Date": "2020-09-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "2023-06-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        }
+      }
+    ]
+  },
+  "EmploymentHistory": {
+    "ExperienceSummary": {
+      "Description": "   ~~~~~~~~~~~~~~   is experienced in:  Information Technology (Programming).    ~~~~~~~~~~~~~~   appears to be an entry-level candidate, with 10 months of experience.",
+      "MonthsOfWorkExperience": 10,
+      "MonthsOfManagementExperience": 0,
+      "ExecutiveType": "NONE",
+      "AverageMonthsPerEmployer": 3,
+      "FulltimeDirectHirePredictiveIndex": 33,
+      "ManagementStory": "",
+      "CurrentManagementLevel": "",
+      "ManagementScore": 0
+    },
+    "Positions": [
+      {
+        "Id": "POS-2",
+        "Employer": {
+          "Name": {
+            "Probability": "Confident",
+            "Raw": "Data Cleaning, NLP",
+            "Normalized": "Data Cleaning NLP"
+          }
+        },
+        "IsSelfEmployed": false,
+        "IsCurrent": false,
+        "StartDate": {
+          "Date": "2025-08-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "2025-09-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "JobType": "directHire",
+        "TaxonomyPercentage": 0,
+        "Description": "* Cleaned and extracted Tamazight-English dictionary data for NLP research use\n* Technologies: Python, Data Cleaning, NLP"
+      },
+      {
+        "Id": "POS-1",
+        "Employer": {
+          "Name": {
+            "Probability": "Confident",
+            "Raw": "Richdale AI",
+            "Normalized": "Richdale AI"
+          }
+        },
+        "IsSelfEmployed": false,
+        "IsCurrent": false,
+        "JobTitle": {
+          "Raw": "AI Backend Engineer Intern",
+          "Normalized": "AI Backend Engineer Intern",
+          "Probability": "Confident"
+        },
+        "StartDate": {
+          "Date": "2025-02-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "2025-07-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "JobType": "internship",
+        "JobLevel": "Entry Level",
+        "TaxonomyPercentage": 0,
+        "Description": "Agadir, Souss-Massa, Morocco\n* Built FastAPI-based AI image generation service with Celery for asynchronous task processing and distributed job queue\nmanagement\n* Integrated Stable Diffusion models with Transformers and Diffusers libraries for text-to-image and image-to-image\ngeneration workflows\n* Deployed production system using Docker containers with load balancing and request routing infrastructure\n* Implemented monitoring and observability stack to track system performance and resource utilization\n* Contributed to     ~~~~~   - an AI platform for transforming text and sketches into artwork using generative models\n* Technologies: Python, FastAPI, Celery, Stable Diffusion, Transformers, Diffusers, Docker, Prometheus, Grafana, Cloud\nStorage\n\nProjects\nProduct AI Image Similarity Platform\t(   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  ) Oct 2025 --  Nov 2025\n* Production-grade microservices-based visual search engine powered by OpenAI CLIP and vector similarity search\n* Built with 5 containerized services (React frontend, FastAPI backend, BentoML ML service, MinIO object storage, Oracle database)\n* Implemented semantic image embeddings using CLIP model for zero-shot visual understanding and vector similarity\nsearch with cosine similarity\n* Deployed on Kubernetes with horizontal scaling capabilities\n* Technologies: React, FastAPI, Python, BentoML, OpenAI CLIP, Oracle Database, MinIO, Docker, Docker Compose,\nKubernetes, gRPC, S3 API\n\nReal-Time Face Recognition and Surveillance System\t(   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  )   Apr 2024  --   Jun 2024\n* Real-time surveillance system using VGG-Face for facial recognition\n* Integrated with Apache Spark and Kafka for efficient data processing\n* Technologies: Python, Spark, Kafka, VGG-Face\n\nSequence-to-Sequence LSTM vs Transformer\t(   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  - Transformer)\tMar 2024  --  Apr 2024\n\n\n* Comparison of LSTM and Transformer models for English-French machine translation\n* Technologies: Python, LSTM, Transformer\n\nTravel Reservation Platform with Django\t(   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  - Django)\tDec 2023  --  Feb 2024\n* Academic project implementing a travel booking system with search, reservation, and user management features\n* Technologies: Django, Python, JavaScript",
+        "NormalizedProfession": {
+          "Profession": {
+            "CodeId": 4108,
+            "Description": "Intern"
+          },
+          "Group": {
+            "CodeId": 0,
+            "Description": "Other Professions"
+          },
+          "Class": {
+            "CodeId": 0,
+            "Description": "Other"
+          },
+          "ISCO": {
+            "Version": "ISCO-08",
+            "CodeId": 0,
+            "Description": "Unknown"
+          },
+          "ONET": {
+            "Version": "2019",
+            "CodeId": "0",
+            "Description": "Unknown"
+          },
+          "Confidence": 1.0
+        }
+      },
+      {
+        "Id": "POS-3",
+        "Employer": {
+          "Name": {
+            "Probability": "Confident",
+            "Raw": "Online Quiz Platform with Laravel",
+            "Normalized": "Online Quiz Platform with Laravel"
+          }
+        },
+        "IsSelfEmployed": false,
+        "IsCurrent": false,
+        "StartDate": {
+          "Date": "2023-02-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "2023-06-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "JobType": "UNSPECIFIED",
+        "TaxonomyPercentage": 0,
+        "Description": "* End-of-studies bachelor project implementing a quiz management system with MySQL database integration\n* Technologies: Laravel, PHP, MySQL, HTML, CSS"
+      }
+    ]
+  },
+  "Skills": {
+    "Raw": [
+      {
+        "Name": "HTML",
+        "FoundIn": [
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-3"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 4
+        },
+        "LastUsed": {
+          "Value": "2023-06-01"
+        }
+      },
+      {
+        "Name": "Java",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          },
+          {
+            "SectionType": "EDUCATION",
+            "Id": "DEG-2"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 33
+        },
+        "LastUsed": {
+          "Value": "2023-06-01"
+        }
+      },
+      {
+        "Name": "JavaScript",
+        "FoundIn": [
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-1"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 5
+        },
+        "LastUsed": {
+          "Value": "2025-07-01"
+        }
+      },
+      {
+        "Name": "PHP",
+        "FoundIn": [
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-3"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 4
+        },
+        "LastUsed": {
+          "Value": "2023-06-01"
+        }
+      },
+      {
+        "Name": "Research Skills",
+        "FoundIn": [
+          {
+            "SectionType": "EDUCATION",
+            "Id": "DEG-1"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 22
+        },
+        "LastUsed": {
+          "Value": "2025-07-01"
+        }
+      },
+      {
+        "Name": "API",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          },
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-1"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 5
+        },
+        "LastUsed": {
+          "Value": "2025-07-01"
+        }
+      },
+      {
+        "Name": "AI",
+        "FoundIn": [
+          {
+            "SectionType": "CERTIFICATIONS"
+          },
+          {
+            "SectionType": "SKILLS"
+          },
+          {
+            "SectionType": "SUMMARY"
+          },
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-1"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 5
+        },
+        "LastUsed": {
+          "Value": "2027-10-01"
+        }
+      },
+      {
+        "Name": "algorithms",
+        "FoundIn": [
+          {
+            "SectionType": "SUMMARY"
+          },
+          {
+            "SectionType": "EDUCATION",
+            "Id": "DEG-2"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 33
+        },
+        "LastUsed": {
+          "Value": "2023-06-01"
+        }
+      },
+      {
+        "Name": "S3",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          },
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-1"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 5
+        },
+        "LastUsed": {
+          "Value": "2025-07-01"
+        }
+      },
+      {
+        "Name": "Data Analysis",
+        "FoundIn": [
+          {
+            "SectionType": "EDUCATION",
+            "Id": "DEG-1"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 22
+        },
+        "LastUsed": {
+          "Value": "2025-07-01"
+        }
+      },
+      {
+        "Name": "Analytics",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          }
+        ]
+      },
+      {
+        "Name": "Automation",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          }
+        ]
+      },
+      {
+        "Name": "CSS",
+        "FoundIn": [
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-3"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 4
+        },
+        "LastUsed": {
+          "Value": "2023-06-01"
+        }
+      },
+      {
+        "Name": "Cloud",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          }
+        ]
+      },
+      {
+        "Name": "Cloud\nStorage",
+        "FoundIn": [
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-1"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 5
+        },
+        "LastUsed": {
+          "Value": "2025-07-01"
+        }
+      },
+      {
+        "Name": "database",
+        "FoundIn": [
+          {
+            "SectionType": "SUMMARY"
+          }
+        ]
+      },
+      {
+        "Name": "Data Cleaning",
+        "FoundIn": [
+          {
+            "SectionType": "WORK HISTORY"
+          }
+        ]
+      },
+      {
+        "Name": "Dataset",
+        "FoundIn": [
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-2"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 1
+        },
+        "LastUsed": {
+          "Value": "2025-09-01"
+        }
+      },
+      {
+        "Name": "data structures",
+        "FoundIn": [
+          {
+            "SectionType": "SUMMARY"
+          },
+          {
+            "SectionType": "EDUCATION",
+            "Id": "DEG-2"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 33
+        },
+        "LastUsed": {
+          "Value": "2023-06-01"
+        }
+      },
+      {
+        "Name": "DevOps",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          }
+        ]
+      },
+      {
+        "Name": "Distributed Systems",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          }
+        ]
+      },
+      {
+        "Name": "Django",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          },
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-1"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 5
+        },
+        "LastUsed": {
+          "Value": "2025-07-01"
+        }
+      },
+      {
+        "Name": "sketches",
+        "FoundIn": [
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-1"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 5
+        },
+        "LastUsed": {
+          "Value": "2025-07-01"
+        }
+      },
+      {
+        "Name": "monitoring systems",
+        "FoundIn": [
+          {
+            "SectionType": "SUMMARY"
+          }
+        ]
+      },
+      {
+        "Name": "horizontal scaling",
+        "FoundIn": [
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-1"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 5
+        },
+        "LastUsed": {
+          "Value": "2025-07-01"
+        }
+      },
+      {
+        "Name": "infrastructure",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          },
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-1"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 5
+        },
+        "LastUsed": {
+          "Value": "2025-07-01"
+        }
+      },
+      {
+        "Name": "Python",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          },
+          {
+            "SectionType": "SUMMARY"
+          },
+          {
+            "SectionType": "EDUCATION",
+            "Id": "DEG-2"
+          },
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-1"
+          },
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-2"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 39
+        },
+        "LastUsed": {
+          "Value": "2025-09-01"
+        }
+      },
+      {
+        "Name": "Laravel",
+        "FoundIn": [
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-3"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 4
+        },
+        "LastUsed": {
+          "Value": "2023-06-01"
+        }
+      },
+      {
+        "Name": "Machine Learning",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          }
+        ]
+      },
+      {
+        "Name": "machine translation",
+        "FoundIn": [
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-1"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 5
+        },
+        "LastUsed": {
+          "Value": "2025-07-01"
+        }
+      },
+      {
+        "Name": "management system",
+        "FoundIn": [
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-3"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 4
+        },
+        "LastUsed": {
+          "Value": "2023-06-01"
+        }
+      },
+      {
+        "Name": "MySQL database",
+        "FoundIn": [
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-3"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 4
+        },
+        "LastUsed": {
+          "Value": "2023-06-01"
+        }
+      },
+      {
+        "Name": "MySQL",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          },
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-3"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 4
+        },
+        "LastUsed": {
+          "Value": "2023-06-01"
+        }
+      },
+      {
+        "Name": "NLP",
+        "FoundIn": [
+          {
+            "SectionType": "WORK HISTORY"
+          }
+        ]
+      },
+      {
+        "Name": "NumPy",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          }
+        ]
+      },
+      {
+        "Name": "Object-Oriented Programming",
+        "FoundIn": [
+          {
+            "SectionType": "EDUCATION",
+            "Id": "DEG-2"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 33
+        },
+        "LastUsed": {
+          "Value": "2023-06-01"
+        }
+      },
+      {
+        "Name": "Open Source",
+        "FoundIn": [
+          {
+            "SectionType": "CERTIFICATIONS"
+          }
+        ]
+      },
+      {
+        "Name": "Oracle\ndatabase",
+        "FoundIn": [
+          {
+            "SectionType": "WORK HISTORY"
+          }
+        ]
+      },
+      {
+        "Name": "Oracle Database",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          },
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-1"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 5
+        },
+        "LastUsed": {
+          "Value": "2025-07-01"
+        }
+      },
+      {
+        "Name": "Oracle",
+        "FoundIn": [
+          {
+            "SectionType": "CERTIFICATIONS"
+          }
+        ],
+        "LastUsed": {
+          "Value": "2027-10-01"
+        }
+      },
+      {
+        "Name": "production system",
+        "FoundIn": [
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-1"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 5
+        },
+        "LastUsed": {
+          "Value": "2025-07-01"
+        }
+      },
+      {
+        "Name": "job queue",
+        "FoundIn": [
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-1"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 5
+        },
+        "LastUsed": {
+          "Value": "2025-07-01"
+        }
+      },
+      {
+        "Name": "Prometheus",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          },
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-1"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 5
+        },
+        "LastUsed": {
+          "Value": "2025-07-01"
+        }
+      },
+      {
+        "Name": "Surveillance",
+        "FoundIn": [
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-1"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 5
+        },
+        "LastUsed": {
+          "Value": "2025-07-01"
+        }
+      },
+      {
+        "Name": "Transformers",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          },
+          {
+            "SectionType": "SUMMARY"
+          },
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-1"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 5
+        },
+        "LastUsed": {
+          "Value": "2025-07-01"
+        }
+      },
+      {
+        "Name": "semantic",
+        "FoundIn": [
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-1"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 5
+        },
+        "LastUsed": {
+          "Value": "2025-07-01"
+        }
+      },
+      {
+        "Name": "SQL",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          }
+        ]
+      },
+      {
+        "Name": "workflows",
+        "FoundIn": [
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-1"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 5
+        },
+        "LastUsed": {
+          "Value": "2025-07-01"
+        }
+      },
+      {
+        "Name": "Google Colab",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          }
+        ]
+      },
+      {
+        "Name": "data processing",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          },
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-1"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 5
+        },
+        "LastUsed": {
+          "Value": "2025-07-01"
+        }
+      },
+      {
+        "Name": "load balancing",
+        "FoundIn": [
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-1"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 5
+        },
+        "LastUsed": {
+          "Value": "2025-07-01"
+        }
+      },
+      {
+        "Name": "Data Science",
+        "FoundIn": [
+          {
+            "SectionType": "CERTIFICATIONS"
+          },
+          {
+            "SectionType": "SKILLS"
+          },
+          {
+            "SectionType": "SUMMARY"
+          },
+          {
+            "SectionType": "EDUCATION",
+            "Id": "DEG-1"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 22
+        },
+        "LastUsed": {
+          "Value": "2027-10-01"
+        }
+      },
+      {
+        "Name": "React",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          },
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-1"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 5
+        },
+        "LastUsed": {
+          "Value": "2025-07-01"
+        }
+      },
+      {
+        "Name": "Grafana",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          },
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-1"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 5
+        },
+        "LastUsed": {
+          "Value": "2025-07-01"
+        }
+      },
+      {
+        "Name": "Apache Spark",
+        "FoundIn": [
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-1"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 5
+        },
+        "LastUsed": {
+          "Value": "2025-07-01"
+        }
+      },
+      {
+        "Name": "Spark",
+        "FoundIn": [
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-1"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 5
+        },
+        "LastUsed": {
+          "Value": "2025-07-01"
+        }
+      },
+      {
+        "Name": "Generative AI",
+        "FoundIn": [
+          {
+            "SectionType": "CERTIFICATIONS"
+          }
+        ],
+        "LastUsed": {
+          "Value": "2025-10-01"
+        }
+      },
+      {
+        "Name": "Jupyter",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          }
+        ]
+      },
+      {
+        "Name": "backend",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          },
+          {
+            "SectionType": "SUMMARY"
+          },
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-1"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 5
+        },
+        "LastUsed": {
+          "Value": "2025-07-01"
+        }
+      },
+      {
+        "Name": "Backend Development",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          }
+        ]
+      },
+      {
+        "Name": "Git",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          }
+        ]
+      },
+      {
+        "Name": "FastAPI",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          },
+          {
+            "SectionType": "SUMMARY"
+          },
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-1"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 5
+        },
+        "LastUsed": {
+          "Value": "2025-07-01"
+        }
+      },
+      {
+        "Name": "Pandas",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          }
+        ]
+      },
+      {
+        "Name": "Kubernetes",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          },
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-1"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 5
+        },
+        "LastUsed": {
+          "Value": "2025-07-01"
+        }
+      },
+      {
+        "Name": "Computer Science",
+        "FoundIn": [
+          {
+            "SectionType": "EDUCATION",
+            "Id": "DEG-2"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 33
+        },
+        "LastUsed": {
+          "Value": "2023-06-01"
+        }
+      },
+      {
+        "Name": "Hugging Face",
+        "FoundIn": [
+          {
+            "SectionType": "CERTIFICATIONS"
+          },
+          {
+            "SectionType": "SKILLS"
+          }
+        ]
+      },
+      {
+        "Name": "resource utilization",
+        "FoundIn": [
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-1"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 5
+        },
+        "LastUsed": {
+          "Value": "2025-07-01"
+        }
+      },
+      {
+        "Name": "Kafka",
+        "FoundIn": [
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-1"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 5
+        },
+        "LastUsed": {
+          "Value": "2025-07-01"
+        }
+      },
+      {
+        "Name": "search engine",
+        "FoundIn": [
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-1"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 5
+        },
+        "LastUsed": {
+          "Value": "2025-07-01"
+        }
+      },
+      {
+        "Name": "Celery",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          },
+          {
+            "SectionType": "SUMMARY"
+          },
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-1"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 5
+        },
+        "LastUsed": {
+          "Value": "2025-07-01"
+        }
+      },
+      {
+        "Name": "frontend",
+        "FoundIn": [
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-1"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 5
+        },
+        "LastUsed": {
+          "Value": "2025-07-01"
+        }
+      },
+      {
+        "Name": "Stable Diffusion",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          },
+          {
+            "SectionType": "SUMMARY"
+          },
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-1"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 5
+        },
+        "LastUsed": {
+          "Value": "2025-07-01"
+        }
+      },
+      {
+        "Name": "API development",
+        "FoundIn": [
+          {
+            "SectionType": "SUMMARY"
+          }
+        ]
+      },
+      {
+        "Name": "REST APIs",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          }
+        ]
+      },
+      {
+        "Name": "Oracle Cloud Infrastructure",
+        "FoundIn": [
+          {
+            "SectionType": "CERTIFICATIONS"
+          },
+          {
+            "SectionType": "SKILLS"
+          }
+        ],
+        "LastUsed": {
+          "Value": "2027-10-01"
+        }
+      },
+      {
+        "Name": "OCI",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          }
+        ]
+      },
+      {
+        "Name": "gRPC",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          },
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-1"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 5
+        },
+        "LastUsed": {
+          "Value": "2025-07-01"
+        }
+      },
+      {
+        "Name": "LSTM",
+        "FoundIn": [
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-1"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 5
+        },
+        "LastUsed": {
+          "Value": "2025-07-01"
+        }
+      },
+      {
+        "Name": "Docker",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          },
+          {
+            "SectionType": "SUMMARY"
+          },
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-1"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 5
+        },
+        "LastUsed": {
+          "Value": "2025-07-01"
+        }
+      },
+      {
+        "Name": "Docker Compose",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          },
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-1"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 5
+        },
+        "LastUsed": {
+          "Value": "2025-07-01"
+        }
+      },
+      {
+        "Name": "user management",
+        "FoundIn": [
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-1"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 5
+        },
+        "LastUsed": {
+          "Value": "2025-07-01"
+        }
+      },
+      {
+        "Name": "Programming Languages",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          }
+        ]
+      },
+      {
+        "Name": "microservices",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          },
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-1"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 5
+        },
+        "LastUsed": {
+          "Value": "2025-07-01"
+        }
+      }
+    ],
+    "Normalized": [
+      {
+        "Name": "Python (Programming Language)",
+        "Id": "KS125LS6N7WP4S6SFTCK",
+        "Type": "IT",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          },
+          {
+            "SectionType": "SUMMARY"
+          },
+          {
+            "SectionType": "EDUCATION",
+            "Id": "DEG-2"
+          },
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-1"
+          },
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-2"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 39
+        },
+        "LastUsed": {
+          "Value": "2025-09-01"
+        },
+        "RawSkills": [
+          "Python"
+        ]
+      },
+      {
+        "Name": "Data Science",
+        "Id": "KS7LO8P3MXB93R3C9RWL",
+        "Type": "Professional",
+        "FoundIn": [
+          {
+            "SectionType": "CERTIFICATIONS"
+          },
+          {
+            "SectionType": "SKILLS"
+          },
+          {
+            "SectionType": "SUMMARY"
+          },
+          {
+            "SectionType": "EDUCATION",
+            "Id": "DEG-1"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 22
+        },
+        "LastUsed": {
+          "Value": "2027-10-01"
+        },
+        "RawSkills": [
+          "Data Science"
+        ]
+      },
+      {
+        "Name": "Artificial Intelligence",
+        "Id": "KS120BV6SR75RBKQH0G3",
+        "Type": "IT",
+        "FoundIn": [
+          {
+            "SectionType": "CERTIFICATIONS"
+          },
+          {
+            "SectionType": "SKILLS"
+          },
+          {
+            "SectionType": "SUMMARY"
+          },
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-1"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 5
+        },
+        "LastUsed": {
+          "Value": "2027-10-01"
+        },
+        "RawSkills": [
+          "AI"
+        ]
+      },
+      {
+        "Name": "Oracle Cloud Infrastructure",
+        "Id": "KSVDPU6IT5QV0G1HM427",
+        "Type": "IT",
+        "FoundIn": [
+          {
+            "SectionType": "CERTIFICATIONS"
+          },
+          {
+            "SectionType": "SKILLS"
+          }
+        ],
+        "LastUsed": {
+          "Value": "2027-10-01"
+        },
+        "RawSkills": [
+          "Oracle Cloud Infrastructure",
+          "OCI"
+        ]
+      },
+      {
+        "Name": "Oracle Applications",
+        "Id": "KS127F36RRPPTV89QLPH",
+        "Type": "IT",
+        "FoundIn": [
+          {
+            "SectionType": "CERTIFICATIONS"
+          }
+        ],
+        "LastUsed": {
+          "Value": "2027-10-01"
+        },
+        "RawSkills": [
+          "Oracle"
+        ]
+      },
+      {
+        "Name": "Data Analysis",
+        "Id": "KS120GV6C72JMSZKMTD7",
+        "Type": "IT",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          },
+          {
+            "SectionType": "EDUCATION",
+            "Id": "DEG-1"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 22
+        },
+        "LastUsed": {
+          "Value": "2025-07-01"
+        },
+        "RawSkills": [
+          "Data Analysis",
+          "Analytics"
+        ]
+      },
+      {
+        "Name": "Electrical Transformers",
+        "Id": "KS440DC6Q3YGW1RLXH1V",
+        "Type": "Professional",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          },
+          {
+            "SectionType": "SUMMARY"
+          },
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-1"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 5
+        },
+        "LastUsed": {
+          "Value": "2025-07-01"
+        },
+        "RawSkills": [
+          "Transformers"
+        ]
+      },
+      {
+        "Name": "Backend",
+        "Id": "KSFFZBDYXH5XA5QE4E7I",
+        "Type": "IT",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          },
+          {
+            "SectionType": "SUMMARY"
+          },
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-1"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 5
+        },
+        "LastUsed": {
+          "Value": "2025-07-01"
+        },
+        "RawSkills": [
+          "backend",
+          "Backend Development"
+        ]
+      },
+      {
+        "Name": "Fastapi",
+        "Id": "KSG1KVVBE18NEM1FSN2N",
+        "Type": "IT",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          },
+          {
+            "SectionType": "SUMMARY"
+          },
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-1"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 5
+        },
+        "LastUsed": {
+          "Value": "2025-07-01"
+        },
+        "RawSkills": [
+          "FastAPI"
+        ]
+      },
+      {
+        "Name": "Celery",
+        "Id": "KSPYIR4ZPFKY8CVSQ6RH",
+        "Type": "IT",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          },
+          {
+            "SectionType": "SUMMARY"
+          },
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-1"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 5
+        },
+        "LastUsed": {
+          "Value": "2025-07-01"
+        },
+        "RawSkills": [
+          "Celery"
+        ]
+      },
+      {
+        "Name": "Stable Diffusion",
+        "Id": "KSR3Q8HFA5SGO1E3I1TX",
+        "Type": "IT",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          },
+          {
+            "SectionType": "SUMMARY"
+          },
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-1"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 5
+        },
+        "LastUsed": {
+          "Value": "2025-07-01"
+        },
+        "RawSkills": [
+          "Stable Diffusion"
+        ]
+      },
+      {
+        "Name": "Docker",
+        "Id": "KSY4WFI1S164RQUBSPCC",
+        "Type": "IT",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          },
+          {
+            "SectionType": "SUMMARY"
+          },
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-1"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 5
+        },
+        "LastUsed": {
+          "Value": "2025-07-01"
+        },
+        "RawSkills": [
+          "Docker",
+          "Docker Compose"
+        ]
+      },
+      {
+        "Name": "Research Skills",
+        "Id": "KS1203C6N9B52QGB4H67",
+        "Type": "Professional",
+        "FoundIn": [
+          {
+            "SectionType": "EDUCATION",
+            "Id": "DEG-1"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 22
+        },
+        "LastUsed": {
+          "Value": "2025-07-01"
+        },
+        "RawSkills": [
+          "Research Skills"
+        ]
+      },
+      {
+        "Name": "Application Programming Interfaces (APIs)",
+        "Id": "KS1208P6ZMZ4N872Y7X5",
+        "Type": "IT",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          },
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-1"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 5
+        },
+        "LastUsed": {
+          "Value": "2025-07-01"
+        },
+        "RawSkills": [
+          "API"
+        ]
+      },
+      {
+        "Name": "Amazon S3",
+        "Id": "KS120FQ6DY31LFDWPJR3",
+        "Type": "IT",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          },
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-1"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 5
+        },
+        "LastUsed": {
+          "Value": "2025-07-01"
+        },
+        "RawSkills": [
+          "S3"
+        ]
+      },
+      {
+        "Name": "Django Web Framework",
+        "Id": "KS1232D6PH6SBVWWPQWC",
+        "Type": "IT",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          },
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-1"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 5
+        },
+        "LastUsed": {
+          "Value": "2025-07-01"
+        },
+        "RawSkills": [
+          "Django"
+        ]
+      },
+      {
+        "Name": "Infrastructure Management",
+        "Id": "KS125536N3GWSZZC3208",
+        "Type": "Professional",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          },
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-1"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 5
+        },
+        "LastUsed": {
+          "Value": "2025-07-01"
+        },
+        "RawSkills": [
+          "infrastructure"
+        ]
+      },
+      {
+        "Name": "Oracle Databases",
+        "Id": "KS127F36326KXDQ104H6",
+        "Type": "IT",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          },
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-1"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 5
+        },
+        "LastUsed": {
+          "Value": "2025-07-01"
+        },
+        "RawSkills": [
+          "Oracle\ndatabase",
+          "Oracle Database"
+        ]
+      },
+      {
+        "Name": "Prometheus",
+        "Id": "KS2NA4WWH9Z98XXI5K2Y",
+        "Type": "IT",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          },
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-1"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 5
+        },
+        "LastUsed": {
+          "Value": "2025-07-01"
+        },
+        "RawSkills": [
+          "Prometheus"
+        ]
+      },
+      {
+        "Name": "Data Processing",
+        "Id": "KS70UHW4DOHZDVETK1VQ",
+        "Type": "IT",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          },
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-1"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 5
+        },
+        "LastUsed": {
+          "Value": "2025-07-01"
+        },
+        "RawSkills": [
+          "data processing"
+        ]
+      },
+      {
+        "Name": "ReactJS",
+        "Id": "KS9E9SUSTX6U1ESK796U",
+        "Type": "IT",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          },
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-1"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 5
+        },
+        "LastUsed": {
+          "Value": "2025-07-01"
+        },
+        "RawSkills": [
+          "React"
+        ]
+      },
+      {
+        "Name": "Grafana",
+        "Id": "KSALSL0U9E60WLJXI7B7",
+        "Type": "IT",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          },
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-1"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 5
+        },
+        "LastUsed": {
+          "Value": "2025-07-01"
+        },
+        "RawSkills": [
+          "Grafana"
+        ]
+      },
+      {
+        "Name": "Kubernetes",
+        "Id": "KSJF3PBD3995K6E0OF1Z",
+        "Type": "IT",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          },
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-1"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 5
+        },
+        "LastUsed": {
+          "Value": "2025-07-01"
+        },
+        "RawSkills": [
+          "Kubernetes"
+        ]
+      },
+      {
+        "Name": "Grpc",
+        "Id": "KSVHILF869D2YAU2WQNT",
+        "Type": "IT",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          },
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-1"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 5
+        },
+        "LastUsed": {
+          "Value": "2025-07-01"
+        },
+        "RawSkills": [
+          "gRPC"
+        ]
+      },
+      {
+        "Name": "Microservices",
+        "Id": "KSZX7YZWNR5IDR1I2VMZ",
+        "Type": "IT",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          },
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-1"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 5
+        },
+        "LastUsed": {
+          "Value": "2025-07-01"
+        },
+        "RawSkills": [
+          "microservices"
+        ]
+      },
+      {
+        "Name": "JavaScript (Programming Language)",
+        "Id": "KS1200771D9CR9LB4MWW",
+        "Type": "IT",
+        "FoundIn": [
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-1"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 5
+        },
+        "LastUsed": {
+          "Value": "2025-07-01"
+        },
+        "RawSkills": [
+          "JavaScript"
+        ]
+      },
+      {
+        "Name": "Cloud Storage",
+        "Id": "KS1220L6TV4XHT856MBZ",
+        "Type": "IT",
+        "FoundIn": [
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-1"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 5
+        },
+        "LastUsed": {
+          "Value": "2025-07-01"
+        },
+        "RawSkills": [
+          "Cloud\nStorage"
+        ]
+      },
+      {
+        "Name": "Data Files",
+        "Id": "KS122P15X48TTGZ5KCLY",
+        "Type": "IT",
+        "FoundIn": [
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-2"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 1
+        },
+        "LastUsed": {
+          "Value": "2025-09-01"
+        },
+        "RawSkills": [
+          "Dataset"
+        ]
+      },
+      {
+        "Name": "Drawing Skills",
+        "Id": "KS123586FGV3X7F7BJR7",
+        "Type": "Professional",
+        "FoundIn": [
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-1"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 5
+        },
+        "LastUsed": {
+          "Value": "2025-07-01"
+        },
+        "RawSkills": [
+          "sketches"
+        ]
+      },
+      {
+        "Name": "Scalability",
+        "Id": "KS124RX787SQ1WVD8XF6",
+        "Type": "Professional",
+        "FoundIn": [
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-1"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 5
+        },
+        "LastUsed": {
+          "Value": "2025-07-01"
+        },
+        "RawSkills": [
+          "horizontal scaling"
+        ]
+      },
+      {
+        "Name": "Machine Translation",
+        "Id": "KS126237283GZN8NX5P6",
+        "Type": "IT",
+        "FoundIn": [
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-1"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 5
+        },
+        "LastUsed": {
+          "Value": "2025-07-01"
+        },
+        "RawSkills": [
+          "machine translation"
+        ]
+      },
+      {
+        "Name": "Production Systems",
+        "Id": "KS1282Z69X0BW8CXTPXH",
+        "Type": "Professional",
+        "FoundIn": [
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-1"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 5
+        },
+        "LastUsed": {
+          "Value": "2025-07-01"
+        },
+        "RawSkills": [
+          "production system"
+        ]
+      },
+      {
+        "Name": "Queueing Systems",
+        "Id": "KS128B06CYP6Q0NKTN2Q",
+        "Type": "IT",
+        "FoundIn": [
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-1"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 5
+        },
+        "LastUsed": {
+          "Value": "2025-07-01"
+        },
+        "RawSkills": [
+          "job queue"
+        ]
+      },
+      {
+        "Name": "Remote Monitoring",
+        "Id": "KS440016YY6472ZWSQ9D",
+        "Type": "Professional",
+        "FoundIn": [
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-1"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 5
+        },
+        "LastUsed": {
+          "Value": "2025-07-01"
+        },
+        "RawSkills": [
+          "Surveillance"
+        ]
+      },
+      {
+        "Name": "Semantics",
+        "Id": "KS440FZ66QFPWRRTYF6J",
+        "Type": "Professional",
+        "FoundIn": [
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-1"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 5
+        },
+        "LastUsed": {
+          "Value": "2025-07-01"
+        },
+        "RawSkills": [
+          "semantic"
+        ]
+      },
+      {
+        "Name": "Workflows",
+        "Id": "KS4424T6KPTTQ1NKM0XK",
+        "Type": "Professional",
+        "FoundIn": [
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-1"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 5
+        },
+        "LastUsed": {
+          "Value": "2025-07-01"
+        },
+        "RawSkills": [
+          "workflows"
+        ]
+      },
+      {
+        "Name": "Load Balancing",
+        "Id": "KS7G6D96PMHVV7MGQ3QS",
+        "Type": "IT",
+        "FoundIn": [
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-1"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 5
+        },
+        "LastUsed": {
+          "Value": "2025-07-01"
+        },
+        "RawSkills": [
+          "load balancing"
+        ]
+      },
+      {
+        "Name": "Apache Spark",
+        "Id": "KSAS8LK1JG2Y0OLN4C53",
+        "Type": "IT",
+        "FoundIn": [
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-1"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 5
+        },
+        "LastUsed": {
+          "Value": "2025-07-01"
+        },
+        "RawSkills": [
+          "Apache Spark",
+          "Spark"
+        ]
+      },
+      {
+        "Name": "Generative AI",
+        "Id": "KSE33K2352ACXAQZFTBN",
+        "Type": "IT",
+        "FoundIn": [
+          {
+            "SectionType": "CERTIFICATIONS"
+          }
+        ],
+        "LastUsed": {
+          "Value": "2025-10-01"
+        },
+        "RawSkills": [
+          "Generative AI"
+        ]
+      },
+      {
+        "Name": "Resource Utilization",
+        "Id": "KSMR7JUMAR3WHRWW5087",
+        "Type": "Professional",
+        "FoundIn": [
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-1"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 5
+        },
+        "LastUsed": {
+          "Value": "2025-07-01"
+        },
+        "RawSkills": [
+          "resource utilization"
+        ]
+      },
+      {
+        "Name": "Apache Kafka",
+        "Id": "KSN97GEUHPNGNAQFDCGY",
+        "Type": "IT",
+        "FoundIn": [
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-1"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 5
+        },
+        "LastUsed": {
+          "Value": "2025-07-01"
+        },
+        "RawSkills": [
+          "Kafka"
+        ]
+      },
+      {
+        "Name": "Search Engines",
+        "Id": "KSNP0D417KSKUN8RS867",
+        "Type": "IT",
+        "FoundIn": [
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-1"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 5
+        },
+        "LastUsed": {
+          "Value": "2025-07-01"
+        },
+        "RawSkills": [
+          "search engine"
+        ]
+      },
+      {
+        "Name": "Front End Software Development",
+        "Id": "KSQ4V3A6FGYT0MLOOUEX",
+        "Type": "IT",
+        "FoundIn": [
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-1"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 5
+        },
+        "LastUsed": {
+          "Value": "2025-07-01"
+        },
+        "RawSkills": [
+          "frontend"
+        ]
+      },
+      {
+        "Name": "Recurrent Neural Networks",
+        "Id": "KSY0X69QE02MWWQQFZU4",
+        "Type": "IT",
+        "FoundIn": [
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-1"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 5
+        },
+        "LastUsed": {
+          "Value": "2025-07-01"
+        },
+        "RawSkills": [
+          "LSTM"
+        ]
+      },
+      {
+        "Name": "User Administration",
+        "Id": "KSYKIMAQ70RR9Q8RDXFJ",
+        "Type": "IT",
+        "FoundIn": [
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-1"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 5
+        },
+        "LastUsed": {
+          "Value": "2025-07-01"
+        },
+        "RawSkills": [
+          "user management"
+        ]
+      },
+      {
+        "Name": "Java (Programming Language)",
+        "Id": "KS120076FGP5WGWYMP0F",
+        "Type": "IT",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          },
+          {
+            "SectionType": "EDUCATION",
+            "Id": "DEG-2"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 33
+        },
+        "LastUsed": {
+          "Value": "2023-06-01"
+        },
+        "RawSkills": [
+          "Java"
+        ]
+      },
+      {
+        "Name": "Algorithms",
+        "Id": "KS120D96FHL88PZDKZKH",
+        "Type": "Professional",
+        "FoundIn": [
+          {
+            "SectionType": "SUMMARY"
+          },
+          {
+            "SectionType": "EDUCATION",
+            "Id": "DEG-2"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 33
+        },
+        "LastUsed": {
+          "Value": "2023-06-01"
+        },
+        "RawSkills": [
+          "algorithms"
+        ]
+      },
+      {
+        "Name": "Data Structures",
+        "Id": "KS122Q26BWQ1PK3Y74C0",
+        "Type": "IT",
+        "FoundIn": [
+          {
+            "SectionType": "SUMMARY"
+          },
+          {
+            "SectionType": "EDUCATION",
+            "Id": "DEG-2"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 33
+        },
+        "LastUsed": {
+          "Value": "2023-06-01"
+        },
+        "RawSkills": [
+          "data structures"
+        ]
+      },
+      {
+        "Name": "Object-Oriented Software Development",
+        "Id": "KS1278W6LG4JDWNMF9C0",
+        "Type": "IT",
+        "FoundIn": [
+          {
+            "SectionType": "EDUCATION",
+            "Id": "DEG-2"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 33
+        },
+        "LastUsed": {
+          "Value": "2023-06-01"
+        },
+        "RawSkills": [
+          "Object-Oriented Programming"
+        ]
+      },
+      {
+        "Name": "Information Technology",
+        "Id": "KSJLPQMW0YRWJSWO4NFL",
+        "Type": "IT",
+        "FoundIn": [
+          {
+            "SectionType": "EDUCATION",
+            "Id": "DEG-2"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 33
+        },
+        "LastUsed": {
+          "Value": "2023-06-01"
+        },
+        "RawSkills": [
+          "Computer Science"
+        ]
+      },
+      {
+        "Name": "MySQL",
+        "Id": "KS126QY605N7YVHFYCTW",
+        "Type": "IT",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          },
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-3"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 4
+        },
+        "LastUsed": {
+          "Value": "2023-06-01"
+        },
+        "RawSkills": [
+          "MySQL database",
+          "MySQL"
+        ]
+      },
+      {
+        "Name": "HTML",
+        "Id": "KS1200578T5QCYT0Z98G",
+        "Type": "IT",
+        "FoundIn": [
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-3"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 4
+        },
+        "LastUsed": {
+          "Value": "2023-06-01"
+        },
+        "RawSkills": [
+          "HTML"
+        ]
+      },
+      {
+        "Name": "PHP (Programming Language)",
+        "Id": "KS1200C5XQWW78VQ5ZYL",
+        "Type": "IT",
+        "FoundIn": [
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-3"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 4
+        },
+        "LastUsed": {
+          "Value": "2023-06-01"
+        },
+        "RawSkills": [
+          "PHP"
+        ]
+      },
+      {
+        "Name": "Cascading Style Sheets (CSS)",
+        "Id": "KS121F45VPV8C9W3QFYH",
+        "Type": "IT",
+        "FoundIn": [
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-3"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 4
+        },
+        "LastUsed": {
+          "Value": "2023-06-01"
+        },
+        "RawSkills": [
+          "CSS"
+        ]
+      },
+      {
+        "Name": "Laravel",
+        "Id": "KS125QN69N74BRHT232H",
+        "Type": "IT",
+        "FoundIn": [
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-3"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 4
+        },
+        "LastUsed": {
+          "Value": "2023-06-01"
+        },
+        "RawSkills": [
+          "Laravel"
+        ]
+      },
+      {
+        "Name": "Management Systems",
+        "Id": "KS1264669X43NJFLT6SN",
+        "Type": "Professional",
+        "FoundIn": [
+          {
+            "SectionType": "WORK HISTORY",
+            "Id": "POS-3"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 4
+        },
+        "LastUsed": {
+          "Value": "2023-06-01"
+        },
+        "RawSkills": [
+          "management system"
+        ]
+      },
+      {
+        "Name": "HuggingFace",
+        "Id": "KSKQQ04WCIHLSLE2G1ZR",
+        "Type": "IT",
+        "FoundIn": [
+          {
+            "SectionType": "CERTIFICATIONS"
+          },
+          {
+            "SectionType": "SKILLS"
+          }
+        ],
+        "RawSkills": [
+          "Hugging Face"
+        ]
+      },
+      {
+        "Name": "Automation",
+        "Id": "KS120SQ5W4Q57JMD2Y81",
+        "Type": "Professional",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          }
+        ],
+        "RawSkills": [
+          "Automation"
+        ]
+      },
+      {
+        "Name": "Cloud Computing",
+        "Id": "KS1220H6CP1BQGH9STNK",
+        "Type": "IT",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          }
+        ],
+        "RawSkills": [
+          "Cloud"
+        ]
+      },
+      {
+        "Name": "Databases",
+        "Id": "KS1227H6H5Q5Q3T2NQR5",
+        "Type": "IT",
+        "FoundIn": [
+          {
+            "SectionType": "SUMMARY"
+          }
+        ],
+        "RawSkills": [
+          "database"
+        ]
+      },
+      {
+        "Name": "Data Cleansing",
+        "Id": "KS122NR5WBK04FGMP0HD",
+        "Type": "IT",
+        "FoundIn": [
+          {
+            "SectionType": "WORK HISTORY"
+          }
+        ],
+        "RawSkills": [
+          "Data Cleaning"
+        ]
+      },
+      {
+        "Name": "DevOps",
+        "Id": "KS122W96T2T9J5PZ0VMP",
+        "Type": "IT",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          }
+        ],
+        "RawSkills": [
+          "DevOps"
+        ]
+      },
+      {
+        "Name": "Distributed Systems",
+        "Id": "KS12320732STS9N7XT64",
+        "Type": "IT",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          }
+        ],
+        "RawSkills": [
+          "Distributed Systems"
+        ]
+      },
+      {
+        "Name": "Monitoring of Systems",
+        "Id": "KS124LP78Y7Y5M0J9B7B",
+        "Type": "IT",
+        "FoundIn": [
+          {
+            "SectionType": "SUMMARY"
+          }
+        ],
+        "RawSkills": [
+          "monitoring systems"
+        ]
+      },
+      {
+        "Name": "Machine Learning",
+        "Id": "KS1261Z68KSKR1X31KS3",
+        "Type": "IT",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          }
+        ],
+        "RawSkills": [
+          "Machine Learning"
+        ]
+      },
+      {
+        "Name": "Natural Language Processing",
+        "Id": "KS126VY6DLPDWFZD5VB8",
+        "Type": "IT",
+        "FoundIn": [
+          {
+            "SectionType": "WORK HISTORY"
+          }
+        ],
+        "RawSkills": [
+          "NLP"
+        ]
+      },
+      {
+        "Name": "NumPy",
+        "Id": "KS1274P66LZKSR1F2YCT",
+        "Type": "IT",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          }
+        ],
+        "RawSkills": [
+          "NumPy"
+        ]
+      },
+      {
+        "Name": "Open Source Technology",
+        "Id": "KS1279L6C7ZQ9YQVSJ3G",
+        "Type": "IT",
+        "FoundIn": [
+          {
+            "SectionType": "CERTIFICATIONS"
+          }
+        ],
+        "RawSkills": [
+          "Open Source"
+        ]
+      },
+      {
+        "Name": "SQL Databases",
+        "Id": "KS440W865GC4VRBW6LJP",
+        "Type": "IT",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          }
+        ],
+        "RawSkills": [
+          "SQL"
+        ]
+      },
+      {
+        "Name": "Jupyter Notebook",
+        "Id": "KS53PLO5A0QGFTBC16O4",
+        "Type": "IT",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          }
+        ],
+        "RawSkills": [
+          "Google Colab"
+        ]
+      },
+      {
+        "Name": "Jupyter",
+        "Id": "KSFDBQT68SA9R0I0SAVH",
+        "Type": "IT",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          }
+        ],
+        "RawSkills": [
+          "Jupyter"
+        ]
+      },
+      {
+        "Name": "Git",
+        "Id": "KSFXRX8RU2T0RXA7QPHJ",
+        "Type": "IT",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          }
+        ],
+        "RawSkills": [
+          "Git"
+        ]
+      },
+      {
+        "Name": "Pandas",
+        "Id": "KSGWPO6DSN70GRY20JFT",
+        "Type": "IT",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          }
+        ],
+        "RawSkills": [
+          "Pandas"
+        ]
+      },
+      {
+        "Name": "Api Design",
+        "Id": "KSS344MJ1FTC11D417OQ",
+        "Type": "IT",
+        "FoundIn": [
+          {
+            "SectionType": "SUMMARY"
+          }
+        ],
+        "RawSkills": [
+          "API development"
+        ]
+      },
+      {
+        "Name": "Restful APIs",
+        "Id": "KSTCKINCCLKBAHVAOXO8",
+        "Type": "IT",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          }
+        ],
+        "RawSkills": [
+          "REST APIs"
+        ]
+      },
+      {
+        "Name": "Programming Languages",
+        "Id": "KSZUL40VYT2KEP9E6YPH",
+        "Type": "IT",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          }
+        ],
+        "RawSkills": [
+          "Programming Languages"
+        ]
+      }
+    ],
+    "RelatedProfessionClasses": [
+      {
+        "Name": "Information and Communication Technology",
+        "Id": "9",
+        "Percent": 52,
+        "Groups": [
+          {
+            "Name": "Programmers",
+            "Id": "82",
+            "Percent": 7,
+            "NormalizedSkills": [
+              "KS126237283GZN8NX5P6",
+              "KS1232D6PH6SBVWWPQWC",
+              "KS1200771D9CR9LB4MWW",
+              "KSYKIMAQ70RR9Q8RDXFJ",
+              "KS1278W6LG4JDWNMF9C0",
+              "KSY4WFI1S164RQUBSPCC",
+              "KSE33K2352ACXAQZFTBN",
+              "KSZX7YZWNR5IDR1I2VMZ",
+              "KSPYIR4ZPFKY8CVSQ6RH",
+              "KS7G6D96PMHVV7MGQ3QS",
+              "KSALSL0U9E60WLJXI7B7",
+              "KS1220L6TV4XHT856MBZ",
+              "KS128B06CYP6Q0NKTN2Q",
+              "KS2NA4WWH9Z98XXI5K2Y",
+              "KSVDPU6IT5QV0G1HM427",
+              "KS120076FGP5WGWYMP0F",
+              "KSN97GEUHPNGNAQFDCGY",
+              "KSQ4V3A6FGYT0MLOOUEX",
+              "KSVHILF869D2YAU2WQNT",
+              "KS127F36RRPPTV89QLPH",
+              "KSJF3PBD3995K6E0OF1Z",
+              "KSJLPQMW0YRWJSWO4NFL",
+              "KS124RX787SQ1WVD8XF6",
+              "KSAS8LK1JG2Y0OLN4C53",
+              "KS127F36326KXDQ104H6",
+              "KS122Q26BWQ1PK3Y74C0",
+              "KS120D96FHL88PZDKZKH",
+              "KS440FZ66QFPWRRTYF6J",
+              "KSFFZBDYXH5XA5QE4E7I",
+              "KSR3Q8HFA5SGO1E3I1TX",
+              "KS4424T6KPTTQ1NKM0XK",
+              "KS125LS6N7WP4S6SFTCK",
+              "KS120FQ6DY31LFDWPJR3",
+              "KS9E9SUSTX6U1ESK796U",
+              "KSG1KVVBE18NEM1FSN2N",
+              "KS1208P6ZMZ4N872Y7X5"
+            ]
+          },
+          {
+            "Name": "System Developers and Analysts",
+            "Id": "86",
+            "Percent": 6,
+            "NormalizedSkills": [
+              "KS7LO8P3MXB93R3C9RWL",
+              "KS70UHW4DOHZDVETK1VQ",
+              "KSYKIMAQ70RR9Q8RDXFJ",
+              "KSY4WFI1S164RQUBSPCC",
+              "KSZX7YZWNR5IDR1I2VMZ",
+              "KS7G6D96PMHVV7MGQ3QS",
+              "KSALSL0U9E60WLJXI7B7",
+              "KS1220L6TV4XHT856MBZ",
+              "KS128B06CYP6Q0NKTN2Q",
+              "KS2NA4WWH9Z98XXI5K2Y",
+              "KS120076FGP5WGWYMP0F",
+              "KSN97GEUHPNGNAQFDCGY",
+              "KSVHILF869D2YAU2WQNT",
+              "KS120GV6C72JMSZKMTD7",
+              "KSJF3PBD3995K6E0OF1Z",
+              "KS124RX787SQ1WVD8XF6",
+              "KSAS8LK1JG2Y0OLN4C53",
+              "KS127F36326KXDQ104H6",
+              "KS122Q26BWQ1PK3Y74C0",
+              "KS120D96FHL88PZDKZKH",
+              "KS440FZ66QFPWRRTYF6J",
+              "KSR3Q8HFA5SGO1E3I1TX",
+              "KS4424T6KPTTQ1NKM0XK",
+              "KS125LS6N7WP4S6SFTCK",
+              "KS120FQ6DY31LFDWPJR3",
+              "KS1208P6ZMZ4N872Y7X5",
+              "KS122P15X48TTGZ5KCLY"
+            ]
+          },
+          {
+            "Name": "Web Professionals",
+            "Id": "77",
+            "Percent": 6,
+            "NormalizedSkills": [
+              "KS1232D6PH6SBVWWPQWC",
+              "KS1200771D9CR9LB4MWW",
+              "KS1278W6LG4JDWNMF9C0",
+              "KSY4WFI1S164RQUBSPCC",
+              "KSZX7YZWNR5IDR1I2VMZ",
+              "KSPYIR4ZPFKY8CVSQ6RH",
+              "KS7G6D96PMHVV7MGQ3QS",
+              "KSALSL0U9E60WLJXI7B7",
+              "KS128B06CYP6Q0NKTN2Q",
+              "KS2NA4WWH9Z98XXI5K2Y",
+              "KS120076FGP5WGWYMP0F",
+              "KSN97GEUHPNGNAQFDCGY",
+              "KSQ4V3A6FGYT0MLOOUEX",
+              "KSVHILF869D2YAU2WQNT",
+              "KSJF3PBD3995K6E0OF1Z",
+              "KS124RX787SQ1WVD8XF6",
+              "KS440FZ66QFPWRRTYF6J",
+              "KSFFZBDYXH5XA5QE4E7I",
+              "KS120FQ6DY31LFDWPJR3",
+              "KS9E9SUSTX6U1ESK796U",
+              "KSG1KVVBE18NEM1FSN2N",
+              "KS1208P6ZMZ4N872Y7X5"
+            ]
+          },
+          {
+            "Name": "IT R&D Professionals",
+            "Id": "29",
+            "Percent": 6,
+            "NormalizedSkills": [
+              "KS7LO8P3MXB93R3C9RWL",
+              "KSE33K2352ACXAQZFTBN",
+              "KS70UHW4DOHZDVETK1VQ",
+              "KSAS8LK1JG2Y0OLN4C53",
+              "KS126237283GZN8NX5P6",
+              "KSY0X69QE02MWWQQFZU4",
+              "KS122Q26BWQ1PK3Y74C0",
+              "KS440DC6Q3YGW1RLXH1V",
+              "KSR3Q8HFA5SGO1E3I1TX",
+              "KS120D96FHL88PZDKZKH",
+              "KS440FZ66QFPWRRTYF6J",
+              "KS125LS6N7WP4S6SFTCK",
+              "KS120FQ6DY31LFDWPJR3",
+              "KS120BV6SR75RBKQH0G3",
+              "KSG1KVVBE18NEM1FSN2N",
+              "KSY4WFI1S164RQUBSPCC",
+              "KS120GV6C72JMSZKMTD7"
+            ]
+          },
+          {
+            "Name": "Consultants and Specialists",
+            "Id": "83",
+            "Percent": 6,
+            "NormalizedSkills": [
+              "KSJF3PBD3995K6E0OF1Z",
+              "KSJLPQMW0YRWJSWO4NFL",
+              "KS124RX787SQ1WVD8XF6",
+              "KS7G6D96PMHVV7MGQ3QS",
+              "KSALSL0U9E60WLJXI7B7",
+              "KS127F36326KXDQ104H6",
+              "KS1220L6TV4XHT856MBZ",
+              "KS128B06CYP6Q0NKTN2Q",
+              "KS2NA4WWH9Z98XXI5K2Y",
+              "KSVDPU6IT5QV0G1HM427",
+              "KS4424T6KPTTQ1NKM0XK",
+              "KS125LS6N7WP4S6SFTCK",
+              "KS120FQ6DY31LFDWPJR3",
+              "KSYKIMAQ70RR9Q8RDXFJ",
+              "KSY4WFI1S164RQUBSPCC",
+              "KS127F36RRPPTV89QLPH",
+              "KS125536N3GWSZZC3208"
+            ]
+          },
+          {
+            "Name": "Database Specialists",
+            "Id": "79",
+            "Percent": 6,
+            "NormalizedSkills": [
+              "KS7LO8P3MXB93R3C9RWL",
+              "KS124RX787SQ1WVD8XF6",
+              "KS70UHW4DOHZDVETK1VQ",
+              "KS127F36326KXDQ104H6",
+              "KSAS8LK1JG2Y0OLN4C53",
+              "KS1220L6TV4XHT856MBZ",
+              "KS122Q26BWQ1PK3Y74C0",
+              "KSVDPU6IT5QV0G1HM427",
+              "KS125LS6N7WP4S6SFTCK",
+              "KS120FQ6DY31LFDWPJR3",
+              "KSN97GEUHPNGNAQFDCGY",
+              "KS440FZ66QFPWRRTYF6J",
+              "KS127F36RRPPTV89QLPH",
+              "KS120GV6C72JMSZKMTD7"
+            ]
+          },
+          {
+            "Name": "Information and Communication Technology (other)",
+            "Id": "291",
+            "Percent": 5,
+            "NormalizedSkills": [
+              "KSJF3PBD3995K6E0OF1Z",
+              "KS7G6D96PMHVV7MGQ3QS",
+              "KSALSL0U9E60WLJXI7B7",
+              "KS2NA4WWH9Z98XXI5K2Y",
+              "KS120FQ6DY31LFDWPJR3",
+              "KSY4WFI1S164RQUBSPCC"
+            ]
+          },
+          {
+            "Name": "IT Managers",
+            "Id": "80",
+            "Percent": 2,
+            "NormalizedSkills": [
+              "KSVDPU6IT5QV0G1HM427"
+            ]
+          },
+          {
+            "Name": "Network Specialists",
+            "Id": "78",
+            "Percent": 2,
+            "NormalizedSkills": [
+              "KS7G6D96PMHVV7MGQ3QS"
+            ]
+          },
+          {
+            "Name": "Support Staff",
+            "Id": "84",
+            "Percent": 2,
+            "NormalizedSkills": [
+              "KSYKIMAQ70RR9Q8RDXFJ"
+            ]
+          },
+          {
+            "Name": "System and Application Administrators",
+            "Id": "85",
+            "Percent": 2,
+            "NormalizedSkills": [
+              "KSYKIMAQ70RR9Q8RDXFJ"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Arts, Culture and Media",
+        "Id": "10",
+        "Percent": 12,
+        "Groups": [
+          {
+            "Name": "Journalists and Editors",
+            "Id": "121",
+            "Percent": 3,
+            "NormalizedSkills": [
+              "KSNP0D417KSKUN8RS867",
+              "KS126237283GZN8NX5P6"
+            ]
+          },
+          {
+            "Name": "Translators and Interpreters",
+            "Id": "97",
+            "Percent": 2,
+            "NormalizedSkills": [
+              "KS126237283GZN8NX5P6"
+            ]
+          },
+          {
+            "Name": "Illustrators and Designers (2D)",
+            "Id": "98",
+            "Percent": 2,
+            "NormalizedSkills": [
+              "KSR3Q8HFA5SGO1E3I1TX"
+            ]
+          },
+          {
+            "Name": "Directors and Producers",
+            "Id": "122",
+            "Percent": 2,
+            "NormalizedSkills": [
+              "KSR3Q8HFA5SGO1E3I1TX"
+            ]
+          },
+          {
+            "Name": "Illustrators and Designers (3D)",
+            "Id": "89",
+            "Percent": 2,
+            "NormalizedSkills": [
+              "KSR3Q8HFA5SGO1E3I1TX"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Engineering",
+        "Id": "5",
+        "Percent": 10,
+        "Groups": [
+          {
+            "Name": "Electrical Engineers, Designers, and Technicians",
+            "Id": "260",
+            "Percent": 2,
+            "NormalizedSkills": [
+              "KS440DC6Q3YGW1RLXH1V"
+            ]
+          },
+          {
+            "Name": "Construction Draughtsman and Designers",
+            "Id": "251",
+            "Percent": 2,
+            "NormalizedSkills": [
+              "KS123586FGV3X7F7BJR7"
+            ]
+          },
+          {
+            "Name": "Mechanical Engineering Draughtsmen and Designers",
+            "Id": "40",
+            "Percent": 2,
+            "NormalizedSkills": [
+              "KS123586FGV3X7F7BJR7"
+            ]
+          },
+          {
+            "Name": "Engineering (other)",
+            "Id": "287",
+            "Percent": 2,
+            "NormalizedSkills": [
+              "KSR3Q8HFA5SGO1E3I1TX"
+            ]
+          },
+          {
+            "Name": "Civil Engineering Draughtsmen and Designers",
+            "Id": "259",
+            "Percent": 2,
+            "NormalizedSkills": [
+              "KS123586FGV3X7F7BJR7"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Police, Fire Department and Security",
+        "Id": "17",
+        "Percent": 6,
+        "Groups": [
+          {
+            "Name": "Policemen",
+            "Id": "164",
+            "Percent": 3,
+            "NormalizedSkills": [
+              "KS1203C6N9B52QGB4H67",
+              "KS440016YY6472ZWSQ9D"
+            ]
+          },
+          {
+            "Name": "Safety and Security Personnel",
+            "Id": "167",
+            "Percent": 2,
+            "NormalizedSkills": [
+              "KS440016YY6472ZWSQ9D"
+            ]
+          },
+          {
+            "Name": "Police Investigators",
+            "Id": "163",
+            "Percent": 2,
+            "NormalizedSkills": [
+              "KS440016YY6472ZWSQ9D"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Communication, Marketing and Public Relations",
+        "Id": "23",
+        "Percent": 5,
+        "Groups": [
+          {
+            "Name": "Communication, Marketing and Public Relations Managers",
+            "Id": "208",
+            "Percent": 3,
+            "NormalizedSkills": [
+              "KSNP0D417KSKUN8RS867",
+              "KS120GV6C72JMSZKMTD7"
+            ]
+          },
+          {
+            "Name": "Marketing and Advertising Personnel",
+            "Id": "243",
+            "Percent": 2,
+            "NormalizedSkills": [
+              "KSNP0D417KSKUN8RS867"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Installation, Repair and Maintenance",
+        "Id": "8",
+        "Percent": 4,
+        "Groups": [
+          {
+            "Name": "Electrical Equipment Mechanics",
+            "Id": "67",
+            "Percent": 2,
+            "NormalizedSkills": [
+              "KS440DC6Q3YGW1RLXH1V"
+            ]
+          },
+          {
+            "Name": "Industrial Machinery Mechanics",
+            "Id": "69",
+            "Percent": 2,
+            "NormalizedSkills": [
+              "KS1282Z69X0BW8CXTPXH"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Construction and Mining",
+        "Id": "3",
+        "Percent": 2,
+        "Groups": [
+          {
+            "Name": "Construction Plumbers and Fitters",
+            "Id": "18",
+            "Percent": 2,
+            "NormalizedSkills": [
+              "KS440DC6Q3YGW1RLXH1V"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Healthcare",
+        "Id": "6",
+        "Percent": 2,
+        "Groups": [
+          {
+            "Name": "Care Managers",
+            "Id": "280",
+            "Percent": 1,
+            "NormalizedSkills": [
+              "KSMR7JUMAR3WHRWW5087"
+            ]
+          },
+          {
+            "Name": "Head Nurses and Coordinators",
+            "Id": "49",
+            "Percent": 1,
+            "NormalizedSkills": [
+              "KSMR7JUMAR3WHRWW5087"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Production",
+        "Id": "18",
+        "Percent": 2,
+        "Groups": [
+          {
+            "Name": "Production Personnel",
+            "Id": "182",
+            "Percent": 2,
+            "NormalizedSkills": [
+              "KS1282Z69X0BW8CXTPXH"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Natural and Environmental Sciences",
+        "Id": "13",
+        "Percent": 2,
+        "Groups": [
+          {
+            "Name": "Mathematicians and Statisticians",
+            "Id": "230",
+            "Percent": 2,
+            "NormalizedSkills": [
+              "KSE33K2352ACXAQZFTBN"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Education and Training",
+        "Id": "15",
+        "Percent": 2,
+        "Groups": [
+          {
+            "Name": "Secondary School Teachers",
+            "Id": "145",
+            "Percent": 2,
+            "NormalizedSkills": [
+              "KS126237283GZN8NX5P6"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Management, Policy and Governance",
+        "Id": "2",
+        "Percent": 1,
+        "Groups": [
+          {
+            "Name": "Management Analysts and Consultants",
+            "Id": "225",
+            "Percent": 1,
+            "NormalizedSkills": [
+              "KS120GV6C72JMSZKMTD7"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Certifications": [
+    {
+      "Name": "Oracle Cloud Infrastructure 2025 Certified Data Science Professional, Oracle, Oct 2025 (Expires: Oct 2027)",
+      "MatchedFromList": false,
+      "IsVariation": false,
+      "Id": "1"
+    },
+    {
+      "Name": "Oracle Cloud Infrastructure 2025 Certified AI Foundations Associate, Oracle, Oct 2025 (Expires: Oct 2027)",
+      "MatchedFromList": false,
+      "IsVariation": false,
+      "Id": "2"
+    },
+    {
+      "Name": "* English-Tamazight-Dictionnary-2007: English-Tamazight dictionary dataset hosted on Hugging Face",
+      "MatchedFromList": false,
+      "IsVariation": false,
+      "Id": "3"
+    },
+    {
+      "Name": "Oracle Cloud Infrastructure 2025 Certified Generative AI Professional, Oracle, Oct 2025",
+      "MatchedFromList": false,
+      "IsVariation": false,
+      "Id": "4"
+    },
+    {
+      "Name": "Oracle Cloud Infrastructure 2025 Certified Generative AI Professional, Oracle, Oct 2025",
+      "MatchedFromList": false,
+      "IsVariation": false,
+      "Id": "5"
+    },
+    {
+      "Name": "Oracle Cloud Infrastructure 2025 Certified Data Science Professional, Oracle, Oct 2025",
+      "MatchedFromList": false,
+      "IsVariation": true,
+      "Id": "6"
+    },
+    {
+      "Name": "Oracle AI Vector Search Certified Professional, Oracle, Oct 2025 (Expires: Oct 2027)",
+      "MatchedFromList": false,
+      "IsVariation": false,
+      "Id": "7"
+    },
+    {
+      "Name": "Oracle Cloud Infrastructure 2025 Certified AI Foundations Associate, Oracle, Oct 2025",
+      "MatchedFromList": false,
+      "IsVariation": true,
+      "Id": "8"
+    },
+    {
+      "Name": "* nllb-tamazight-souss: Translation model for Tamazight Souss language",
+      "MatchedFromList": false,
+      "IsVariation": false,
+      "Id": "9"
+    },
+    {
+      "Name": "Oracle AI Vector Search Certified Professional, Oracle",
+      "MatchedFromList": false,
+      "IsVariation": true,
+      "Id": "10"
+    },
+    {
+      "Name": "Open Source Contributions",
+      "MatchedFromList": false,
+      "IsVariation": false,
+      "Id": "11"
+    }
+  ],
+  "LanguageCompetencies": [
+    {
+      "Language": "Arabic",
+      "LanguageCode": "ar",
+      "FoundInContext": "Found in LANGUAGES"
+    },
+    {
+      "Language": "English",
+      "LanguageCode": "en",
+      "FoundInContext": "Found in CERTIFICATIONS; LANGUAGES; WORK HISTORY; POS-1; POS-2"
+    },
+    {
+      "Language": "French",
+      "LanguageCode": "fr",
+      "FoundInContext": "Found in LANGUAGES; WORK HISTORY; POS-1"
+    },
+    {
+      "Language": "ber",
+      "LanguageCode": "ber",
+      "FoundInContext": "Found in CERTIFICATIONS; WORK HISTORY; POS-2"
+    }
+  ],
+  "QualificationsSummary": "Skills\n\n* Programming Languages: Python, SQL, Java\n* Frameworks & Libraries: Pandas, NumPy, Django, FastAPI, React\n* AI/ML Tools: Stable Diffusion, Transformers, Diffusers, Hugging Face, OpenAI CLIP, BentoML\n* Backend Tools: FastAPI, Celery, Docker, Docker Compose, REST APIs, gRPC\n* Data Tools: MySQL, Oracle Database, Git, Jupyter, Google Colab\n* DevOps & Infrastructure: Docker, Kubernetes, MinIO, S3 API, Prometheus, Grafana\n* Automation: n8n\n* Cloud Platforms: Oracle Cloud Infrastructure (OCI)\n* Specializations: Data Processing, Machine Learning, Backend Development, Distributed Systems, Data Science &\nAnalytics, Vector Search, Microservices",
+  "ResumeMetadata": {
+    "FoundSections": [
+      {
+        "FirstLineNumber": 5,
+        "LastLineNumber": 11,
+        "SectionType": "SUMMARY",
+        "HeaderTextFound": "Summary"
+      },
+      {
+        "FirstLineNumber": 12,
+        "LastLineNumber": 23,
+        "SectionType": "EDUCATION",
+        "HeaderTextFound": "Education"
+      },
+      {
+        "FirstLineNumber": 24,
+        "LastLineNumber": 76,
+        "SectionType": "WORK HISTORY",
+        "HeaderTextFound": "Work Experience"
+      },
+      {
+        "FirstLineNumber": 77,
+        "LastLineNumber": 88,
+        "SectionType": "CERTIFICATIONS",
+        "HeaderTextFound": "Certifications"
+      },
+      {
+        "FirstLineNumber": 89,
+        "LastLineNumber": 101,
+        "SectionType": "SKILLS",
+        "HeaderTextFound": "Skills"
+      },
+      {
+        "FirstLineNumber": 102,
+        "LastLineNumber": 106,
+        "SectionType": "LANGUAGES",
+        "HeaderTextFound": "Languages"
+      }
+    ],
+    "ResumeQuality": [
+      {
+        "Level": "Major Issues Found",
+        "Findings": [
+          {
+            "QualityCode": "300",
+            "Message": "You should not use the PDF format for your resume. Due to inherent limitations with text extraction from PDFs, you are less likely to get a job when using a PDF resume."
+          }
+        ]
+      },
+      {
+        "Level": "Data Missing",
+        "Findings": [
+          {
+            "QualityCode": "213",
+            "Message": "A street level address was not found in the contact information. A full contact address should always be included in a resume as it allows for location based searches."
+          },
+          {
+            "QualityCode": "221",
+            "SectionIdentifiers": [
+              {
+                "SectionType": "WORK HISTORY",
+                "Id": "POS-2"
+              },
+              {
+                "SectionType": "WORK HISTORY",
+                "Id": "POS-3"
+              }
+            ],
+            "Message": "Every position in a resume should have a job title."
+          }
+        ]
+      },
+      {
+        "Level": "Suggested Improvements",
+        "Findings": [
+          {
+            "QualityCode": "112",
+            "Message": "The following section was identified as a skills section type: 'Skills'. Skills should not be in a separate section, but instead, each skill should be included in the descriptions of work history or education. THIS IS INCREDIBLY IMPORTANT FOR AI MATCHING ALGORITHMS"
+          }
+        ]
+      }
+    ],
+    "PlainText": "   ~~~~~~~~~~~~~~  \n\n   ~~~~~~~~~   | Agadir, Souss-Massa, Morocco |\t   ~~~~~~~~~~~~~~~~~~~~~~~~     |  github.com/   ~~~~~~~~~~~~~~  \t|\n   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~    |    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  \n\nSummary\n\nData Science graduate student with hands-on experience building production AI systems. Developed and deployed AI image\ngeneration service using FastAPI, Celery, and Stable Diffusion models in Docker containers. Proficient in Python, backend\nAPI development, and working with generative AI models (Transformers, Diffusers). Strong foundation in algorithms and\ndata structures with experience in async task processing, monitoring systems, and database-driven applications.\n\nEducation\n\nUniversité Ibn Zohr\tAgadir, Morocco\nMaster of Science (MS), Data Science\tSep 2023  --  Jul 2025\n* Cumulative GPA: 15.38/20\n* Key Skills: Research Skills, Data Analysis\n\nUniversité Ibn Zohr\tAgadir, Morocco\nBachelor of Science (BS), Computer Science\tSep 2020  --  Jun 2023\n* Cumulative GPA: 15.34/20\n* Key Skills: Algorithms, Python, Java, Data Structures, Object-Oriented Programming\n\nWork Experience\n\nAI Backend Engineer Intern\tFeb 2025  --  Jul 2025\nRichdale AI\tAgadir, Souss-Massa, Morocco\n* Built FastAPI-based AI image generation service with Celery for asynchronous task processing and distributed job queue\nmanagement\n* Integrated Stable Diffusion models with Transformers and Diffusers libraries for text-to-image and image-to-image\ngeneration workflows\n* Deployed production system using Docker containers with load balancing and request routing infrastructure\n* Implemented monitoring and observability stack to track system performance and resource utilization\n* Contributed to     ~~~~~   - an AI platform for transforming text and sketches into artwork using generative models\n* Technologies: Python, FastAPI, Celery, Stable Diffusion, Transformers, Diffusers, Docker, Prometheus, Grafana, Cloud\nStorage\n\nProjects\n\nProduct AI Image Similarity Platform\t(   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  ) Oct\n2025 --  Nov 2025\n* Production-grade microservices-based visual search engine powered by OpenAI CLIP and vector similarity search\n* Built with 5 containerized services (React frontend, FastAPI backend, BentoML ML service, MinIO object storage, Oracle\ndatabase)\n* Implemented semantic image embeddings using CLIP model for zero-shot visual understanding and vector similarity\nsearch with cosine similarity\n* Deployed on Kubernetes with horizontal scaling capabilities\n* Technologies: React, FastAPI, Python, BentoML, OpenAI CLIP, Oracle Database, MinIO, Docker, Docker Compose,\nKubernetes, gRPC, S3 API\n\nReal-Time Face Recognition and Surveillance System\t(   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  )\t\t\tApr 2024  --   Jun 2024\n* Real-time surveillance system using VGG-Face for facial recognition\n* Integrated with Apache Spark and Kafka for efficient data processing\n* Technologies: Python, Spark, Kafka, VGG-Face\n\nSequence-to-Sequence LSTM vs Transformer\t(   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  -\nTransformer)\tMar 2024  --  Apr 2024\n\n\n* Comparison of LSTM and Transformer models for English-French machine translation\n* Technologies: Python, LSTM, Transformer\n\nTravel Reservation Platform with Django\t(   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  -\nDjango)\tDec 2023  --  Feb 2024\n* Academic project implementing a travel booking system with search, reservation, and user management features\n* Technologies: Django, Python, JavaScript\n\nTamazight NLP Dataset Project\t(   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  )   Aug 2025   --  Sep 2025\n* Cleaned and extracted Tamazight-English dictionary data for NLP research use\n* Technologies: Python, Data Cleaning, NLP\n\nOnline Quiz Platform with Laravel\t(   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  )Feb 2023  --\nJun 2023\n* End-of-studies bachelor project implementing a quiz management system with MySQL database integration\n* Technologies: Laravel, PHP, MySQL, HTML, CSS\n\nCertifications\n\n* Oracle Cloud Infrastructure 2025 Certified Generative AI Professional, Oracle, Oct 2025\n* Oracle AI Vector Search Certified Professional, Oracle, Oct 2025 (Expires: Oct 2027)\n* Oracle Cloud Infrastructure 2025 Certified Data Science Professional, Oracle, Oct 2025 (Expires: Oct 2027)\n* Oracle Cloud Infrastructure 2025 Certified AI Foundations Associate, Oracle, Oct 2025 (Expires: Oct 2027)\n\nOpen Source Contributions\n\n* nllb-tamazight-souss: Translation model for Tamazight Souss language\n* English-Tamazight-Dictionnary-2007: English-Tamazight dictionary dataset hosted on Hugging Face\n\nSkills\n\n* Programming Languages: Python, SQL, Java\n* Frameworks & Libraries: Pandas, NumPy, Django, FastAPI, React\n* AI/ML Tools: Stable Diffusion, Transformers, Diffusers, Hugging Face, OpenAI CLIP, BentoML\n* Backend Tools: FastAPI, Celery, Docker, Docker Compose, REST APIs, gRPC\n* Data Tools: MySQL, Oracle Database, Git, Jupyter, Google Colab\n* DevOps & Infrastructure: Docker, Kubernetes, MinIO, S3 API, Prometheus, Grafana\n* Automation: n8n\n* Cloud Platforms: Oracle Cloud Infrastructure (OCI)\n* Specializations: Data Processing, Machine Learning, Backend Development, Distributed Systems, Data Science &\nAnalytics, Vector Search, Microservices\n\nLanguages\n\n* Arabic: Native or bilingual\n* English: Full professional proficiency\n* French: Professional working proficiency",
+    "DocumentLanguage": "en",
+    "DocumentCulture": "en-US",
+    "ParserSettings": "Coverage.MilitaryHistoryAndSecurityCredentials = True; Coverage.PatentsPublicationsAndSpeakingEvents = True; Coverage.PersonalAttributes = True; Coverage.Training = True; Culture.CountryCodeForUnitedKingdomIsUK = True; Culture.DefaultCountryCode = US; Culture.Language = English; Culture.PreferEnglishVersionIfTwoLanguagesInDocument = False; Data.NormalizeSkills = True; Data.UserDefinedParsing = False; Data.UseV2SkillsTaxonomy = True; OutputFormat.AssumeCompanyNameFromPrecedingJob = False; OutputFormat.ContactMethod.PackStyle = Split; OutputFormat.DateOutputStyle = ExplicitlyKnownDateInfoOnly; OutputFormat.NestJobsBasedOnDateRanges = True; OutputFormat.NormalizeRegions = False; OutputFormat.SimpleCustomLinkedIn = False; OutputFormat.SkillsStyle = Default; OutputFormat.StripParsedDataFromPositionHistoryDescription = True; OutputFormat.TelcomNumber.Style = Raw; OutputFormat.XmlFormat = HrXmlResume25",
+    "DocumentLastModified": "2026-01-17"
+  }
+}

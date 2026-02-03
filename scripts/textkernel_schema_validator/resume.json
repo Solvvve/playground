@@ -1,0 +1,1444 @@
+{
+    "Info": {
+        "Code": "Success",
+        "Message": "Successful transaction",
+        "TransactionId": "94ea923f-1d0b-4ac8-9294-5cf407b6e051",
+        "EngineVersion": "9.22.24.0",
+        "ApiVersion": "10.13.0.0",
+        "TotalElapsedMilliseconds": 3413,
+        "TransactionCost": 1.05,
+        "CustomerDetails": {
+            "AccountId": "32151230",
+            "Name": "Solvve",
+            "IPAddress": "136.117.103.229",
+            "Region": "eu-west-1",
+            "CreditsRemaining": 251.0,
+            "CreditsUsed": 247,
+            "ExpirationDate": "2026-04-19",
+            "MaximumConcurrentRequests": 2
+        }
+    },
+    "Value": {
+        "ParsingResponse": {
+            "Code": "Success",
+            "Message": "Successful transaction"
+        },
+        "ResumeData": {
+            "ContactInformation": {
+                "CandidateName": {
+                    "FormattedName": "Gieseler",
+                    "FamilyName": "Gieseler"
+                },
+                "Telephones": [
+                    {
+                        "Raw": "+4917648566176",
+                        "Normalized": "+49 17648566176",
+                        "InternationalCountryCode": "49",
+                        "SubscriberNumber": "17648566176"
+                    }
+                ],
+                "EmailAddresses": [
+                    "leagieseler@gmx.de"
+                ],
+                "Location": {
+                    "CountryCode": "DE",
+                    "PostalCode": "22047",
+                    "Regions": [
+                        "DE-HH"
+                    ],
+                    "Municipality": "Hamburg",
+                    "StreetAddressLines": [
+                        "Friedrich-Ebert-Damm 81"
+                    ]
+                }
+            },
+            "Objective": "Profil\n\nIn meiner Position als Application Managerin in der Immobilienbranche\nkommt mir meine 10-jährige Erfahrung als Immobilienkauffrau bei der\nUmsetzung von Projekten zugute. Erfahrungen im Projektmanagement\nund Inhouse Consulting habe ich bei der Einführung von Softwarelösungen\nfür den Aufbau einer innerbetrieblichen Projektmanagementstruktur,\neines DMS in Form von Archiv Kompakt, Umstellung des Rechnungswesens\nauf elektronischen Zahlungsverkehr mit S-Firm oder der Migration\nvon Wirtschaftseinheiten in den Bestand gesammelt.",
+            "Education": {
+                "HighestDegree": {
+                    "Name": {
+                        "Raw": "Bachelor of Science",
+                        "Normalized": "BSc"
+                    },
+                    "Type": "bachelors",
+                    "NormalizedLocal": {
+                        "Code": "DE_7",
+                        "Description": "Bachelor"
+                    },
+                    "NormalizedInternational": {
+                        "Code": "3",
+                        "Description": "Bachelor"
+                    }
+                },
+                "EducationDetails": [
+                    {
+                        "Id": "DEG-1",
+                        "Text": "",
+                        "SchoolName": {
+                            "Raw": "Universität Hamburg - Hamburg",
+                            "Normalized": "Universität Hamburg Hamburg"
+                        },
+                        "SchoolType": "university",
+                        "Location": {
+                            "CountryCode": "DE",
+                            "Municipality": "Hamburg"
+                        },
+                        "Degree": {
+                            "Name": {
+                                "Raw": "Bachelor of Science",
+                                "Normalized": "BSc"
+                            },
+                            "Type": "bachelors",
+                            "NormalizedLocal": {
+                                "Code": "DE_7",
+                                "Description": "Bachelor"
+                            },
+                            "NormalizedInternational": {
+                                "Code": "3",
+                                "Description": "Bachelor"
+                            }
+                        },
+                        "Majors": [
+                            "Wirtschaftsinformatik"
+                        ],
+                        "LastEducationDate": {
+                            "Date": "2023-06-30",
+                            "IsCurrentDate": false,
+                            "FoundYear": true,
+                            "FoundMonth": true,
+                            "FoundDay": true
+                        },
+                        "EndDate": {
+                            "Date": "2023-06-30",
+                            "IsCurrentDate": false,
+                            "FoundYear": true,
+                            "FoundMonth": true,
+                            "FoundDay": true
+                        },
+                        "Graduated": {
+                            "Value": true
+                        }
+                    },
+                    {
+                        "Id": "DEG-2",
+                        "Text": "",
+                        "SchoolName": {
+                            "Raw": "Staatliche Handelsschule mit Wirtschaftsgymnasium Schlankreye",
+                            "Normalized": "Massachusetts Institute of Technology"
+                        },
+                        "SchoolType": "highschool",
+                        "Location": {
+                            "CountryCode": "DE",
+                            "Municipality": "Hamburg"
+                        },
+                        "Degree": {
+                            "Name": {
+                                "Raw": "Abgeschlossene Ausbildung zur Immobilienkauffrau; Immobilienwirtschaft",
+                                "Normalized": "Abgeschlossene Ausbildung zur Immobilienkauffrau Immobilienwirtschaft"
+                            },
+                            "NormalizedLocal": {
+                                "Code": "DE_5",
+                                "Description": "Fachschule / Berufsausbildung"
+                            },
+                            "NormalizedInternational": {
+                                "Code": "2",
+                                "Description": "Vocational Education"
+                            }
+                        },
+                        "LastEducationDate": {
+                            "Date": "2014-06-30",
+                            "IsCurrentDate": false,
+                            "FoundYear": true,
+                            "FoundMonth": true,
+                            "FoundDay": true
+                        },
+                        "EndDate": {
+                            "Date": "2014-06-30",
+                            "IsCurrentDate": false,
+                            "FoundYear": true,
+                            "FoundMonth": true,
+                            "FoundDay": true
+                        },
+                        "Graduated": {
+                            "Value": true
+                        }
+                    },
+                    {
+                        "Id": "DEG-3",
+                        "Text": "",
+                        "SchoolType": "UNSPECIFIED",
+                        "Degree": {
+                            "Name": {
+                                "Raw": "Abitur",
+                                "Normalized": "Abitur"
+                            },
+                            "NormalizedLocal": {
+                                "Code": "DE_4",
+                                "Description": "Gymnasium"
+                            },
+                            "NormalizedInternational": {
+                                "Code": "1",
+                                "Description": "Secondary Education"
+                            }
+                        },
+                        "LastEducationDate": {
+                            "Date": "2010-06-30",
+                            "IsCurrentDate": false,
+                            "FoundYear": true,
+                            "FoundMonth": true,
+                            "FoundDay": true
+                        },
+                        "EndDate": {
+                            "Date": "2010-06-30",
+                            "IsCurrentDate": false,
+                            "FoundYear": true,
+                            "FoundMonth": true,
+                            "FoundDay": true
+                        },
+                        "Graduated": {
+                            "Value": true
+                        }
+                    },
+                    {
+                        "Id": "DEG-4",
+                        "Text": "",
+                        "SchoolName": {
+                            "Raw": "Gesamtschule Benzenbergweg",
+                            "Normalized": "Gesamtschule Benzenbergweg"
+                        },
+                        "SchoolType": "highschool",
+                        "Location": {
+                            "CountryCode": "DE",
+                            "Municipality": "Hamburg"
+                        },
+                        "Degree": {
+                            "Name": {
+                                "Raw": "Abitur",
+                                "Normalized": "Abitur"
+                            },
+                            "NormalizedLocal": {
+                                "Code": "DE_4",
+                                "Description": "Gymnasium"
+                            },
+                            "NormalizedInternational": {
+                                "Code": "1",
+                                "Description": "Secondary Education"
+                            }
+                        },
+                        "Graduated": {
+                            "Value": true
+                        }
+                    }
+                ]
+            },
+            "EmploymentHistory": {
+                "ExperienceSummary": {
+                    "Description": "Die Erfahrung von Gieseler scheint einstieg Niveau, mit nur 22 Monate Berufserfahrung.",
+                    "MonthsOfWorkExperience": 22,
+                    "MonthsOfManagementExperience": 13,
+                    "ExecutiveType": "GENERAL",
+                    "AverageMonthsPerEmployer": 11,
+                    "FulltimeDirectHirePredictiveIndex": -1,
+                    "ManagementStory": "Current position is a mid-level management role: Application Manager\nStarting on 1/1/2025, the candidate held the following mid-level management position for 12 months:\n\tTitle: Application Manager for FRANK Immobilien und Lebensformate GmbH",
+                    "CurrentManagementLevel": "mid-level",
+                    "ManagementScore": 55
+                },
+                "Positions": [
+                    {
+                        "Id": "POS-1",
+                        "Employer": {
+                            "Name": {
+                                "Probability": "Confident",
+                                "Raw": "FRANK Immobilien und Lebensformate GmbH",
+                                "Normalized": "FRANK Immobilien und Lebensformate"
+                            }
+                        },
+                        "IsSelfEmployed": false,
+                        "IsCurrent": true,
+                        "JobTitle": {
+                            "Raw": "Application Manager",
+                            "Normalized": "Application Manager",
+                            "Probability": "Confident"
+                        },
+                        "StartDate": {
+                            "Date": "2025-01-01",
+                            "IsCurrentDate": false,
+                            "FoundYear": true,
+                            "FoundMonth": false,
+                            "FoundDay": false
+                        },
+                        "EndDate": {
+                            "Date": "2026-01-19",
+                            "IsCurrentDate": true,
+                            "FoundYear": true,
+                            "FoundMonth": true,
+                            "FoundDay": false
+                        },
+                        "JobType": "UNSPECIFIED",
+                        "JobLevel": "Manager",
+                        "TaxonomyPercentage": 0
+                    },
+                    {
+                        "Id": "POS-2",
+                        "Employer": {
+                            "Name": {
+                                "Probability": "Confident",
+                                "Raw": "Takko Holding GmbH",
+                                "Normalized": "Takko Holding"
+                            }
+                        },
+                        "IsSelfEmployed": false,
+                        "IsCurrent": false,
+                        "JobTitle": {
+                            "Raw": "Aushilfe Verkauf",
+                            "Normalized": "Aushilfe Verkauf",
+                            "Probability": "Confident"
+                        },
+                        "StartDate": {
+                            "Date": "2010-06-01",
+                            "IsCurrentDate": false,
+                            "FoundYear": true,
+                            "FoundMonth": true,
+                            "FoundDay": false
+                        },
+                        "EndDate": {
+                            "Date": "2011-02-28",
+                            "IsCurrentDate": false,
+                            "FoundYear": true,
+                            "FoundMonth": true,
+                            "FoundDay": true
+                        },
+                        "JobType": "UNSPECIFIED",
+                        "JobLevel": "Entry Level",
+                        "TaxonomyPercentage": 0
+                    }
+                ]
+            },
+            "Skills": {
+                "Raw": [
+                    {
+                        "Name": "analytisches",
+                        "FoundIn": [
+                            {
+                                "SectionType": "ENTIRE_DOCUMENT"
+                            }
+                        ],
+                        "MonthsExperience": {
+                            "Value": 1
+                        }
+                    },
+                    {
+                        "Name": "Anpassungsfähigkeit",
+                        "FoundIn": [
+                            {
+                                "SectionType": "ENTIRE_DOCUMENT"
+                            }
+                        ],
+                        "MonthsExperience": {
+                            "Value": 1
+                        }
+                    },
+                    {
+                        "Name": "Archiv",
+                        "FoundIn": [
+                            {
+                                "SectionType": "ENTIRE_DOCUMENT"
+                            }
+                        ],
+                        "MonthsExperience": {
+                            "Value": 1
+                        }
+                    },
+                    {
+                        "Name": "Biologie",
+                        "FoundIn": [
+                            {
+                                "SectionType": "ENTIRE_DOCUMENT"
+                            }
+                        ],
+                        "MonthsExperience": {
+                            "Value": 1
+                        }
+                    },
+                    {
+                        "Name": "Confluence",
+                        "FoundIn": [
+                            {
+                                "SectionType": "ENTIRE_DOCUMENT"
+                            }
+                        ],
+                        "MonthsExperience": {
+                            "Value": 1
+                        }
+                    },
+                    {
+                        "Name": "Empathie",
+                        "FoundIn": [
+                            {
+                                "SectionType": "ENTIRE_DOCUMENT"
+                            }
+                        ],
+                        "MonthsExperience": {
+                            "Value": 1
+                        }
+                    },
+                    {
+                        "Name": "Ergebnisorientierung",
+                        "FoundIn": [
+                            {
+                                "SectionType": "ENTIRE_DOCUMENT"
+                            }
+                        ],
+                        "MonthsExperience": {
+                            "Value": 1
+                        }
+                    },
+                    {
+                        "Name": "gutes Zeitmanagement",
+                        "FoundIn": [
+                            {
+                                "SectionType": "ENTIRE_DOCUMENT"
+                            }
+                        ],
+                        "MonthsExperience": {
+                            "Value": 1
+                        }
+                    },
+                    {
+                        "Name": "Handelsschule",
+                        "FoundIn": [
+                            {
+                                "SectionType": "EDUCATION",
+                                "Id": "DEG-2"
+                            }
+                        ],
+                        "MonthsExperience": {
+                            "Value": 1
+                        }
+                    },
+                    {
+                        "Name": "Immobilien",
+                        "FoundIn": [
+                            {
+                                "SectionType": "WORK HISTORY",
+                                "Id": "POS-1"
+                            }
+                        ],
+                        "MonthsExperience": {
+                            "Value": 13
+                        },
+                        "LastUsed": {
+                            "Value": "2026-01-19"
+                        }
+                    },
+                    {
+                        "Name": "Immobilienbranche",
+                        "FoundIn": [
+                            {
+                                "SectionType": "ENTIRE_DOCUMENT"
+                            }
+                        ],
+                        "MonthsExperience": {
+                            "Value": 1
+                        }
+                    },
+                    {
+                        "Name": "Immobilienwirtschaft",
+                        "FoundIn": [
+                            {
+                                "SectionType": "EDUCATION",
+                                "Id": "DEG-2"
+                            }
+                        ],
+                        "MonthsExperience": {
+                            "Value": 1
+                        }
+                    },
+                    {
+                        "Name": "Inhouse Consulting",
+                        "FoundIn": [
+                            {
+                                "SectionType": "ENTIRE_DOCUMENT"
+                            }
+                        ],
+                        "MonthsExperience": {
+                            "Value": 1
+                        }
+                    },
+                    {
+                        "Name": "IT-Kenntnisse",
+                        "FoundIn": [
+                            {
+                                "SectionType": "ENTIRE_DOCUMENT"
+                            }
+                        ],
+                        "MonthsExperience": {
+                            "Value": 1
+                        }
+                    },
+                    {
+                        "Name": "Jira",
+                        "FoundIn": [
+                            {
+                                "SectionType": "ENTIRE_DOCUMENT"
+                            }
+                        ],
+                        "MonthsExperience": {
+                            "Value": 1
+                        }
+                    },
+                    {
+                        "Name": "Kommunikationsfähigkeit",
+                        "FoundIn": [
+                            {
+                                "SectionType": "ENTIRE_DOCUMENT"
+                            }
+                        ],
+                        "MonthsExperience": {
+                            "Value": 1
+                        }
+                    },
+                    {
+                        "Name": "MS-Excel",
+                        "FoundIn": [
+                            {
+                                "SectionType": "ENTIRE_DOCUMENT"
+                            }
+                        ],
+                        "MonthsExperience": {
+                            "Value": 1
+                        }
+                    },
+                    {
+                        "Name": "MS-Outlook",
+                        "FoundIn": [
+                            {
+                                "SectionType": "ENTIRE_DOCUMENT"
+                            }
+                        ],
+                        "MonthsExperience": {
+                            "Value": 1
+                        }
+                    },
+                    {
+                        "Name": "MS-PowerPoint",
+                        "FoundIn": [
+                            {
+                                "SectionType": "ENTIRE_DOCUMENT"
+                            }
+                        ],
+                        "MonthsExperience": {
+                            "Value": 1
+                        }
+                    },
+                    {
+                        "Name": "MS-Word",
+                        "FoundIn": [
+                            {
+                                "SectionType": "ENTIRE_DOCUMENT"
+                            }
+                        ],
+                        "MonthsExperience": {
+                            "Value": 1
+                        }
+                    },
+                    {
+                        "Name": "Notion",
+                        "FoundIn": [
+                            {
+                                "SectionType": "ENTIRE_DOCUMENT"
+                            }
+                        ],
+                        "MonthsExperience": {
+                            "Value": 1
+                        }
+                    },
+                    {
+                        "Name": "Projektmanagement",
+                        "FoundIn": [
+                            {
+                                "SectionType": "ENTIRE_DOCUMENT"
+                            }
+                        ],
+                        "MonthsExperience": {
+                            "Value": 1
+                        }
+                    },
+                    {
+                        "Name": "Qualitätsbewusstsein",
+                        "FoundIn": [
+                            {
+                                "SectionType": "ENTIRE_DOCUMENT"
+                            }
+                        ],
+                        "MonthsExperience": {
+                            "Value": 1
+                        }
+                    },
+                    {
+                        "Name": "Rechnungswesen",
+                        "FoundIn": [
+                            {
+                                "SectionType": "EDUCATION",
+                                "Id": "DEG-2"
+                            }
+                        ],
+                        "MonthsExperience": {
+                            "Value": 1
+                        }
+                    },
+                    {
+                        "Name": "Rechnungswesens",
+                        "FoundIn": [
+                            {
+                                "SectionType": "ENTIRE_DOCUMENT"
+                            }
+                        ],
+                        "MonthsExperience": {
+                            "Value": 1
+                        }
+                    },
+                    {
+                        "Name": "Redmine",
+                        "FoundIn": [
+                            {
+                                "SectionType": "ENTIRE_DOCUMENT"
+                            }
+                        ],
+                        "MonthsExperience": {
+                            "Value": 1
+                        }
+                    },
+                    {
+                        "Name": "Softwarelösungen",
+                        "FoundIn": [
+                            {
+                                "SectionType": "ENTIRE_DOCUMENT"
+                            }
+                        ],
+                        "MonthsExperience": {
+                            "Value": 1
+                        }
+                    },
+                    {
+                        "Name": "SQL",
+                        "FoundIn": [
+                            {
+                                "SectionType": "ENTIRE_DOCUMENT"
+                            }
+                        ],
+                        "MonthsExperience": {
+                            "Value": 1
+                        }
+                    },
+                    {
+                        "Name": "Umsetzung von Projekten",
+                        "FoundIn": [
+                            {
+                                "SectionType": "ENTIRE_DOCUMENT"
+                            }
+                        ],
+                        "MonthsExperience": {
+                            "Value": 1
+                        }
+                    },
+                    {
+                        "Name": "VBA",
+                        "FoundIn": [
+                            {
+                                "SectionType": "ENTIRE_DOCUMENT"
+                            }
+                        ],
+                        "MonthsExperience": {
+                            "Value": 1
+                        }
+                    },
+                    {
+                        "Name": "Verkauf",
+                        "FoundIn": [
+                            {
+                                "SectionType": "WORK HISTORY",
+                                "Id": "POS-2"
+                            }
+                        ],
+                        "MonthsExperience": {
+                            "Value": 9
+                        },
+                        "LastUsed": {
+                            "Value": "2011-02-28"
+                        }
+                    },
+                    {
+                        "Name": "Werkzeugen",
+                        "FoundIn": [
+                            {
+                                "SectionType": "EDUCATION",
+                                "Id": "DEG-1"
+                            }
+                        ],
+                        "MonthsExperience": {
+                            "Value": 1
+                        }
+                    },
+                    {
+                        "Name": "Wirtschaftsinformatik",
+                        "FoundIn": [
+                            {
+                                "SectionType": "EDUCATION",
+                                "Id": "DEG-1"
+                            }
+                        ],
+                        "MonthsExperience": {
+                            "Value": 1
+                        }
+                    },
+                    {
+                        "Name": "Zahlungsverkehr",
+                        "FoundIn": [
+                            {
+                                "SectionType": "ENTIRE_DOCUMENT"
+                            }
+                        ],
+                        "MonthsExperience": {
+                            "Value": 1
+                        }
+                    }
+                ]
+            },
+            "LanguageCompetencies": [
+                {
+                    "Language": "German",
+                    "LanguageCode": "de",
+                    "FoundInContext": ""
+                },
+                {
+                    "Language": "English",
+                    "LanguageCode": "en",
+                    "FoundInContext": ""
+                }
+            ],
+            "ResumeMetadata": {
+                "FoundSections": [],
+                "ReservedData": {
+                    "Phones": [
+                        "+4917648566176"
+                    ],
+                    "Names": [
+                        "Gieseler"
+                    ],
+                    "EmailAddresses": [
+                        "leagieseler@gmx.de"
+                    ],
+                    "OtherData": [
+                        "Friedrich-Ebert-Damm 81"
+                    ]
+                },
+                "PlainText": "Lea\n\nGieseler\n\nApplication Manager/in\n\n  Kontakt\n\nE-Mail\n\nleagieseler@gmx.de\n\nTelefon\n\n+49 17648566176\n\nAdresse\n\nFriedrich-Ebert-Damm 81\n22047 Hamburg, Deutschland\n\n\n\nFührerscheine\n\nB, A\n\n\n  Fähigkeiten\n\n    analytisches & strategisches\n    Denkvermögen\n\n    Flexibilität & Anpassungsfähigkeit\n\n    Organisationsfähigkeit\n    & gutes\n    Zeitmanagement\n    Kommunikationsfähigkeit\n    & Empathie\n    hohes Qualitätsbewusstsein\n    & Ergebnisorientierung\n\n\n    Sprachen\n\nDeutsch       - Muttersprache\n\nEnglisch     - Grundkenntnisse\n\n  Profil\n\nIn meiner Position als Application Managerin in der Immobilienbranche\nkommt mir meine 10-jährige Erfahrung als Immobilienkauffrau bei der\nUmsetzung von Projekten zugute. Erfahrungen im Projektmanagement\nund Inhouse Consulting habe ich bei der Einführung von Softwarelösungen\nfür den Aufbau einer innerbetrieblichen Projektmanagementstruktur,\neines DMS in Form von Archiv Kompakt, Umstellung des Rechnungswesens\nauf elektronischen Zahlungsverkehr mit S-Firm oder der Migration\nvon Wirtschaftseinheiten in den Bestand gesammelt.\n\n\n\n  Berufserfahrung\n\nApplication Manager/in                                                      01/2025 - Heute\n\nFRANK Immobilien und Lebensformate GmbH - Hamburg\n\n\n\n- Ownerin ERP-Systeme\n- Interdisziplinäres Projektmanagement\n- Weiterentwicklung Wodis Sigma\n\n\nWirtschaftsinformatiker/in                                              02/2023 - 12/2024\n\nProf. Dr. h. c. Hannelore Greve - Hamburg\n\n- Application Management u. a. Wodis Sigma\n- Projektmanagement\n- Prozessdigitalisierung und -optimierung\n- Migration von Wirtschaftseinheiten\n- Modellierung und Dokumentation von Geschäftsprozessen\n\n\nImmobilienkauffrau                                                      01/2014 - 02/2023\n\nProf. Dr. Dr. h.c. Helmut und Prof. Dr. h.c. Hannelore\n\nGreve - Hamburg\n\n- vorbereitende Finanzbuchhaltung für Bilanzierer und Einnahmen\n\n- Überschuss-Rechnung\n- Erstellung von Umsatzsteuervoranmeldungen\n\n- Kautionsbuchhaltung mit Schwerpunkt Gewerbemietverhältnisse\n- Mietenbuchhaltung\n\n\nImmobilienkauffrau                                                      01/2014 - 09/2015\n\nEVG Entwicklungs- und Verwaltungsgesellschaft\n\nfür Geschäfts- und Freizeitzentren mbH - Hamburg\n\n- Erstellung von Betriebs- und Heizkostenabrechnungen\n\nAusbildung Immobilienkauffrau                                           02/2011 - 01/2014\n\nProf. Dr. Dr. h.c. Helmut und Prof. Dr. h.c. Hannelore\n\nGreve - Hamburg\n\n\nAushilfe Verkauf                                                        06/2010 - 02/2011\n\nTakko Holding GmbH - Hamburg\n\n\n\n  Ausbildung\n\nBachelor of Science Wirtschaftsinformatik                                                     2023\n\nUniversität Hamburg - Hamburg\n\nWirtschaftsinformatik\n\n- Thema Abschlussarbeit: Abschlussarbeitenerstellung als agiles Projekt\n- Unterstützung mittels informatischer Konzepte, Techniken, Methoden\nund Werkzeugen\n- Notendurchschnitt: 2,75\n- Abschlussnote: 3\n\n\nAbgeschlossene Ausbildung zur Immobilienkauffrau                                              2014\n\nStaatliche Handelsschule mit Wirtschaftsgymnasium Schlankreye -\n\nHamburg\n\nImmobilienwirtschaft\n\n- Ausbildungsschwerpunkt: Rechnungswesen\n- Notendurchschnitt: 1,8\n- Abschlussnote: 2\n\n\nAbitur                                                                                        2010\n\nGesamtschule Benzenbergweg - Hamburg\n\nAbitur\n\n- Leistungskurse: Wirtschaft, Biologie\n- Durchschnittsnote: 2,8\n\n\n\n\n  IT-Kenntnisse:\n\n- Sehr gute Kenntnisse: Wodis Sigma, Archiv Kompakt, FIO Account, Redmine\n\n- Gute Kenntnisse: MS-Word, MS-Excel , MS-Outlook, Notion, Wodis\nAuskunft\n- Grundkenntnisse: VBA, SQL, MS-PowerPoint , Jira, Confluence",
+                "DocumentLanguage": "de",
+                "DocumentCulture": "de-DE",
+                "ParserSettings": "Coverage.PersonalAttributes = True; Coverage.Training = True; Culture.CountryCodeForUnitedKingdomIsUK = True; Culture.DefaultCountryCode = DE; Culture.DefaultCultureIsBelgium = True; Culture.DefaultCultureIsGermany = True; Culture.Language = German; Culture.PreferEnglishVersionIfTwoLanguagesInDocument = False; Data.UserDefinedParsing = False; Data.UseV2SkillsTaxonomy = True; OutputFormat.AssumeCompanyNameFromPrecedingJob = False; OutputFormat.ContactMethod.PackStyle = Split; OutputFormat.DateOutputStyle = ExplicitlyKnownDateInfoOnly; OutputFormat.NestJobsBasedOnDateRanges = True; OutputFormat.NormalizeRegions = False; OutputFormat.SimpleCustomLinkedIn = True; OutputFormat.SkillsStyle = Default; OutputFormat.StripParsedDataFromPositionHistoryDescription = True; OutputFormat.TelcomNumber.Style = Raw; OutputFormat.XmlFormat = HrXmlResume25",
+                "DocumentLastModified": "2026-01-19"
+            }
+        },
+        "RedactedResumeData": {
+            "ContactInformation": {
+                "Location": {
+                    "CountryCode": "DE",
+                    "PostalCode": "22047",
+                    "Regions": [
+                        "DE-HH"
+                    ],
+                    "Municipality": "Hamburg"
+                }
+            },
+            "Objective": "Profil\n\nIn meiner Position als Application Managerin in der Immobilienbranche\nkommt mir meine 10-jährige Erfahrung als Immobilienkauffrau bei der\nUmsetzung von Projekten zugute. Erfahrungen im Projektmanagement\nund Inhouse Consulting habe ich bei der Einführung von Softwarelösungen\nfür den Aufbau einer innerbetrieblichen Projektmanagementstruktur,\neines DMS in Form von Archiv Kompakt, Umstellung des Rechnungswesens\nauf elektronischen Zahlungsverkehr mit S-Firm oder der Migration\nvon Wirtschaftseinheiten in den Bestand gesammelt.",
+            "Education": {
+                "HighestDegree": {
+                    "Name": {
+                        "Raw": "Bachelor of Science",
+                        "Normalized": "BSc"
+                    },
+                    "Type": "bachelors",
+                    "NormalizedLocal": {
+                        "Code": "DE_7",
+                        "Description": "Bachelor"
+                    },
+                    "NormalizedInternational": {
+                        "Code": "3",
+                        "Description": "Bachelor"
+                    }
+                },
+                "EducationDetails": [
+                    {
+                        "Id": "DEG-1",
+                        "Text": "",
+                        "SchoolName": {
+                            "Raw": "Universität Hamburg - Hamburg",
+                            "Normalized": "Universität Hamburg Hamburg"
+                        },
+                        "SchoolType": "university",
+                        "Location": {
+                            "CountryCode": "DE",
+                            "Municipality": "Hamburg"
+                        },
+                        "Degree": {
+                            "Name": {
+                                "Raw": "Bachelor of Science",
+                                "Normalized": "BSc"
+                            },
+                            "Type": "bachelors",
+                            "NormalizedLocal": {
+                                "Code": "DE_7",
+                                "Description": "Bachelor"
+                            },
+                            "NormalizedInternational": {
+                                "Code": "3",
+                                "Description": "Bachelor"
+                            }
+                        },
+                        "Majors": [
+                            "Wirtschaftsinformatik"
+                        ],
+                        "LastEducationDate": {
+                            "Date": "2023-06-30",
+                            "IsCurrentDate": false,
+                            "FoundYear": true,
+                            "FoundMonth": true,
+                            "FoundDay": true
+                        },
+                        "EndDate": {
+                            "Date": "2023-06-30",
+                            "IsCurrentDate": false,
+                            "FoundYear": true,
+                            "FoundMonth": true,
+                            "FoundDay": true
+                        },
+                        "Graduated": {
+                            "Value": true
+                        }
+                    },
+                    {
+                        "Id": "DEG-2",
+                        "Text": "",
+                        "SchoolName": {
+                            "Raw": "Staatliche Handelsschule mit Wirtschaftsgymnasium Schlankreye",
+                            "Normalized": "Massachusetts Institute of Technology"
+                        },
+                        "SchoolType": "highschool",
+                        "Location": {
+                            "CountryCode": "DE",
+                            "Municipality": "Hamburg"
+                        },
+                        "Degree": {
+                            "Name": {
+                                "Raw": "Abgeschlossene Ausbildung zur Immobilienkauffrau; Immobilienwirtschaft",
+                                "Normalized": "Abgeschlossene Ausbildung zur Immobilienkauffrau Immobilienwirtschaft"
+                            },
+                            "NormalizedLocal": {
+                                "Code": "DE_5",
+                                "Description": "Fachschule / Berufsausbildung"
+                            },
+                            "NormalizedInternational": {
+                                "Code": "2",
+                                "Description": "Vocational Education"
+                            }
+                        },
+                        "LastEducationDate": {
+                            "Date": "2014-06-30",
+                            "IsCurrentDate": false,
+                            "FoundYear": true,
+                            "FoundMonth": true,
+                            "FoundDay": true
+                        },
+                        "EndDate": {
+                            "Date": "2014-06-30",
+                            "IsCurrentDate": false,
+                            "FoundYear": true,
+                            "FoundMonth": true,
+                            "FoundDay": true
+                        },
+                        "Graduated": {
+                            "Value": true
+                        }
+                    },
+                    {
+                        "Id": "DEG-3",
+                        "Text": "",
+                        "SchoolType": "UNSPECIFIED",
+                        "Degree": {
+                            "Name": {
+                                "Raw": "Abitur",
+                                "Normalized": "Abitur"
+                            },
+                            "NormalizedLocal": {
+                                "Code": "DE_4",
+                                "Description": "Gymnasium"
+                            },
+                            "NormalizedInternational": {
+                                "Code": "1",
+                                "Description": "Secondary Education"
+                            }
+                        },
+                        "LastEducationDate": {
+                            "Date": "2010-06-30",
+                            "IsCurrentDate": false,
+                            "FoundYear": true,
+                            "FoundMonth": true,
+                            "FoundDay": true
+                        },
+                        "EndDate": {
+                            "Date": "2010-06-30",
+                            "IsCurrentDate": false,
+                            "FoundYear": true,
+                            "FoundMonth": true,
+                            "FoundDay": true
+                        },
+                        "Graduated": {
+                            "Value": true
+                        }
+                    },
+                    {
+                        "Id": "DEG-4",
+                        "Text": "",
+                        "SchoolName": {
+                            "Raw": "Gesamtschule Benzenbergweg",
+                            "Normalized": "Gesamtschule Benzenbergweg"
+                        },
+                        "SchoolType": "highschool",
+                        "Location": {
+                            "CountryCode": "DE",
+                            "Municipality": "Hamburg"
+                        },
+                        "Degree": {
+                            "Name": {
+                                "Raw": "Abitur",
+                                "Normalized": "Abitur"
+                            },
+                            "NormalizedLocal": {
+                                "Code": "DE_4",
+                                "Description": "Gymnasium"
+                            },
+                            "NormalizedInternational": {
+                                "Code": "1",
+                                "Description": "Secondary Education"
+                            }
+                        },
+                        "Graduated": {
+                            "Value": true
+                        }
+                    }
+                ]
+            },
+            "EmploymentHistory": {
+                "ExperienceSummary": {
+                    "Description": "Die Erfahrung von    ~~~   scheint einstieg Niveau, mit nur 22 Monate Berufserfahrung.",
+                    "MonthsOfWorkExperience": 22,
+                    "MonthsOfManagementExperience": 13,
+                    "ExecutiveType": "GENERAL",
+                    "AverageMonthsPerEmployer": 11,
+                    "FulltimeDirectHirePredictiveIndex": -1,
+                    "ManagementStory": "Current position is a mid-level management role: Application Manager\nStarting on 1/1/2025, the candidate held the following mid-level management position for 12 months:\n\tTitle: Application Manager for FRANK Immobilien und Lebensformate GmbH",
+                    "CurrentManagementLevel": "mid-level",
+                    "ManagementScore": 55
+                },
+                "Positions": [
+                    {
+                        "Id": "POS-1",
+                        "Employer": {
+                            "Name": {
+                                "Probability": "Confident",
+                                "Raw": "FRANK Immobilien und Lebensformate GmbH",
+                                "Normalized": "FRANK Immobilien und Lebensformate"
+                            }
+                        },
+                        "IsSelfEmployed": false,
+                        "IsCurrent": true,
+                        "JobTitle": {
+                            "Raw": "Application Manager",
+                            "Normalized": "Application Manager",
+                            "Probability": "Confident"
+                        },
+                        "StartDate": {
+                            "Date": "2025-01-01",
+                            "IsCurrentDate": false,
+                            "FoundYear": true,
+                            "FoundMonth": false,
+                            "FoundDay": false
+                        },
+                        "EndDate": {
+                            "Date": "2026-01-19",
+                            "IsCurrentDate": true,
+                            "FoundYear": true,
+                            "FoundMonth": true,
+                            "FoundDay": false
+                        },
+                        "JobType": "UNSPECIFIED",
+                        "JobLevel": "Manager",
+                        "TaxonomyPercentage": 0
+                    },
+                    {
+                        "Id": "POS-2",
+                        "Employer": {
+                            "Name": {
+                                "Probability": "Confident",
+                                "Raw": "Takko Holding GmbH",
+                                "Normalized": "Takko Holding"
+                            }
+                        },
+                        "IsSelfEmployed": false,
+                        "IsCurrent": false,
+                        "JobTitle": {
+                            "Raw": "Aushilfe Verkauf",
+                            "Normalized": "Aushilfe Verkauf",
+                            "Probability": "Confident"
+                        },
+                        "StartDate": {
+                            "Date": "2010-06-01",
+                            "IsCurrentDate": false,
+                            "FoundYear": true,
+                            "FoundMonth": true,
+                            "FoundDay": false
+                        },
+                        "EndDate": {
+                            "Date": "2011-02-28",
+                            "IsCurrentDate": false,
+                            "FoundYear": true,
+                            "FoundMonth": true,
+                            "FoundDay": true
+                        },
+                        "JobType": "UNSPECIFIED",
+                        "JobLevel": "Entry Level",
+                        "TaxonomyPercentage": 0
+                    }
+                ]
+            },
+            "Skills": {
+                "Raw": [
+                    {
+                        "Name": "analytisches",
+                        "FoundIn": [
+                            {
+                                "SectionType": "ENTIRE_DOCUMENT"
+                            }
+                        ],
+                        "MonthsExperience": {
+                            "Value": 1
+                        }
+                    },
+                    {
+                        "Name": "Anpassungsfähigkeit",
+                        "FoundIn": [
+                            {
+                                "SectionType": "ENTIRE_DOCUMENT"
+                            }
+                        ],
+                        "MonthsExperience": {
+                            "Value": 1
+                        }
+                    },
+                    {
+                        "Name": "Archiv",
+                        "FoundIn": [
+                            {
+                                "SectionType": "ENTIRE_DOCUMENT"
+                            }
+                        ],
+                        "MonthsExperience": {
+                            "Value": 1
+                        }
+                    },
+                    {
+                        "Name": "Biologie",
+                        "FoundIn": [
+                            {
+                                "SectionType": "ENTIRE_DOCUMENT"
+                            }
+                        ],
+                        "MonthsExperience": {
+                            "Value": 1
+                        }
+                    },
+                    {
+                        "Name": "Confluence",
+                        "FoundIn": [
+                            {
+                                "SectionType": "ENTIRE_DOCUMENT"
+                            }
+                        ],
+                        "MonthsExperience": {
+                            "Value": 1
+                        }
+                    },
+                    {
+                        "Name": "Empathie",
+                        "FoundIn": [
+                            {
+                                "SectionType": "ENTIRE_DOCUMENT"
+                            }
+                        ],
+                        "MonthsExperience": {
+                            "Value": 1
+                        }
+                    },
+                    {
+                        "Name": "Ergebnisorientierung",
+                        "FoundIn": [
+                            {
+                                "SectionType": "ENTIRE_DOCUMENT"
+                            }
+                        ],
+                        "MonthsExperience": {
+                            "Value": 1
+                        }
+                    },
+                    {
+                        "Name": "gutes Zeitmanagement",
+                        "FoundIn": [
+                            {
+                                "SectionType": "ENTIRE_DOCUMENT"
+                            }
+                        ],
+                        "MonthsExperience": {
+                            "Value": 1
+                        }
+                    },
+                    {
+                        "Name": "Handelsschule",
+                        "FoundIn": [
+                            {
+                                "SectionType": "EDUCATION",
+                                "Id": "DEG-2"
+                            }
+                        ],
+                        "MonthsExperience": {
+                            "Value": 1
+                        }
+                    },
+                    {
+                        "Name": "Immobilien",
+                        "FoundIn": [
+                            {
+                                "SectionType": "WORK HISTORY",
+                                "Id": "POS-1"
+                            }
+                        ],
+                        "MonthsExperience": {
+                            "Value": 13
+                        },
+                        "LastUsed": {
+                            "Value": "2026-01-19"
+                        }
+                    },
+                    {
+                        "Name": "Immobilienbranche",
+                        "FoundIn": [
+                            {
+                                "SectionType": "ENTIRE_DOCUMENT"
+                            }
+                        ],
+                        "MonthsExperience": {
+                            "Value": 1
+                        }
+                    },
+                    {
+                        "Name": "Immobilienwirtschaft",
+                        "FoundIn": [
+                            {
+                                "SectionType": "EDUCATION",
+                                "Id": "DEG-2"
+                            }
+                        ],
+                        "MonthsExperience": {
+                            "Value": 1
+                        }
+                    },
+                    {
+                        "Name": "Inhouse Consulting",
+                        "FoundIn": [
+                            {
+                                "SectionType": "ENTIRE_DOCUMENT"
+                            }
+                        ],
+                        "MonthsExperience": {
+                            "Value": 1
+                        }
+                    },
+                    {
+                        "Name": "IT-Kenntnisse",
+                        "FoundIn": [
+                            {
+                                "SectionType": "ENTIRE_DOCUMENT"
+                            }
+                        ],
+                        "MonthsExperience": {
+                            "Value": 1
+                        }
+                    },
+                    {
+                        "Name": "Jira",
+                        "FoundIn": [
+                            {
+                                "SectionType": "ENTIRE_DOCUMENT"
+                            }
+                        ],
+                        "MonthsExperience": {
+                            "Value": 1
+                        }
+                    },
+                    {
+                        "Name": "Kommunikationsfähigkeit",
+                        "FoundIn": [
+                            {
+                                "SectionType": "ENTIRE_DOCUMENT"
+                            }
+                        ],
+                        "MonthsExperience": {
+                            "Value": 1
+                        }
+                    },
+                    {
+                        "Name": "MS-Excel",
+                        "FoundIn": [
+                            {
+                                "SectionType": "ENTIRE_DOCUMENT"
+                            }
+                        ],
+                        "MonthsExperience": {
+                            "Value": 1
+                        }
+                    },
+                    {
+                        "Name": "MS-Outlook",
+                        "FoundIn": [
+                            {
+                                "SectionType": "ENTIRE_DOCUMENT"
+                            }
+                        ],
+                        "MonthsExperience": {
+                            "Value": 1
+                        }
+                    },
+                    {
+                        "Name": "MS-PowerPoint",
+                        "FoundIn": [
+                            {
+                                "SectionType": "ENTIRE_DOCUMENT"
+                            }
+                        ],
+                        "MonthsExperience": {
+                            "Value": 1
+                        }
+                    },
+                    {
+                        "Name": "MS-Word",
+                        "FoundIn": [
+                            {
+                                "SectionType": "ENTIRE_DOCUMENT"
+                            }
+                        ],
+                        "MonthsExperience": {
+                            "Value": 1
+                        }
+                    },
+                    {
+                        "Name": "Notion",
+                        "FoundIn": [
+                            {
+                                "SectionType": "ENTIRE_DOCUMENT"
+                            }
+                        ],
+                        "MonthsExperience": {
+                            "Value": 1
+                        }
+                    },
+                    {
+                        "Name": "Projektmanagement",
+                        "FoundIn": [
+                            {
+                                "SectionType": "ENTIRE_DOCUMENT"
+                            }
+                        ],
+                        "MonthsExperience": {
+                            "Value": 1
+                        }
+                    },
+                    {
+                        "Name": "Qualitätsbewusstsein",
+                        "FoundIn": [
+                            {
+                                "SectionType": "ENTIRE_DOCUMENT"
+                            }
+                        ],
+                        "MonthsExperience": {
+                            "Value": 1
+                        }
+                    },
+                    {
+                        "Name": "Rechnungswesen",
+                        "FoundIn": [
+                            {
+                                "SectionType": "EDUCATION",
+                                "Id": "DEG-2"
+                            }
+                        ],
+                        "MonthsExperience": {
+                            "Value": 1
+                        }
+                    },
+                    {
+                        "Name": "Rechnungswesens",
+                        "FoundIn": [
+                            {
+                                "SectionType": "ENTIRE_DOCUMENT"
+                            }
+                        ],
+                        "MonthsExperience": {
+                            "Value": 1
+                        }
+                    },
+                    {
+                        "Name": "Redmine",
+                        "FoundIn": [
+                            {
+                                "SectionType": "ENTIRE_DOCUMENT"
+                            }
+                        ],
+                        "MonthsExperience": {
+                            "Value": 1
+                        }
+                    },
+                    {
+                        "Name": "Softwarelösungen",
+                        "FoundIn": [
+                            {
+                                "SectionType": "ENTIRE_DOCUMENT"
+                            }
+                        ],
+                        "MonthsExperience": {
+                            "Value": 1
+                        }
+                    },
+                    {
+                        "Name": "SQL",
+                        "FoundIn": [
+                            {
+                                "SectionType": "ENTIRE_DOCUMENT"
+                            }
+                        ],
+                        "MonthsExperience": {
+                            "Value": 1
+                        }
+                    },
+                    {
+                        "Name": "Umsetzung von Projekten",
+                        "FoundIn": [
+                            {
+                                "SectionType": "ENTIRE_DOCUMENT"
+                            }
+                        ],
+                        "MonthsExperience": {
+                            "Value": 1
+                        }
+                    },
+                    {
+                        "Name": "VBA",
+                        "FoundIn": [
+                            {
+                                "SectionType": "ENTIRE_DOCUMENT"
+                            }
+                        ],
+                        "MonthsExperience": {
+                            "Value": 1
+                        }
+                    },
+                    {
+                        "Name": "Verkauf",
+                        "FoundIn": [
+                            {
+                                "SectionType": "WORK HISTORY",
+                                "Id": "POS-2"
+                            }
+                        ],
+                        "MonthsExperience": {
+                            "Value": 9
+                        },
+                        "LastUsed": {
+                            "Value": "2011-02-28"
+                        }
+                    },
+                    {
+                        "Name": "Werkzeugen",
+                        "FoundIn": [
+                            {
+                                "SectionType": "EDUCATION",
+                                "Id": "DEG-1"
+                            }
+                        ],
+                        "MonthsExperience": {
+                            "Value": 1
+                        }
+                    },
+                    {
+                        "Name": "Wirtschaftsinformatik",
+                        "FoundIn": [
+                            {
+                                "SectionType": "EDUCATION",
+                                "Id": "DEG-1"
+                            }
+                        ],
+                        "MonthsExperience": {
+                            "Value": 1
+                        }
+                    },
+                    {
+                        "Name": "Zahlungsverkehr",
+                        "FoundIn": [
+                            {
+                                "SectionType": "ENTIRE_DOCUMENT"
+                            }
+                        ],
+                        "MonthsExperience": {
+                            "Value": 1
+                        }
+                    }
+                ]
+            },
+            "LanguageCompetencies": [
+                {
+                    "Language": "German",
+                    "LanguageCode": "de",
+                    "FoundInContext": ""
+                },
+                {
+                    "Language": "English",
+                    "LanguageCode": "en",
+                    "FoundInContext": ""
+                }
+            ],
+            "ResumeMetadata": {
+                "FoundSections": [],
+                "PlainText": "Lea\n\n   ~~~  \n\nApplication Manager/in\n\n  Kontakt\n\nE-Mail\n\n   ~~~~~~~~~~~~~  \n\nTelefon\n\n+49 17648566176\n\nAdresse\n\n   ~~~~~~~~~~~~~~~~~~  \n22047 Hamburg, Deutschland\n\n\n\nFührerscheine\n\nB, A\n\n\n  Fähigkeiten\n\n    analytisches & strategisches\n    Denkvermögen\n\n    Flexibilität & Anpassungsfähigkeit\n\n    Organisationsfähigkeit\n    & gutes\n    Zeitmanagement\n    Kommunikationsfähigkeit\n    & Empathie\n    hohes Qualitätsbewusstsein\n    & Ergebnisorientierung\n\n\n    Sprachen\n\nDeutsch       - Muttersprache\n\nEnglisch     - Grundkenntnisse\n\n  Profil\n\nIn meiner Position als Application Managerin in der Immobilienbranche\nkommt mir meine 10-jährige Erfahrung als Immobilienkauffrau bei der\nUmsetzung von Projekten zugute. Erfahrungen im Projektmanagement\nund Inhouse Consulting habe ich bei der Einführung von Softwarelösungen\nfür den Aufbau einer innerbetrieblichen Projektmanagementstruktur,\neines DMS in Form von Archiv Kompakt, Umstellung des Rechnungswesens\nauf elektronischen Zahlungsverkehr mit S-Firm oder der Migration\nvon Wirtschaftseinheiten in den Bestand gesammelt.\n\n\n\n  Berufserfahrung\n\nApplication Manager/in                                                      01/2025 - Heute\n\nFRANK Immobilien und Lebensformate GmbH - Hamburg\n\n\n\n- Ownerin ERP-Systeme\n- Interdisziplinäres Projektmanagement\n- Weiterentwicklung Wodis Sigma\n\n\nWirtschaftsinformatiker/in                                              02/2023 - 12/2024\n\nProf. Dr. h. c. Hannelore Greve - Hamburg\n\n- Application Management u. a. Wodis Sigma\n- Projektmanagement\n- Prozessdigitalisierung und -optimierung\n- Migration von Wirtschaftseinheiten\n- Modellierung und Dokumentation von Geschäftsprozessen\n\n\nImmobilienkauffrau                                                      01/2014 - 02/2023\n\nProf. Dr. Dr. h.c. Helmut und Prof. Dr. h.c. Hannelore\n\nGreve - Hamburg\n\n- vorbereitende Finanzbuchhaltung für Bilanzierer und Einnahmen\n\n- Überschuss-Rechnung\n- Erstellung von Umsatzsteuervoranmeldungen\n\n- Kautionsbuchhaltung mit Schwerpunkt Gewerbemietverhältnisse\n- Mietenbuchhaltung\n\n\nImmobilienkauffrau                                                      01/2014 - 09/2015\n\nEVG Entwicklungs- und Verwaltungsgesellschaft\n\nfür Geschäfts- und Freizeitzentren mbH - Hamburg\n\n- Erstellung von Betriebs- und Heizkostenabrechnungen\n\nAusbildung Immobilienkauffrau                                           02/2011 - 01/2014\n\nProf. Dr. Dr. h.c. Helmut und Prof. Dr. h.c. Hannelore\n\nGreve - Hamburg\n\n\nAushilfe Verkauf                                                        06/2010 - 02/2011\n\nTakko Holding GmbH - Hamburg\n\n\n\n  Ausbildung\n\nBachelor of Science Wirtschaftsinformatik                                                     2023\n\nUniversität Hamburg - Hamburg\n\nWirtschaftsinformatik\n\n- Thema Abschlussarbeit: Abschlussarbeitenerstellung als agiles Projekt\n- Unterstützung mittels informatischer Konzepte, Techniken, Methoden\nund Werkzeugen\n- Notendurchschnitt: 2,75\n- Abschlussnote: 3\n\n\nAbgeschlossene Ausbildung zur Immobilienkauffrau                                              2014\n\nStaatliche Handelsschule mit Wirtschaftsgymnasium Schlankreye -\n\nHamburg\n\nImmobilienwirtschaft\n\n- Ausbildungsschwerpunkt: Rechnungswesen\n- Notendurchschnitt: 1,8\n- Abschlussnote: 2\n\n\nAbitur                                                                                        2010\n\nGesamtschule Benzenbergweg - Hamburg\n\nAbitur\n\n- Leistungskurse: Wirtschaft, Biologie\n- Durchschnittsnote: 2,8\n\n\n\n\n  IT-Kenntnisse:\n\n- Sehr gute Kenntnisse: Wodis Sigma, Archiv Kompakt, FIO Account, Redmine\n\n- Gute Kenntnisse: MS-Word, MS-Excel , MS-Outlook, Notion, Wodis\nAuskunft\n- Grundkenntnisse: VBA, SQL, MS-PowerPoint , Jira, Confluence",
+                "DocumentLanguage": "de",
+                "DocumentCulture": "de-DE",
+                "ParserSettings": "Coverage.PersonalAttributes = True; Coverage.Training = True; Culture.CountryCodeForUnitedKingdomIsUK = True; Culture.DefaultCountryCode = DE; Culture.DefaultCultureIsBelgium = True; Culture.DefaultCultureIsGermany = True; Culture.Language = German; Culture.PreferEnglishVersionIfTwoLanguagesInDocument = False; Data.UserDefinedParsing = False; Data.UseV2SkillsTaxonomy = True; OutputFormat.AssumeCompanyNameFromPrecedingJob = False; OutputFormat.ContactMethod.PackStyle = Split; OutputFormat.DateOutputStyle = ExplicitlyKnownDateInfoOnly; OutputFormat.NestJobsBasedOnDateRanges = True; OutputFormat.NormalizeRegions = False; OutputFormat.SimpleCustomLinkedIn = True; OutputFormat.SkillsStyle = Default; OutputFormat.StripParsedDataFromPositionHistoryDescription = True; OutputFormat.TelcomNumber.Style = Raw; OutputFormat.XmlFormat = HrXmlResume25",
+                "DocumentLastModified": "2026-01-19"
+            }
+        },
+        "EducationNormalizationResponse": {
+            "Code": "Success"
+        },
+        "SkillsExtractionResponse": {
+            "Code": "Success"
+        },
+        "ConversionMetadata": {
+            "DetectedType": "Pdf",
+            "SuggestedFileExtension": "pdf",
+            "OutputValidityCode": "ovIsProbablyValid",
+            "ElapsedMilliseconds": 181,
+            "DocumentHash": "412D931786911CF9D3CF0B44793E2F5B"
+        },
+        "ParsingMetadata": {
+            "ElapsedMilliseconds": 0,
+            "TimedOut": false
+        }
+    }
+}

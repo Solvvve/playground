@@ -1,0 +1,2790 @@
+{
+  "ContactInformation": {
+    "Location": {
+      "CountryCode": "DE",
+      "PostalCode": "12169",
+      "Municipality": "Berlin- Steglitz"
+    }
+  },
+  "ProfessionalSummary": "This person has extensive experience in construction and project management, having worked as a construction and project manager, site supervisor, and technical engineer in various construction projects in Germany and Iran. They have expertise in areas such as building construction, infrastructure development, and project coordination.",
+  "Education": {
+    "HighestDegree": {
+      "Name": {
+        "Raw": "Bachelor im Bauingenieurwesen",
+        "Normalized": "bachelors"
+      },
+      "Type": "bachelors",
+      "NormalizedLocal": {
+        "Code": "DE_7",
+        "Description": "Bachelor"
+      },
+      "NormalizedInternational": {
+        "Code": "3",
+        "Description": "Bachelor"
+      }
+    },
+    "EducationDetails": [
+      {
+        "Id": "DEG-1",
+        "Text": "",
+        "SchoolName": {
+          "Raw": "Islamische Azad Universität",
+          "Normalized": "Islamische Azad Universität"
+        },
+        "SchoolType": "college",
+        "Location": {
+          "CountryCode": "IR",
+          "Regions": [
+            ""
+          ]
+        },
+        "Degree": {
+          "Name": {
+            "Raw": "Bachelor im Bauingenieurwesen",
+            "Normalized": "bachelors"
+          },
+          "Type": "bachelors",
+          "NormalizedLocal": {
+            "Code": "DE_7",
+            "Description": "Bachelor"
+          },
+          "NormalizedInternational": {
+            "Code": "3",
+            "Description": "Bachelor"
+          }
+        },
+        "Majors": [
+          "Zivilbauingenieur - Zivil Bau"
+        ],
+        "LastEducationDate": {
+          "Date": "2009-01-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": false,
+          "FoundDay": false
+        },
+        "StartDate": {
+          "Date": "2006-01-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": false,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "2009-01-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": false,
+          "FoundDay": false
+        }
+      },
+      {
+        "Id": "DEG-2",
+        "Text": "",
+        "SchoolName": {
+          "Raw": "Fachhochschule für Herren",
+          "Normalized": "Fachhochschule für Herren"
+        },
+        "SchoolType": "UNSPECIFIED",
+        "Location": {
+          "CountryCode": "IR",
+          "Regions": [
+            ""
+          ]
+        },
+        "Degree": {
+          "Name": {
+            "Raw": "Postabiturstudium",
+            "Normalized": "Postabiturstudium"
+          },
+          "NormalizedLocal": {
+            "Code": "DE_4",
+            "Description": "Gymnasium"
+          },
+          "NormalizedInternational": {
+            "Code": "1",
+            "Description": "Secondary Education"
+          }
+        },
+        "Majors": [
+          "Gebäude-Allg. Gebäuden Arbeit"
+        ],
+        "LastEducationDate": {
+          "Date": "2005-01-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": false,
+          "FoundDay": false
+        },
+        "StartDate": {
+          "Date": "2003-01-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": false,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "2005-01-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": false,
+          "FoundDay": false
+        }
+      },
+      {
+        "Id": "DEG-3",
+        "Text": "",
+        "SchoolName": {
+          "Raw": "Shahid Fahmideh Gymnasium",
+          "Normalized": "Shahid Fahmideh Gymnasium"
+        },
+        "SchoolType": "highschool",
+        "Location": {
+          "CountryCode": "IR",
+          "Regions": [
+            ""
+          ]
+        },
+        "Degree": {
+          "Name": {
+            "Raw": "Abitur",
+            "Normalized": "Abitur"
+          },
+          "Type": "highSchoolOrEquivalent",
+          "NormalizedLocal": {
+            "Code": "DE_4",
+            "Description": "Gymnasium"
+          },
+          "NormalizedInternational": {
+            "Code": "1",
+            "Description": "Secondary Education"
+          }
+        },
+        "Majors": [
+          "Mathematik und Physik"
+        ],
+        "LastEducationDate": {
+          "Date": "2002-01-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": false,
+          "FoundDay": false
+        },
+        "StartDate": {
+          "Date": "1998-01-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": false,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "2002-01-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": false,
+          "FoundDay": false
+        }
+      }
+    ]
+  },
+  "EmploymentHistory": {
+    "ExperienceSummary": {
+      "Description": "This person has extensive experience in construction and project management, having worked as a construction and project manager, site supervisor, and technical engineer in various construction projects in Germany and Iran. They have expertise in areas such as building construction, infrastructure development, and project coordination. This person has a Bachelor's degree in Civil Engineering from the Islamic Azad University in Iran, as well as a post-secondary degree and high school diploma from Iran.",
+      "MonthsOfWorkExperience": 220,
+      "MonthsOfManagementExperience": 0,
+      "ExecutiveType": "NONE",
+      "AverageMonthsPerEmployer": 27,
+      "FulltimeDirectHirePredictiveIndex": 85,
+      "ManagementStory": "",
+      "CurrentManagementLevel": "",
+      "ManagementScore": 0
+    },
+    "Positions": [
+      {
+        "Id": "POS-1",
+        "Employer": {
+          "Name": {
+            "Probability": "Confident",
+            "Raw": "JKB Servicegesellschaft mbH",
+            "Normalized": "JKB Servicegesellschaft mbH"
+          },
+          "Location": {
+            "CountryCode": "DE",
+            "Municipality": "Berlin"
+          }
+        },
+        "IsSelfEmployed": false,
+        "IsCurrent": true,
+        "JobTitle": {
+          "Raw": "Bau- und Projektmanager (Bauherrenvertretung, LPH 1-9)",
+          "Normalized": "Bau und Projektmanager Bauherrenvertretung LPH 1 9",
+          "Probability": "Confident"
+        },
+        "StartDate": {
+          "Date": "2023-05-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": true
+        },
+        "EndDate": {
+          "Date": "2026-01-18",
+          "IsCurrentDate": true,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "JobType": "UNSPECIFIED",
+        "JobLevel": "Experienced (non-manager)",
+        "TaxonomyPercentage": 0,
+        "NormalizedProfession": {
+          "Profession": {
+            "CodeId": 1323,
+            "Description": "Projektleiter Bauwesen (m/w/d)"
+          },
+          "Group": {
+            "CodeId": 279,
+            "Description": "Projektleiter Bau (m/w)"
+          },
+          "Class": {
+            "CodeId": 3,
+            "Description": "Bauwesen und Bergbau"
+          },
+          "ISCO": {
+            "Version": "ISCO-08",
+            "CodeId": 1323,
+            "Description": "Construction managers"
+          },
+          "ONET": {
+            "Version": "2019",
+            "CodeId": "11-9021.00",
+            "Description": "Construction Managers"
+          },
+          "Confidence": 0.85
+        }
+      },
+      {
+        "Id": "POS-2",
+        "Employer": {
+          "Name": {
+            "Probability": "Confident",
+            "Raw": "DGI Bauwerk Gesellschaft von Architekten mbH",
+            "Normalized": "DGI Bauwerk Gesellschaft von Architekten mbH"
+          },
+          "Location": {
+            "CountryCode": "DE",
+            "Municipality": "Berlin"
+          }
+        },
+        "IsSelfEmployed": false,
+        "IsCurrent": false,
+        "JobTitle": {
+          "Raw": "Bauleiter Hochbau (LPH8)",
+          "Normalized": "Bauleiter Hochbau LPH8",
+          "Probability": "Confident"
+        },
+        "StartDate": {
+          "Date": "2022-07-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": true
+        },
+        "EndDate": {
+          "Date": "2022-11-30",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": true
+        },
+        "JobType": "UNSPECIFIED",
+        "JobLevel": "Entry Level",
+        "TaxonomyPercentage": 0,
+        "NormalizedProfession": {
+          "Profession": {
+            "CodeId": 2566,
+            "Description": "Bauleiter (m/w/d)"
+          },
+          "Group": {
+            "CodeId": 24,
+            "Description": "Subunternehmer Bauwesen (m/w)"
+          },
+          "Class": {
+            "CodeId": 3,
+            "Description": "Bauwesen und Bergbau"
+          },
+          "ISCO": {
+            "Version": "ISCO-08",
+            "CodeId": 1323,
+            "Description": "Construction managers"
+          },
+          "ONET": {
+            "Version": "2019",
+            "CodeId": "11-9021.00",
+            "Description": "Construction Managers"
+          },
+          "Confidence": 0.95
+        }
+      },
+      {
+        "Id": "POS-3",
+        "Employer": {
+          "Name": {
+            "Probability": "Confident",
+            "Raw": "Architekturbüro Die Brücke",
+            "Normalized": "Architekturbüro Die Brücke"
+          },
+          "Location": {
+            "CountryCode": "DE",
+            "Municipality": "Berlin"
+          }
+        },
+        "IsSelfEmployed": false,
+        "IsCurrent": false,
+        "JobTitle": {
+          "Raw": "Bauingenieur bei der Projektsteuerung und Objektsplannung",
+          "Normalized": "Bauingenieur bei der Projektsteuerung und Objektsplannung",
+          "Probability": "Confident"
+        },
+        "StartDate": {
+          "Date": "2020-05-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": true
+        },
+        "EndDate": {
+          "Date": "2022-06-30",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": true
+        },
+        "JobType": "UNSPECIFIED",
+        "JobLevel": "Experienced (non-manager)",
+        "TaxonomyPercentage": 0,
+        "NormalizedProfession": {
+          "Profession": {
+            "CodeId": 5817,
+            "Description": "Bauingenieur Kostenplanung (m/w/d)"
+          },
+          "Group": {
+            "CodeId": 35,
+            "Description": "Ingenieure, Konstrukteure und Techniker im Bauwesen (m/w)"
+          },
+          "Class": {
+            "CodeId": 5,
+            "Description": "Ingenieurwesen"
+          },
+          "ISCO": {
+            "Version": "ISCO-08",
+            "CodeId": 2161,
+            "Description": "Building architects"
+          },
+          "ONET": {
+            "Version": "2019",
+            "CodeId": "13-1051.00",
+            "Description": "Cost Estimators"
+          },
+          "Confidence": 0.65
+        }
+      },
+      {
+        "Id": "POS-4",
+        "Employer": {
+          "Name": {
+            "Probability": "Confident",
+            "Raw": "Emch + Berger Projekt GmbH",
+            "Normalized": "Emch AND Berger Projekt"
+          },
+          "Location": {
+            "CountryCode": "DE",
+            "Municipality": "Berlin"
+          }
+        },
+        "IsSelfEmployed": false,
+        "IsCurrent": false,
+        "JobTitle": {
+          "Raw": "Werkstudent Bauüberwachung S-Bahn-Projekt (LPH8)",
+          "Normalized": "Werkstudent Bauüberwachung S Bahn Projekt LPH8",
+          "Probability": "Confident"
+        },
+        "StartDate": {
+          "Date": "2019-11-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": true
+        },
+        "EndDate": {
+          "Date": "2020-04-30",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": true
+        },
+        "JobType": "UNSPECIFIED",
+        "JobLevel": "Entry Level",
+        "TaxonomyPercentage": 0
+      },
+      {
+        "Id": "POS-5",
+        "Employer": {
+          "Name": {
+            "Probability": "Confident",
+            "Raw": "\"Fardano\" Beratende Ingenieur AG",
+            "Normalized": "Fardano Beratende Ingenieur"
+          },
+          "Location": {
+            "CountryCode": "IR",
+            "Municipality": "Teheran"
+          }
+        },
+        "IsSelfEmployed": false,
+        "IsCurrent": false,
+        "JobTitle": {
+          "Raw": "Technikabteilungsleiter und Bauüberwacher (BOL und BÜ, LPH 1-9)",
+          "Normalized": "Technikabteilungsleiter und Bauüberwacher BOL und BÜ LPH 1 9",
+          "Probability": "Confident"
+        },
+        "StartDate": {
+          "Date": "2013-02-19",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": true
+        },
+        "EndDate": {
+          "Date": "2018-03-20",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": true
+        },
+        "JobType": "UNSPECIFIED",
+        "JobLevel": "Low Level",
+        "TaxonomyPercentage": 0
+      },
+      {
+        "Id": "POS-6",
+        "Employer": {
+          "Name": {
+            "Probability": "Confident",
+            "Raw": "Bauingenieurunternehmen \"Farash Nooran Sazeh\" GmbH",
+            "Normalized": "Bauingenieurunternehmen Farash Nooran Sazeh"
+          },
+          "Location": {
+            "CountryCode": "IR"
+          }
+        },
+        "IsSelfEmployed": false,
+        "IsCurrent": false,
+        "JobTitle": {
+          "Raw": "Technische Zeichner (Autocad 2D), Statiker (Etabs & Safe), Bauüberwacher und Bauleiter",
+          "Normalized": "Technische Zeichner Autocad 2D Statiker Etabs AND Safe Bauüberwacher und Bauleiter",
+          "Probability": "Confident"
+        },
+        "StartDate": {
+          "Date": "2011-09-23",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": true
+        },
+        "EndDate": {
+          "Date": "2012-12-20",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": true
+        },
+        "JobType": "UNSPECIFIED",
+        "JobLevel": "Entry Level",
+        "TaxonomyPercentage": 0
+      },
+      {
+        "Id": "POS-7",
+        "Employer": {
+          "Name": {
+            "Probability": "Confident",
+            "Raw": "Verein der Bauingenieure",
+            "Normalized": "Verein der Bauingenieure"
+          },
+          "Location": {
+            "CountryCode": "IR"
+          }
+        },
+        "IsSelfEmployed": false,
+        "IsCurrent": false,
+        "JobTitle": {
+          "Raw": "Experte für berufliche Weiterbildung",
+          "Normalized": "Experte für berufliche Weiterbildung",
+          "Probability": "Confident"
+        },
+        "StartDate": {
+          "Date": "2009-12-23",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": true
+        },
+        "EndDate": {
+          "Date": "2010-06-21",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": true
+        },
+        "JobType": "UNSPECIFIED",
+        "JobLevel": "Entry Level",
+        "TaxonomyPercentage": 0
+      },
+      {
+        "Id": "POS-8",
+        "Employer": {
+          "Name": {
+            "Probability": "Confident",
+            "Raw": "Bauingenieurunternehmen \"Benapad\" AG",
+            "Normalized": "Bauingenieurunternehmen Benapad"
+          },
+          "Location": {
+            "CountryCode": "IR"
+          }
+        },
+        "IsSelfEmployed": false,
+        "IsCurrent": false,
+        "JobTitle": {
+          "Raw": "Entwurfplaner (Autocad 2D, 3D), Designer (Innen und Außen), Statiker (Etabs & Safe), Bauleitung (MSP), Vermesser-Assistent für Straßenbauprojekte (Straßen Stufe 2), Bauleiter-Assistent, Bauüberwacher und Bauleiter",
+          "Normalized": "Entwurfplaner Autocad 2D 3D Designer Innen und Außen Statiker Etabs AND Safe Bauleitung MSP Vermesser Assistent für Straßenbauprojekte Straßen Stufe 2 Bauleiter Assistent Bauüberwacher und Bauleiter",
+          "Probability": "Confident"
+        },
+        "StartDate": {
+          "Date": "2003-10-23",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": true
+        },
+        "EndDate": {
+          "Date": "2009-06-21",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": true
+        },
+        "JobType": "UNSPECIFIED",
+        "JobLevel": "Entry Level",
+        "TaxonomyPercentage": 0
+      }
+    ]
+  },
+  "Skills": {
+    "Raw": [
+      {
+        "Name": "Word",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          }
+        ]
+      },
+      {
+        "Name": "Microsoft Word",
+        "FoundIn": [
+          {
+            "SectionType": "EDUCATION"
+          }
+        ]
+      },
+      {
+        "Name": "Excel",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          }
+        ]
+      },
+      {
+        "Name": "Windows",
+        "FoundIn": [
+          {
+            "SectionType": "EDUCATION"
+          }
+        ]
+      },
+      {
+        "Name": "AutoCAD",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          },
+          {
+            "SectionType": "EDUCATION"
+          }
+        ]
+      },
+      {
+        "Name": "Autocad 2D",
+        "FoundIn": [
+          {
+            "SectionType": "EDUCATION"
+          }
+        ]
+      },
+      {
+        "Name": "Photoshop",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          }
+        ]
+      },
+      {
+        "Name": "Archicad",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          }
+        ]
+      },
+      {
+        "Name": "Bauingenieure",
+        "FoundIn": [
+          {
+            "SectionType": "EDUCATION"
+          }
+        ]
+      },
+      {
+        "Name": "Rechnungsprüfung",
+        "FoundIn": [
+          {
+            "SectionType": "EDUCATION"
+          }
+        ]
+      },
+      {
+        "Name": "Ausschreibung",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          },
+          {
+            "SectionType": "EDUCATION"
+          }
+        ]
+      },
+      {
+        "Name": "Neubau",
+        "FoundIn": [
+          {
+            "SectionType": "EDUCATION"
+          }
+        ]
+      },
+      {
+        "Name": "Bauausführung",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          }
+        ]
+      },
+      {
+        "Name": "Hochbau",
+        "FoundIn": [
+          {
+            "SectionType": "EDUCATION"
+          }
+        ]
+      },
+      {
+        "Name": "Fertigteilbau",
+        "FoundIn": [
+          {
+            "SectionType": "EDUCATION"
+          }
+        ]
+      },
+      {
+        "Name": "Baustellen",
+        "FoundIn": [
+          {
+            "SectionType": "EDUCATION"
+          }
+        ]
+      },
+      {
+        "Name": "Schlüsselfertigbau",
+        "FoundIn": [
+          {
+            "SectionType": "EDUCATION"
+          }
+        ]
+      },
+      {
+        "Name": "TGA",
+        "FoundIn": [
+          {
+            "SectionType": "EDUCATION"
+          }
+        ]
+      },
+      {
+        "Name": "Outlook",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          }
+        ]
+      },
+      {
+        "Name": "Betriebswirtschaft",
+        "FoundIn": [
+          {
+            "SectionType": "PROFESSIONAL AFFILIATIONS"
+          }
+        ]
+      },
+      {
+        "Name": "Stadtentwicklung",
+        "FoundIn": [
+          {
+            "SectionType": "EDUCATION"
+          }
+        ]
+      },
+      {
+        "Name": "Bauingenieurwesen",
+        "FoundIn": [
+          {
+            "SectionType": "EDUCATION"
+          }
+        ]
+      },
+      {
+        "Name": "Bauvertragsrecht",
+        "FoundIn": [
+          {
+            "SectionType": "EDUCATION"
+          }
+        ]
+      },
+      {
+        "Name": "Baustellenmanagement",
+        "FoundIn": [
+          {
+            "SectionType": "PROFESSIONAL AFFILIATIONS"
+          }
+        ]
+      },
+      {
+        "Name": "Bauherrenvertretung",
+        "FoundIn": [
+          {
+            "SectionType": "EDUCATION"
+          }
+        ]
+      },
+      {
+        "Name": "Bauleitung",
+        "FoundIn": [
+          {
+            "SectionType": "EDUCATION"
+          }
+        ]
+      },
+      {
+        "Name": "Bauüberwachung",
+        "FoundIn": [
+          {
+            "SectionType": "EDUCATION"
+          }
+        ]
+      },
+      {
+        "Name": "Vertragsverhandlung",
+        "FoundIn": [
+          {
+            "SectionType": "EDUCATION"
+          }
+        ]
+      },
+      {
+        "Name": "Tunnelbau",
+        "FoundIn": [
+          {
+            "SectionType": "EDUCATION"
+          }
+        ]
+      },
+      {
+        "Name": "Immobilienmanagement",
+        "FoundIn": [
+          {
+            "SectionType": "PROFESSIONAL AFFILIATIONS"
+          }
+        ]
+      },
+      {
+        "Name": "Grafiken",
+        "FoundIn": [
+          {
+            "SectionType": "EDUCATION"
+          }
+        ]
+      },
+      {
+        "Name": "Infrastrukturen",
+        "FoundIn": [
+          {
+            "SectionType": "EDUCATION"
+          }
+        ]
+      },
+      {
+        "Name": "Soziale Kompetenz",
+        "FoundIn": [
+          {
+            "SectionType": "PROFESSIONAL AFFILIATIONS"
+          }
+        ]
+      },
+      {
+        "Name": "LPH",
+        "FoundIn": [
+          {
+            "SectionType": "EDUCATION"
+          }
+        ]
+      },
+      {
+        "Name": "Mathematik",
+        "FoundIn": [
+          {
+            "SectionType": "EDUCATION"
+          }
+        ]
+      },
+      {
+        "Name": "Projektüberwachung",
+        "FoundIn": [
+          {
+            "SectionType": "PROFESSIONAL AFFILIATIONS"
+          }
+        ]
+      },
+      {
+        "Name": "Projektsteuerung",
+        "FoundIn": [
+          {
+            "SectionType": "PROFESSIONAL AFFILIATIONS"
+          },
+          {
+            "SectionType": "EDUCATION"
+          }
+        ]
+      },
+      {
+        "Name": "Projektmanagement",
+        "FoundIn": [
+          {
+            "SectionType": "PROFESSIONAL AFFILIATIONS"
+          },
+          {
+            "SectionType": "EDUCATION"
+          }
+        ]
+      },
+      {
+        "Name": "Microsoft Office",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          }
+        ]
+      },
+      {
+        "Name": "Microsoft Project",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          }
+        ]
+      },
+      {
+        "Name": "MicroStation",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          }
+        ]
+      },
+      {
+        "Name": "Physik",
+        "FoundIn": [
+          {
+            "SectionType": "EDUCATION"
+          }
+        ]
+      },
+      {
+        "Name": "Power point",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          }
+        ]
+      },
+      {
+        "Name": "Gesamtverantwortung",
+        "FoundIn": [
+          {
+            "SectionType": "EDUCATION"
+          }
+        ]
+      },
+      {
+        "Name": "Renovierung",
+        "FoundIn": [
+          {
+            "SectionType": "PROFESSIONAL AFFILIATIONS"
+          }
+        ]
+      },
+      {
+        "Name": "Sanierung",
+        "FoundIn": [
+          {
+            "SectionType": "PROFESSIONAL AFFILIATIONS"
+          }
+        ]
+      },
+      {
+        "Name": "Sanierungsmaßnahmen",
+        "FoundIn": [
+          {
+            "SectionType": "EDUCATION"
+          }
+        ]
+      },
+      {
+        "Name": "Straßenbau",
+        "FoundIn": [
+          {
+            "SectionType": "EDUCATION"
+          }
+        ]
+      },
+      {
+        "Name": "Safe",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          },
+          {
+            "SectionType": "EDUCATION"
+          }
+        ]
+      },
+      {
+        "Name": "Stahlbau",
+        "FoundIn": [
+          {
+            "SectionType": "EDUCATION"
+          }
+        ]
+      },
+      {
+        "Name": "Nachtragsmanagement",
+        "FoundIn": [
+          {
+            "SectionType": "EDUCATION"
+          }
+        ]
+      },
+      {
+        "Name": "konstruktiver Ingenieurbau",
+        "FoundIn": [
+          {
+            "SectionType": "EDUCATION"
+          }
+        ]
+      },
+      {
+        "Name": "Nachhaltige\n                              Entwicklung",
+        "FoundIn": [
+          {
+            "SectionType": "PROFESSIONAL AFFILIATIONS"
+          }
+        ]
+      },
+      {
+        "Name": "Städtebau",
+        "FoundIn": [
+          {
+            "SectionType": "EDUCATION"
+          }
+        ]
+      },
+      {
+        "Name": "Wasserversorgung",
+        "FoundIn": [
+          {
+            "SectionType": "EDUCATION"
+          }
+        ]
+      },
+      {
+        "Name": "Glasfasernetz",
+        "FoundIn": [
+          {
+            "SectionType": "EDUCATION"
+          }
+        ]
+      },
+      {
+        "Name": "Mittelspannung",
+        "FoundIn": [
+          {
+            "SectionType": "EDUCATION"
+          }
+        ]
+      },
+      {
+        "Name": "Kanalisierung",
+        "FoundIn": [
+          {
+            "SectionType": "EDUCATION"
+          }
+        ]
+      },
+      {
+        "Name": "Orca AVA",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          }
+        ]
+      },
+      {
+        "Name": "Kostenrechnung",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          }
+        ]
+      },
+      {
+        "Name": "Tekla",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          }
+        ]
+      },
+      {
+        "Name": "Führungserfahrung",
+        "FoundIn": [
+          {
+            "SectionType": "PROFESSIONAL AFFILIATIONS"
+          }
+        ]
+      },
+      {
+        "Name": "Tiefbau",
+        "FoundIn": [
+          {
+            "SectionType": "EDUCATION"
+          }
+        ]
+      },
+      {
+        "Name": "HOAI",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          }
+        ]
+      },
+      {
+        "Name": "Stahlbetonbau",
+        "FoundIn": [
+          {
+            "SectionType": "EDUCATION"
+          }
+        ]
+      },
+      {
+        "Name": "Stahlbeton",
+        "FoundIn": [
+          {
+            "SectionType": "EDUCATION"
+          }
+        ]
+      },
+      {
+        "Name": "Etabs",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          },
+          {
+            "SectionType": "EDUCATION"
+          }
+        ]
+      }
+    ],
+    "Normalized": [
+      {
+        "Name": "Microsoft Word",
+        "Id": "KS1200365FTR9X0M96T9",
+        "Type": "IT",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          },
+          {
+            "SectionType": "EDUCATION"
+          }
+        ],
+        "RawSkills": [
+          "Word",
+          "Microsoft Word"
+        ]
+      },
+      {
+        "Name": "Autocad",
+        "Id": "KS1203B66DJG8T72WTJ4",
+        "Type": "IT",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          },
+          {
+            "SectionType": "EDUCATION"
+          }
+        ],
+        "RawSkills": [
+          "AutoCAD",
+          "Autocad 2D"
+        ]
+      },
+      {
+        "Name": "Ausschreibungen",
+        "Id": "KS121017533VB8TBLQ9L",
+        "Type": "Professional",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          },
+          {
+            "SectionType": "EDUCATION"
+          }
+        ],
+        "RawSkills": [
+          "Ausschreibung"
+        ]
+      },
+      {
+        "Name": "Bauwesen",
+        "Id": "KS1217R6SMDJ0WQHN6LK",
+        "Type": "Professional",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          },
+          {
+            "SectionType": "EDUCATION"
+          }
+        ],
+        "RawSkills": [
+          "Bauausführung",
+          "Hochbau",
+          "Fertigteilbau",
+          "Baustellen",
+          "Schlüsselfertigbau"
+        ]
+      },
+      {
+        "Name": "Bauleitung",
+        "Id": "KS1229V75JRKRC5S980K",
+        "Type": "Professional",
+        "FoundIn": [
+          {
+            "SectionType": "PROFESSIONAL AFFILIATIONS"
+          },
+          {
+            "SectionType": "EDUCATION"
+          }
+        ],
+        "RawSkills": [
+          "Baustellenmanagement",
+          "Bauherrenvertretung",
+          "Bauleitung",
+          "Bauüberwachung"
+        ]
+      },
+      {
+        "Name": "Projektmanagement",
+        "Id": "KS1267F6MSPN366LX7ST",
+        "Type": "Professional",
+        "FoundIn": [
+          {
+            "SectionType": "PROFESSIONAL AFFILIATIONS"
+          },
+          {
+            "SectionType": "EDUCATION"
+          }
+        ],
+        "RawSkills": [
+          "Projektüberwachung",
+          "Projektsteuerung",
+          "Projektmanagement"
+        ]
+      },
+      {
+        "Name": "Renovierung",
+        "Id": "KS128J35W8FRP96V80DS",
+        "Type": "Professional",
+        "FoundIn": [
+          {
+            "SectionType": "PROFESSIONAL AFFILIATIONS"
+          },
+          {
+            "SectionType": "EDUCATION"
+          }
+        ],
+        "RawSkills": [
+          "Renovierung",
+          "Sanierung",
+          "Sanierungsmaßnahmen"
+        ]
+      },
+      {
+        "Name": "Scaled Agile Framework",
+        "Id": "KS440B16XNZ7MYQTLTR2",
+        "Type": "IT",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          },
+          {
+            "SectionType": "EDUCATION"
+          }
+        ],
+        "RawSkills": [
+          "Safe"
+        ]
+      },
+      {
+        "Name": "ETABS",
+        "Id": "KSZTB5EIGXAGVAJH5IAG",
+        "Type": "IT",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          },
+          {
+            "SectionType": "EDUCATION"
+          }
+        ],
+        "RawSkills": [
+          "Etabs"
+        ]
+      },
+      {
+        "Name": "Microsoft Excel",
+        "Id": "KS1200H6XYN1CR0G5NZ0",
+        "Type": "IT",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          }
+        ],
+        "RawSkills": [
+          "Excel"
+        ]
+      },
+      {
+        "Name": "Microsoft Windows",
+        "Id": "KS120265WKHSMJ6HYX8P",
+        "Type": "IT",
+        "FoundIn": [
+          {
+            "SectionType": "EDUCATION"
+          }
+        ],
+        "RawSkills": [
+          "Windows"
+        ]
+      },
+      {
+        "Name": "Adobe Photoshop",
+        "Id": "KS1206Y6W7F5JS3VBTFL",
+        "Type": "IT",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          }
+        ],
+        "RawSkills": [
+          "Photoshop"
+        ]
+      },
+      {
+        "Name": "Archicad",
+        "Id": "KS120MF67L0Z2TBFRZGY",
+        "Type": "IT",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          }
+        ],
+        "RawSkills": [
+          "Archicad"
+        ]
+      },
+      {
+        "Name": "Gebäudetechnik",
+        "Id": "KS120MJ6QP112G3XSMMT",
+        "Type": "Professional",
+        "FoundIn": [
+          {
+            "SectionType": "EDUCATION"
+          }
+        ],
+        "RawSkills": [
+          "Bauingenieure"
+        ]
+      },
+      {
+        "Name": "Audits",
+        "Id": "KS120RN6FDTS9FLCH3T0",
+        "Type": "Professional",
+        "FoundIn": [
+          {
+            "SectionType": "EDUCATION"
+          }
+        ],
+        "RawSkills": [
+          "Rechnungsprüfung"
+        ]
+      },
+      {
+        "Name": "Gebäudeinbetriebnahme",
+        "Id": "KS1217R6N688G269X10C",
+        "Type": "Professional",
+        "FoundIn": [
+          {
+            "SectionType": "EDUCATION"
+          }
+        ],
+        "RawSkills": [
+          "Neubau"
+        ]
+      },
+      {
+        "Name": "Versorgungstechnik",
+        "Id": "KS1217W6V620GBBV318S",
+        "Type": "Professional",
+        "FoundIn": [
+          {
+            "SectionType": "EDUCATION"
+          }
+        ],
+        "RawSkills": [
+          "TGA"
+        ]
+      },
+      {
+        "Name": "Microsoft Outlook",
+        "Id": "KS1218H6LSPWQHWXPLCD",
+        "Type": "IT",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          }
+        ],
+        "RawSkills": [
+          "Outlook"
+        ]
+      },
+      {
+        "Name": "Betriebswirtschaft",
+        "Id": "KS1218M69Q71VLCK1G8L",
+        "Type": "Professional",
+        "FoundIn": [
+          {
+            "SectionType": "PROFESSIONAL AFFILIATIONS"
+          }
+        ],
+        "RawSkills": [
+          "Betriebswirtschaft"
+        ]
+      },
+      {
+        "Name": "Stadtplanung",
+        "Id": "KS121XS5Y65G7JJG1VV5",
+        "Type": "Professional",
+        "FoundIn": [
+          {
+            "SectionType": "EDUCATION"
+          }
+        ],
+        "RawSkills": [
+          "Stadtentwicklung"
+        ]
+      },
+      {
+        "Name": "Bauingenieurwesen",
+        "Id": "KS121XY60R6Z5C3R172K",
+        "Type": "Professional",
+        "FoundIn": [
+          {
+            "SectionType": "EDUCATION"
+          }
+        ],
+        "RawSkills": [
+          "Bauingenieurwesen"
+        ]
+      },
+      {
+        "Name": "Baurecht",
+        "Id": "KS1229T77C3XZTTW0YCH",
+        "Type": "Professional",
+        "FoundIn": [
+          {
+            "SectionType": "EDUCATION"
+          }
+        ],
+        "RawSkills": [
+          "Bauvertragsrecht"
+        ]
+      },
+      {
+        "Name": "Vertragsverhandlung",
+        "Id": "KS122CJ6ZVCCTTDGYB6B",
+        "Type": "Professional",
+        "FoundIn": [
+          {
+            "SectionType": "EDUCATION"
+          }
+        ],
+        "RawSkills": [
+          "Vertragsverhandlung"
+        ]
+      },
+      {
+        "Name": "Erdarbeiten",
+        "Id": "KS1238S71GY95LNVNG1J",
+        "Type": "Professional",
+        "FoundIn": [
+          {
+            "SectionType": "EDUCATION"
+          }
+        ],
+        "RawSkills": [
+          "Tunnelbau"
+        ]
+      },
+      {
+        "Name": "Immobilienverwaltung",
+        "Id": "KS123NJ76GJLK91JS75M",
+        "Type": "Professional",
+        "FoundIn": [
+          {
+            "SectionType": "PROFESSIONAL AFFILIATIONS"
+          }
+        ],
+        "RawSkills": [
+          "Immobilienmanagement"
+        ]
+      },
+      {
+        "Name": "Grafik",
+        "Id": "KS124H05ZC4NYVG8MCHJ",
+        "Type": "Professional",
+        "FoundIn": [
+          {
+            "SectionType": "EDUCATION"
+          }
+        ],
+        "RawSkills": [
+          "Grafiken"
+        ]
+      },
+      {
+        "Name": "Infrastruktur",
+        "Id": "KS125536N3GWSZZC3208",
+        "Type": "Professional",
+        "FoundIn": [
+          {
+            "SectionType": "EDUCATION"
+          }
+        ],
+        "RawSkills": [
+          "Infrastrukturen"
+        ]
+      },
+      {
+        "Name": "Soziale Kompetenz",
+        "Id": "KS1259F6T82JB6LWPHP4",
+        "Type": "Soft",
+        "FoundIn": [
+          {
+            "SectionType": "PROFESSIONAL AFFILIATIONS"
+          }
+        ],
+        "RawSkills": [
+          "Soziale Kompetenz"
+        ]
+      },
+      {
+        "Name": "Lph",
+        "Id": "KS125ZQ65XK7Q9B60578",
+        "Type": "Professional",
+        "FoundIn": [
+          {
+            "SectionType": "EDUCATION"
+          }
+        ],
+        "RawSkills": [
+          "LPH"
+        ]
+      },
+      {
+        "Name": "Mathematik",
+        "Id": "KS126706DPFD3354M7YK",
+        "Type": "Professional",
+        "FoundIn": [
+          {
+            "SectionType": "EDUCATION"
+          }
+        ],
+        "RawSkills": [
+          "Mathematik"
+        ]
+      },
+      {
+        "Name": "Microsoft Office",
+        "Id": "KS126HY6YLTB9R7XJC4Z",
+        "Type": "IT",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          }
+        ],
+        "RawSkills": [
+          "Microsoft Office"
+        ]
+      },
+      {
+        "Name": "Microsoft Project",
+        "Id": "KS126J46GGVZB8BGGXSY",
+        "Type": "IT",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          }
+        ],
+        "RawSkills": [
+          "Microsoft Project"
+        ]
+      },
+      {
+        "Name": "Microstation",
+        "Id": "KS126K761Z6GRDV2GZZ7",
+        "Type": "IT",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          }
+        ],
+        "RawSkills": [
+          "MicroStation"
+        ]
+      },
+      {
+        "Name": "Physik",
+        "Id": "KS127TD6X5C909DYQ765",
+        "Type": "Professional",
+        "FoundIn": [
+          {
+            "SectionType": "EDUCATION"
+          }
+        ],
+        "RawSkills": [
+          "Physik"
+        ]
+      },
+      {
+        "Name": "Microsoft Powerpoint",
+        "Id": "KS127ZG6DBSF76WF7VYX",
+        "Type": "IT",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          }
+        ],
+        "RawSkills": [
+          "Power point"
+        ]
+      },
+      {
+        "Name": "Verantwortungsbereitschaft",
+        "Id": "KS1283D6V01GSKVQW2XT",
+        "Type": "Soft",
+        "FoundIn": [
+          {
+            "SectionType": "EDUCATION"
+          }
+        ],
+        "RawSkills": [
+          "Gesamtverantwortung"
+        ]
+      },
+      {
+        "Name": "Straßenbau und Versorgung",
+        "Id": "KS440416LJHKZHQY4ZB9",
+        "Type": "Professional",
+        "FoundIn": [
+          {
+            "SectionType": "EDUCATION"
+          }
+        ],
+        "RawSkills": [
+          "Straßenbau"
+        ]
+      },
+      {
+        "Name": "Metallbau",
+        "Id": "KS440YQ6YSWBD14T5W7D",
+        "Type": "Professional",
+        "FoundIn": [
+          {
+            "SectionType": "EDUCATION"
+          }
+        ],
+        "RawSkills": [
+          "Stahlbau"
+        ]
+      },
+      {
+        "Name": "Baukonstruktion",
+        "Id": "KS4410Q6TN140M067HLK",
+        "Type": "Professional",
+        "FoundIn": [
+          {
+            "SectionType": "EDUCATION"
+          }
+        ],
+        "RawSkills": [
+          "Nachtragsmanagement",
+          "konstruktiver Ingenieurbau"
+        ]
+      },
+      {
+        "Name": "Nachhaltigkeit",
+        "Id": "KS4413J75LBMGR4Z3T63",
+        "Type": "Professional",
+        "FoundIn": [
+          {
+            "SectionType": "PROFESSIONAL AFFILIATIONS"
+          }
+        ],
+        "RawSkills": [
+          "Nachhaltige\n                              Entwicklung"
+        ]
+      },
+      {
+        "Name": "Urban Design",
+        "Id": "KS441P2638Z6325HRT7W",
+        "Type": "Professional",
+        "FoundIn": [
+          {
+            "SectionType": "EDUCATION"
+          }
+        ],
+        "RawSkills": [
+          "Städtebau"
+        ]
+      },
+      {
+        "Name": "Wasseraufbereitung",
+        "Id": "KS441Z979P36J786B1T8",
+        "Type": "Professional",
+        "FoundIn": [
+          {
+            "SectionType": "EDUCATION"
+          }
+        ],
+        "RawSkills": [
+          "Wasserversorgung"
+        ]
+      },
+      {
+        "Name": "Glasfasernetz",
+        "Id": "KS7G01971WZBBDYXTDD4",
+        "Type": "Professional",
+        "FoundIn": [
+          {
+            "SectionType": "EDUCATION"
+          }
+        ],
+        "RawSkills": [
+          "Glasfasernetz"
+        ]
+      },
+      {
+        "Name": "Mittelspannung",
+        "Id": "KS8KRORQ2A4CAI6ZBJHT",
+        "Type": "Professional",
+        "FoundIn": [
+          {
+            "SectionType": "EDUCATION"
+          }
+        ],
+        "RawSkills": [
+          "Mittelspannung"
+        ]
+      },
+      {
+        "Name": "Kanalisierung",
+        "Id": "KSF5EALR3LPUGHNXJLC2",
+        "Type": "Professional",
+        "FoundIn": [
+          {
+            "SectionType": "EDUCATION"
+          }
+        ],
+        "RawSkills": [
+          "Kanalisierung"
+        ]
+      },
+      {
+        "Name": "Orca AVA",
+        "Id": "KSGN23E8YOY58VUFXYFU",
+        "Type": "IT",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          }
+        ],
+        "RawSkills": [
+          "Orca AVA"
+        ]
+      },
+      {
+        "Name": "Kostenrechnung",
+        "Id": "KSI46KJD9GMLYRKOM7N8",
+        "Type": "Professional",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          }
+        ],
+        "RawSkills": [
+          "Kostenrechnung"
+        ]
+      },
+      {
+        "Name": "Tekla",
+        "Id": "KSJGZ415F0CQCU8W23M7",
+        "Type": "IT",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          }
+        ],
+        "RawSkills": [
+          "Tekla"
+        ]
+      },
+      {
+        "Name": "Team Management",
+        "Id": "KSMU8VB0TWXIPYPB9NZ4",
+        "Type": "Professional",
+        "FoundIn": [
+          {
+            "SectionType": "PROFESSIONAL AFFILIATIONS"
+          }
+        ],
+        "RawSkills": [
+          "Führungserfahrung"
+        ]
+      },
+      {
+        "Name": "Tiefbauprojekte",
+        "Id": "KSOH8HZHTG7HFWRG29BE",
+        "Type": "Professional",
+        "FoundIn": [
+          {
+            "SectionType": "EDUCATION"
+          }
+        ],
+        "RawSkills": [
+          "Tiefbau"
+        ]
+      },
+      {
+        "Name": "Honorarordnung für Architekten und Ingenieure",
+        "Id": "KST830SVFJZ6CHR1C6AT",
+        "Type": "Professional",
+        "FoundIn": [
+          {
+            "SectionType": "SKILLS"
+          }
+        ],
+        "RawSkills": [
+          "HOAI"
+        ]
+      },
+      {
+        "Name": "Stahlbeton",
+        "Id": "KSV15ZYUJZEZFY8GIQUM",
+        "Type": "Professional",
+        "FoundIn": [
+          {
+            "SectionType": "EDUCATION"
+          }
+        ],
+        "RawSkills": [
+          "Stahlbetonbau",
+          "Stahlbeton"
+        ]
+      }
+    ],
+    "RelatedProfessionClasses": [
+      {
+        "Name": "Ingenieurwesen",
+        "Id": "5",
+        "Percent": 22,
+        "Groups": [
+          {
+            "Name": "Ingenieure, Konstrukteure und Techniker im Tief- und Wasserbau (m/w)",
+            "Id": "39",
+            "Percent": 3,
+            "NormalizedSkills": [
+              "KS4410Q6TN140M067HLK",
+              "KSOH8HZHTG7HFWRG29BE",
+              "KSGN23E8YOY58VUFXYFU",
+              "KS121XS5Y65G7JJG1VV5",
+              "KS121XY60R6Z5C3R172K",
+              "KS1238S71GY95LNVNG1J",
+              "KS126K761Z6GRDV2GZZ7",
+              "KS441P2638Z6325HRT7W",
+              "KS441Z979P36J786B1T8",
+              "KS125ZQ65XK7Q9B60578",
+              "KS440416LJHKZHQY4ZB9",
+              "KS1203B66DJG8T72WTJ4"
+            ]
+          },
+          {
+            "Name": "Ingenieure, Konstrukteure und Techniker im Bauwesen (m/w)",
+            "Id": "35",
+            "Percent": 3,
+            "NormalizedSkills": [
+              "KS4410Q6TN140M067HLK",
+              "KSGN23E8YOY58VUFXYFU",
+              "KS120MJ6QP112G3XSMMT",
+              "KS120MF67L0Z2TBFRZGY",
+              "KS121XY60R6Z5C3R172K",
+              "KS125ZQ65XK7Q9B60578",
+              "KS441P2638Z6325HRT7W",
+              "KS1229V75JRKRC5S980K",
+              "KS1229T77C3XZTTW0YCH",
+              "KS440YQ6YSWBD14T5W7D",
+              "KSJGZ415F0CQCU8W23M7",
+              "KS1203B66DJG8T72WTJ4"
+            ]
+          },
+          {
+            "Name": "Zeichner und Konstrukteure im Bauwesen (m/w)",
+            "Id": "251",
+            "Percent": 3,
+            "NormalizedSkills": [
+              "KS120MF67L0Z2TBFRZGY",
+              "KS126K761Z6GRDV2GZZ7",
+              "KS1229T77C3XZTTW0YCH",
+              "KS440YQ6YSWBD14T5W7D",
+              "KSJGZ415F0CQCU8W23M7",
+              "KS1203B66DJG8T72WTJ4"
+            ]
+          },
+          {
+            "Name": "Zeichner und Konstrukteure im Tief- und Wasserbau (m/w)",
+            "Id": "259",
+            "Percent": 2,
+            "NormalizedSkills": [
+              "KS121XS5Y65G7JJG1VV5",
+              "KS121XY60R6Z5C3R172K",
+              "KS1238S71GY95LNVNG1J",
+              "KS440416LJHKZHQY4ZB9",
+              "KS1203B66DJG8T72WTJ4"
+            ]
+          },
+          {
+            "Name": "Kalkulatoren und Planer technischer Arbeiten (m/w)",
+            "Id": "42",
+            "Percent": 2,
+            "NormalizedSkills": [
+              "KSGN23E8YOY58VUFXYFU",
+              "KS1217W6V620GBBV318S",
+              "KS120MJ6QP112G3XSMMT",
+              "KS121XY60R6Z5C3R172K",
+              "KS125ZQ65XK7Q9B60578",
+              "KS1229T77C3XZTTW0YCH"
+            ]
+          },
+          {
+            "Name": "Zeichner und Konstrukteure im Maschinenbau (m/w)",
+            "Id": "40",
+            "Percent": 2,
+            "NormalizedSkills": [
+              "KS126K761Z6GRDV2GZZ7",
+              "KSJGZ415F0CQCU8W23M7",
+              "KS1203B66DJG8T72WTJ4"
+            ]
+          },
+          {
+            "Name": "Ingenieure, Konstrukteure und Techniker Elektronik (m/w)",
+            "Id": "260",
+            "Percent": 2,
+            "NormalizedSkills": [
+              "KS126K761Z6GRDV2GZZ7",
+              "KS8KRORQ2A4CAI6ZBJHT",
+              "KS1203B66DJG8T72WTJ4"
+            ]
+          },
+          {
+            "Name": "Ingenieure, Konstrukteure und Techniker im Maschinenbau (m/w)",
+            "Id": "250",
+            "Percent": 2,
+            "NormalizedSkills": [
+              "KS4410Q6TN140M067HLK",
+              "KS1203B66DJG8T72WTJ4"
+            ]
+          },
+          {
+            "Name": "Ingenieurwesen (sonstige)",
+            "Id": "287",
+            "Percent": 1,
+            "NormalizedSkills": [
+              "KS126K761Z6GRDV2GZZ7",
+              "KSGN23E8YOY58VUFXYFU"
+            ]
+          },
+          {
+            "Name": "Vermessungstechniker und Kartografen (m/w)",
+            "Id": "236",
+            "Percent": 1,
+            "NormalizedSkills": [
+              "KS126K761Z6GRDV2GZZ7"
+            ]
+          },
+          {
+            "Name": "Engineering Managers / Konstruktionsleiter (m/w)",
+            "Id": "233",
+            "Percent": 1,
+            "NormalizedSkills": [
+              "KS126J46GGVZB8BGGXSY"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Bauwesen und Bergbau",
+        "Id": "3",
+        "Percent": 18,
+        "Groups": [
+          {
+            "Name": "Projektleiter Bau (m/w)",
+            "Id": "279",
+            "Percent": 3,
+            "NormalizedSkills": [
+              "KSGN23E8YOY58VUFXYFU",
+              "KS1217R6SMDJ0WQHN6LK",
+              "KS120MJ6QP112G3XSMMT",
+              "KS120MF67L0Z2TBFRZGY",
+              "KS121XY60R6Z5C3R172K",
+              "KS125ZQ65XK7Q9B60578",
+              "KS126J46GGVZB8BGGXSY",
+              "KS1229V75JRKRC5S980K",
+              "KS1229T77C3XZTTW0YCH",
+              "KS1217R6N688G269X10C"
+            ]
+          },
+          {
+            "Name": "Subunternehmer Bauwesen (m/w)",
+            "Id": "24",
+            "Percent": 3,
+            "NormalizedSkills": [
+              "KSOH8HZHTG7HFWRG29BE",
+              "KSGN23E8YOY58VUFXYFU",
+              "KS120MJ6QP112G3XSMMT",
+              "KS121XY60R6Z5C3R172K",
+              "KS125ZQ65XK7Q9B60578",
+              "KS1229V75JRKRC5S980K",
+              "KS1229T77C3XZTTW0YCH",
+              "KS1217R6N688G269X10C"
+            ]
+          },
+          {
+            "Name": "Subunternehmer und Projektleiter im Tief- und Wasserbau (m/w)",
+            "Id": "265",
+            "Percent": 3,
+            "NormalizedSkills": [
+              "KSOH8HZHTG7HFWRG29BE",
+              "KS121XY60R6Z5C3R172K",
+              "KS1238S71GY95LNVNG1J",
+              "KS126J46GGVZB8BGGXSY",
+              "KS1229V75JRKRC5S980K",
+              "KS440416LJHKZHQY4ZB9"
+            ]
+          },
+          {
+            "Name": "Straßenbauer (m/w)",
+            "Id": "23",
+            "Percent": 3,
+            "NormalizedSkills": [
+              "KSF5EALR3LPUGHNXJLC2",
+              "KS1238S71GY95LNVNG1J",
+              "KS441Z979P36J786B1T8",
+              "KSOH8HZHTG7HFWRG29BE",
+              "KS440416LJHKZHQY4ZB9",
+              "KS7G01971WZBBDYXTDD4"
+            ]
+          },
+          {
+            "Name": "Finisher Bau (m/w)",
+            "Id": "248",
+            "Percent": 2,
+            "NormalizedSkills": [
+              "KSOH8HZHTG7HFWRG29BE",
+              "KS128J35W8FRP96V80DS",
+              "KS1217R6N688G269X10C"
+            ]
+          },
+          {
+            "Name": "Installateure und Klempner (m/w)",
+            "Id": "18",
+            "Percent": 2,
+            "NormalizedSkills": [
+              "KSF5EALR3LPUGHNXJLC2",
+              "KS8KRORQ2A4CAI6ZBJHT",
+              "KS1217R6N688G269X10C"
+            ]
+          },
+          {
+            "Name": "Manager Bau und Rohstoffgewinnung (m/w)",
+            "Id": "19",
+            "Percent": 2,
+            "NormalizedSkills": [
+              "KS1229V75JRKRC5S980K"
+            ]
+          },
+          {
+            "Name": "Baumaschinenführer Hoch-, Tief- und Wasserbau (m/w)",
+            "Id": "20",
+            "Percent": 2,
+            "NormalizedSkills": [
+              "KSOH8HZHTG7HFWRG29BE",
+              "KS1238S71GY95LNVNG1J"
+            ]
+          },
+          {
+            "Name": "Maurer und Steinhauer (m/w)",
+            "Id": "22",
+            "Percent": 1,
+            "NormalizedSkills": [
+              "KS1238S71GY95LNVNG1J"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Informations- und Kommunikationstechnologie",
+        "Id": "9",
+        "Percent": 13,
+        "Groups": [
+          {
+            "Name": "Berater und Spezialisten (m/w)",
+            "Id": "83",
+            "Percent": 2,
+            "NormalizedSkills": [
+              "KS125536N3GWSZZC3208",
+              "KS440B16XNZ7MYQTLTR2"
+            ]
+          },
+          {
+            "Name": "IT-Koordinatoren (m/w)",
+            "Id": "81",
+            "Percent": 2,
+            "NormalizedSkills": [
+              "KS440B16XNZ7MYQTLTR2"
+            ]
+          },
+          {
+            "Name": "Leitende Angestelle IT (m/w)",
+            "Id": "80",
+            "Percent": 2,
+            "NormalizedSkills": [
+              "KS126J46GGVZB8BGGXSY",
+              "KS440B16XNZ7MYQTLTR2"
+            ]
+          },
+          {
+            "Name": "Programmierer (m/w)",
+            "Id": "82",
+            "Percent": 1,
+            "NormalizedSkills": [
+              "KS440B16XNZ7MYQTLTR2"
+            ]
+          },
+          {
+            "Name": "Web Professionals (m/w)",
+            "Id": "77",
+            "Percent": 1,
+            "NormalizedSkills": [
+              "KS124H05ZC4NYVG8MCHJ",
+              "KS1206Y6W7F5JS3VBTFL"
+            ]
+          },
+          {
+            "Name": "Systementwickler und -analytiker (m/w)",
+            "Id": "86",
+            "Percent": 1,
+            "NormalizedSkills": [
+              "KS440B16XNZ7MYQTLTR2"
+            ]
+          },
+          {
+            "Name": "Mitarbeiter Support (m/w)",
+            "Id": "84",
+            "Percent": 1,
+            "NormalizedSkills": [
+              "KS120265WKHSMJ6HYX8P"
+            ]
+          },
+          {
+            "Name": "Netzwerkspezialisten (m/w)",
+            "Id": "78",
+            "Percent": 1,
+            "NormalizedSkills": [
+              "KS7G01971WZBBDYXTDD4"
+            ]
+          },
+          {
+            "Name": "System- und Anwendungsadministratoren (m/w)",
+            "Id": "85",
+            "Percent": 1,
+            "NormalizedSkills": [
+              "KS120265WKHSMJ6HYX8P"
+            ]
+          },
+          {
+            "Name": "IT R&D Professionals (m/w)",
+            "Id": "29",
+            "Percent": 1,
+            "NormalizedSkills": [
+              "KS127TD6X5C909DYQ765"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Kunst, Kultur und Medien",
+        "Id": "10",
+        "Percent": 6,
+        "Groups": [
+          {
+            "Name": "Illustratoren und Designer (3D) (m/w)",
+            "Id": "89",
+            "Percent": 2,
+            "NormalizedSkills": [
+              "KS124H05ZC4NYVG8MCHJ",
+              "KS126K761Z6GRDV2GZZ7",
+              "KS120MF67L0Z2TBFRZGY",
+              "KS1206Y6W7F5JS3VBTFL"
+            ]
+          },
+          {
+            "Name": "Illustratoren und Designer (2D) (m/w)",
+            "Id": "98",
+            "Percent": 2,
+            "NormalizedSkills": [
+              "KS124H05ZC4NYVG8MCHJ",
+              "KS1206Y6W7F5JS3VBTFL"
+            ]
+          },
+          {
+            "Name": "Kunst, Kultur und Medien (sonstige)",
+            "Id": "292",
+            "Percent": 1,
+            "NormalizedSkills": [
+              "KS1206Y6W7F5JS3VBTFL"
+            ]
+          },
+          {
+            "Name": "Regisseure und Produzenten (m/w)",
+            "Id": "122",
+            "Percent": 1,
+            "NormalizedSkills": [
+              "KS1206Y6W7F5JS3VBTFL"
+            ]
+          },
+          {
+            "Name": "Journalisten und Redakteure (m/w)",
+            "Id": "121",
+            "Percent": 1,
+            "NormalizedSkills": [
+              "KS124H05ZC4NYVG8MCHJ"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Produktion",
+        "Id": "18",
+        "Percent": 7,
+        "Groups": [
+          {
+            "Name": "Maschinelle Metallverarbeiter (m/w)",
+            "Id": "178",
+            "Percent": 1,
+            "NormalizedSkills": [
+              "KSF5EALR3LPUGHNXJLC2",
+              "KS440YQ6YSWBD14T5W7D"
+            ]
+          },
+          {
+            "Name": "Konstrukteure, Bauherren und Installateure (m/w)",
+            "Id": "168",
+            "Percent": 1,
+            "NormalizedSkills": [
+              "KS440YQ6YSWBD14T5W7D"
+            ]
+          },
+          {
+            "Name": "Schweißer und Löter (m/w)",
+            "Id": "177",
+            "Percent": 1,
+            "NormalizedSkills": [
+              "KS440YQ6YSWBD14T5W7D"
+            ]
+          },
+          {
+            "Name": "Verfahrensoperatoren (m/w)",
+            "Id": "181",
+            "Percent": 1,
+            "NormalizedSkills": [
+              "KS441Z979P36J786B1T8"
+            ]
+          },
+          {
+            "Name": "Drucker (m/w)",
+            "Id": "169",
+            "Percent": 1,
+            "NormalizedSkills": [
+              "KS124H05ZC4NYVG8MCHJ"
+            ]
+          },
+          {
+            "Name": "Planer und Vorbereiter Druck und Layout (m/w)",
+            "Id": "232",
+            "Percent": 1,
+            "NormalizedSkills": [
+              "KS1206Y6W7F5JS3VBTFL"
+            ]
+          },
+          {
+            "Name": "Automatisierungstechniker (m/w)",
+            "Id": "188",
+            "Percent": 1,
+            "NormalizedSkills": [
+              "KSGN23E8YOY58VUFXYFU"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Versicherungen und Finanzen",
+        "Id": "24",
+        "Percent": 5,
+        "Groups": [
+          {
+            "Name": "Wirtschaftsprüfer / Buchhalter / Steuerberater (m/w)",
+            "Id": "218",
+            "Percent": 2,
+            "NormalizedSkills": [
+              "KS120RN6FDTS9FLCH3T0",
+              "KS126HY6YLTB9R7XJC4Z",
+              "KSI46KJD9GMLYRKOM7N8",
+              "KS1200H6XYN1CR0G5NZ0"
+            ]
+          },
+          {
+            "Name": "Manager Versicherungen und Finanzen (m/w)",
+            "Id": "220",
+            "Percent": 2,
+            "NormalizedSkills": [
+              "KS1218M69Q71VLCK1G8L",
+              "KSI46KJD9GMLYRKOM7N8"
+            ]
+          },
+          {
+            "Name": "Finanzexperten (m/w)",
+            "Id": "254",
+            "Percent": 1,
+            "NormalizedSkills": [
+              "KSI46KJD9GMLYRKOM7N8",
+              "KS127ZG6DBSF76WF7VYX"
+            ]
+          },
+          {
+            "Name": "Ökonomen / Wirtschaftsexperten (m/w)",
+            "Id": "219",
+            "Percent": 1,
+            "NormalizedSkills": [
+              "KS441P2638Z6325HRT7W"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Verwaltung",
+        "Id": "2",
+        "Percent": 5,
+        "Groups": [
+          {
+            "Name": "Management, Verwaltung und Politik (Sonstige)",
+            "Id": "284",
+            "Percent": 2,
+            "NormalizedSkills": [
+              "KSMU8VB0TWXIPYPB9NZ4",
+              "KS1259F6T82JB6LWPHP4",
+              "KS1283D6V01GSKVQW2XT",
+              "KS126HY6YLTB9R7XJC4Z",
+              "KS126J46GGVZB8BGGXSY",
+              "KS1200365FTR9X0M96T9",
+              "KS1267F6MSPN366LX7ST"
+            ]
+          },
+          {
+            "Name": "Behördenmitarbeiter (m/w)",
+            "Id": "12",
+            "Percent": 1,
+            "NormalizedSkills": [
+              "KS4413J75LBMGR4Z3T63",
+              "KS121XS5Y65G7JJG1VV5"
+            ]
+          },
+          {
+            "Name": "Führungskraft öffentliche Verwaltung (m/w)",
+            "Id": "263",
+            "Percent": 1,
+            "NormalizedSkills": [
+              "KS121XS5Y65G7JJG1VV5"
+            ]
+          },
+          {
+            "Name": "Managementanalytiker und -berater (m/w)",
+            "Id": "225",
+            "Percent": 0,
+            "NormalizedSkills": [
+              "KS127ZG6DBSF76WF7VYX"
+            ]
+          },
+          {
+            "Name": "Generaldirektoren (m/w)",
+            "Id": "11",
+            "Percent": 0,
+            "NormalizedSkills": [
+              "KS1283D6V01GSKVQW2XT"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Installation, Reparatur und Wartung",
+        "Id": "8",
+        "Percent": 4,
+        "Groups": [
+          {
+            "Name": "Mechaniker für Sanitär-, Heizungs- und Klimatechnik (m/w)",
+            "Id": "76",
+            "Percent": 2,
+            "NormalizedSkills": [
+              "KS1217W6V620GBBV318S",
+              "KSF5EALR3LPUGHNXJLC2"
+            ]
+          },
+          {
+            "Name": "Techniker Installation und Wartung elektrischer Geräte (m/w)",
+            "Id": "67",
+            "Percent": 2,
+            "NormalizedSkills": [
+              "KS120MJ6QP112G3XSMMT",
+              "KS8KRORQ2A4CAI6ZBJHT"
+            ]
+          },
+          {
+            "Name": "Mechaniker Büro- und Kommunikationsgeräte (m/w)",
+            "Id": "70",
+            "Percent": 1,
+            "NormalizedSkills": [
+              "KS7G01971WZBBDYXTDD4"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Verkauf und Handel",
+        "Id": "21",
+        "Percent": 4,
+        "Groups": [
+          {
+            "Name": "Immobilienmakler (m/w)",
+            "Id": "215",
+            "Percent": 1,
+            "NormalizedSkills": [
+              "KS1259F6T82JB6LWPHP4",
+              "KS123NJ76GJLK91JS75M"
+            ]
+          },
+          {
+            "Name": "Vertriebsleiter / Sales Manager (m/w)",
+            "Id": "209",
+            "Percent": 1,
+            "NormalizedSkills": [
+              "KS1283D6V01GSKVQW2XT",
+              "KS127ZG6DBSF76WF7VYX",
+              "KS1259F6T82JB6LWPHP4",
+              "KS122CJ6ZVCCTTDGYB6B"
+            ]
+          },
+          {
+            "Name": "Schalterangestellte und Mitarbeiter Verleih und Vermietung (m/w)",
+            "Id": "214",
+            "Percent": 1,
+            "NormalizedSkills": [
+              "KS123NJ76GJLK91JS75M"
+            ]
+          },
+          {
+            "Name": "Account Manager Unternehmensdienstleistungen (m/w)",
+            "Id": "203",
+            "Percent": 1,
+            "NormalizedSkills": [
+              "KS1259F6T82JB6LWPHP4",
+              "KS122CJ6ZVCCTTDGYB6B"
+            ]
+          },
+          {
+            "Name": "Filialleiter Verkauf (m/w)",
+            "Id": "216",
+            "Percent": 0,
+            "NormalizedSkills": [
+              "KS1283D6V01GSKVQW2XT"
+            ]
+          },
+          {
+            "Name": "Verkäufer (m/w)",
+            "Id": "217",
+            "Percent": 0,
+            "NormalizedSkills": [
+              "KS1259F6T82JB6LWPHP4"
+            ]
+          },
+          {
+            "Name": "Vertreter Artikel und Produkte (m/w)",
+            "Id": "205",
+            "Percent": 0,
+            "NormalizedSkills": [
+              "KS1259F6T82JB6LWPHP4"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Administration und Kundenbetreuung",
+        "Id": "1",
+        "Percent": 4,
+        "Groups": [
+          {
+            "Name": "Mitarbeiter Verwaltung (m/w)",
+            "Id": "234",
+            "Percent": 1,
+            "NormalizedSkills": [
+              "KS1200365FTR9X0M96T9",
+              "KS1218H6LSPWQHWXPLCD",
+              "KS126HY6YLTB9R7XJC4Z",
+              "KS127ZG6DBSF76WF7VYX"
+            ]
+          },
+          {
+            "Name": "Planer / Koordinatoren (m/w)",
+            "Id": "5",
+            "Percent": 1,
+            "NormalizedSkills": [
+              "KS441P2638Z6325HRT7W"
+            ]
+          },
+          {
+            "Name": "Sekretärinnen (m/w)",
+            "Id": "8",
+            "Percent": 1,
+            "NormalizedSkills": [
+              "KS1200365FTR9X0M96T9",
+              "KS126HY6YLTB9R7XJC4Z",
+              "KS127ZG6DBSF76WF7VYX"
+            ]
+          },
+          {
+            "Name": "Leiter Administration und Kundenservice (m/w)",
+            "Id": "9",
+            "Percent": 0,
+            "NormalizedSkills": [
+              "KS1200365FTR9X0M96T9",
+              "KS126HY6YLTB9R7XJC4Z"
+            ]
+          },
+          {
+            "Name": "Mitarbeiter Finanzen und Verwaltung (m/w)",
+            "Id": "1",
+            "Percent": 0,
+            "NormalizedSkills": [
+              "KS1200365FTR9X0M96T9",
+              "KS126HY6YLTB9R7XJC4Z"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Einkauf und Lagerhaltung",
+        "Id": "22",
+        "Percent": 2,
+        "Groups": [
+          {
+            "Name": "Käufer / Beschaffer (m/w)",
+            "Id": "224",
+            "Percent": 2,
+            "NormalizedSkills": [
+              "KS121017533VB8TBLQ9L",
+              "KS122CJ6ZVCCTTDGYB6B"
+            ]
+          },
+          {
+            "Name": "Leiter Einkauf und Lagerverwaltung (m/w)",
+            "Id": "245",
+            "Percent": 1,
+            "NormalizedSkills": [
+              "KS122CJ6ZVCCTTDGYB6B"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Kommunikation, Marketing und Öffentlichkeitsarbeit",
+        "Id": "23",
+        "Percent": 1,
+        "Groups": [
+          {
+            "Name": "Manager Kommunikation, Marketing und Öffentlichkeitsarbeit (m/w)",
+            "Id": "208",
+            "Percent": 1,
+            "NormalizedSkills": [
+              "KS124H05ZC4NYVG8MCHJ",
+              "KS127ZG6DBSF76WF7VYX",
+              "KS1206Y6W7F5JS3VBTFL"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Recht, Personalwirtschaft und Sozialwesen",
+        "Id": "19",
+        "Percent": 2,
+        "Groups": [
+          {
+            "Name": "Juristen (m/w)",
+            "Id": "184",
+            "Percent": 1,
+            "NormalizedSkills": [
+              "KS1229T77C3XZTTW0YCH"
+            ]
+          },
+          {
+            "Name": "Personal- und Arbeitsmarktexperten (m/w)",
+            "Id": "223",
+            "Percent": 0,
+            "NormalizedSkills": [
+              "KS1200365FTR9X0M96T9",
+              "KS126HY6YLTB9R7XJC4Z",
+              "KS127ZG6DBSF76WF7VYX"
+            ]
+          },
+          {
+            "Name": "Hilfspersonal Justiz (m/w)",
+            "Id": "187",
+            "Percent": 0,
+            "NormalizedSkills": [
+              "KS1200365FTR9X0M96T9"
+            ]
+          },
+          {
+            "Name": "Sozial-gesellschaftliche Arbeiter (m/w)",
+            "Id": "191",
+            "Percent": 0,
+            "NormalizedSkills": [
+              "KS1259F6T82JB6LWPHP4"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Landwirtschaft, Viehwirtschaft und Fischerei",
+        "Id": "11",
+        "Percent": 2,
+        "Groups": [
+          {
+            "Name": "Inspektoren und Kontrolleure (m/w)",
+            "Id": "102",
+            "Percent": 1,
+            "NormalizedSkills": [
+              "KS441P2638Z6325HRT7W"
+            ]
+          },
+          {
+            "Name": "Gärtner (m/w)",
+            "Id": "134",
+            "Percent": 1,
+            "NormalizedSkills": [
+              "KS1238S71GY95LNVNG1J"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Bildungswesen und Training",
+        "Id": "15",
+        "Percent": 1,
+        "Groups": [
+          {
+            "Name": "Wissenschaftler (m/w)",
+            "Id": "307",
+            "Percent": 1,
+            "NormalizedSkills": [
+              "KS441P2638Z6325HRT7W"
+            ]
+          },
+          {
+            "Name": "Lehrer Sekundarstufe I (m/w)",
+            "Id": "145",
+            "Percent": 1,
+            "NormalizedSkills": [
+              "KS126706DPFD3354M7YK"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Reinigung und Wartung",
+        "Id": "14",
+        "Percent": 1,
+        "Groups": [
+          {
+            "Name": "Reinigungskräfte Fahrzeuge und Geräte (m/w)",
+            "Id": "132",
+            "Percent": 1,
+            "NormalizedSkills": [
+              "KSJGZ415F0CQCU8W23M7"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Transport und Verkehr",
+        "Id": "12",
+        "Percent": 1,
+        "Groups": [
+          {
+            "Name": "Fluglotsen und Hafenmeister (m/w)",
+            "Id": "116",
+            "Percent": 1,
+            "NormalizedSkills": [
+              "KS440416LJHKZHQY4ZB9"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Gesundheitswesen",
+        "Id": "6",
+        "Percent": 0,
+        "Groups": [
+          {
+            "Name": "Mitarbeiter Kinderbetreuung (m/w)",
+            "Id": "53",
+            "Percent": 0,
+            "NormalizedSkills": [
+              "KS1283D6V01GSKVQW2XT"
+            ]
+          },
+          {
+            "Name": "Medizinische Assistenten (m/w)",
+            "Id": "47",
+            "Percent": 0,
+            "NormalizedSkills": [
+              "KS1283D6V01GSKVQW2XT"
+            ]
+          },
+          {
+            "Name": "Medizinische Spezialisten und Chirurgen (m/w)",
+            "Id": "56",
+            "Percent": 0,
+            "NormalizedSkills": [
+              "KS1283D6V01GSKVQW2XT"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "LanguageCompetencies": [
+    {
+      "Language": "German",
+      "LanguageCode": "de",
+      "FoundInContext": "Found in SKILLS"
+    },
+    {
+      "Language": "English",
+      "LanguageCode": "en",
+      "FoundInContext": "Found in SKILLS"
+    },
+    {
+      "Language": "Persian",
+      "LanguageCode": "fa",
+      "FoundInContext": "Found in PROFESSIONAL AFFILIATIONS"
+    },
+    {
+      "Language": "Turkmen",
+      "LanguageCode": "tk",
+      "FoundInContext": "Found in PROFESSIONAL AFFILIATIONS"
+    },
+    {
+      "Language": "Turkish",
+      "LanguageCode": "tr",
+      "FoundInContext": "Found in PROFESSIONAL AFFILIATIONS"
+    }
+  ],
+  "ResumeMetadata": {
+    "FoundSections": [],
+    "PlainText": "\nLebenslauf\n\n\n   ~~~~~~~~~~~~~~~~~  \n\nGeburtsdatum:    13.09.1984\nAdresse:     ~~~~~~~~~  , 12169 Berlin- Steglitz\nE-Mail:    ~~~~~~~~~~~~  \nHandy:     ~~~~~~~~~~~~~  \nFührerschein:     ~~~  \n\n\n\n Berufliche Erfahrungen:\n       01.05.2023 – Aktuell   JKB Servicegesellschaft mbH - Berlin\n                              Als Bau- und Projektmanager (Bauherrenvertretung, LPH 1-9)\n                              Gesamtveratwortung für     Neubau eines Krankenhausgebäudes (11.500 m         2                     Stahlbetonbau,\n                              200 Betten), Koordination der intern und externer Projektbeteiligter, Mitwirkung\n                              und Durchführung von Vergaben über e-Vergabe-Plattform, Vertragsverhandlung,\n                              Nachtrags-management, Bauleitung interner Hochbau- und TGA-\n                              Sanierungsmaßnahmen im laufenden Betrieb\n\n  01.07.2022 – 30.11.2022     DGI Bauwerk Gesellschaft von Architekten mbH - Berlin\n                              Als Bauleiter Hochbau (LPH8)\n                              Bauüberwachung für Wohnungsbauprojekte (HOWOGE und BWB), Schulbauprojekte\n                              im Rahmen der Berliner Schulbauoffensive (BSO II), Modularbau, Fertigteilbau,\n                              Rechnungsprü-fung sowie Nachtragsmanagement und Kostenverfolgung\n\n  01.05.2020 – 30.06.2022     Architekturbüro Die Brücke – Berlin\n                              Als Bauingenieur bei der Projektsteuerung und Objektsplannung\n                              Gehnehmigungs- und Ausführungplanung sowie Mitwirkung bei der Ausschreibung\n                              und    Ver-gabe für Grundinstandsetzung und barrierefreier Ausbau für BVG-U-\n                              Bahhöfe\n\n  01.11.2019 – 30.04.2020     Emch + Berger Projekt GmbH – Berlin\n                              Als Werkstudent Bauüberwachung S-Bahn-Projekt (LPH8)\n                              Bauoberleitung und Bauüberwachung Tunnelbau und Trogbauwerk vor Ort,\n                              Baustellen-dokumentation, Rechnungsprüfung\n\n  19.02.2013 – 20.03.2018     „Fardano“ Beratende Ingenieur AG - Teheran, Iran\n                              Als Technikabteilungsleiter und Bauüberwacher (BOL und BÜ, LPH 1-9)\n                              Gesamtverantwortung für neue Stadtentwicklung mit 4.500 Wohneinheiten inkl.\n                              Kompletter Infrastrukturen,    Hotelbau , Wohnungsbauprojekte (Stahlbetonbau),\n                              Wasserversorgung      (5.000 m   3             Stahlbetonbautank), konstruktiver Ingenieurbau,\n                              Straßenbau inkl. Parkplätze, Grünflächen, Kanalisierung, Wasser- und Abwassernetz,\n                              Glasfasernetz,   Trafo-Gebäude     (Mittelspannung),    Telekommunikationsgebäude,\n                              Rechnungsprüfung, Ausschreibung\n\n  24.05.2014 – 24.05.2017     Genehmigung zur Ausübung der Ingenieurtätigkeit (Dipl.-Ing.)\n                              Ministerium für Straßen -und Städtebau (Iran)\n                              Fachgebiet der Genehmigung: Bauingenieurwesen-Bauingenieur\n                              Stufe drei, Baubeaufsichtigung – Baukammer Teheran, Iran\n\n  23.09.2011 – 20.12.2012     Bauingenieurunternehmen „Farash Nooran Sazeh“ GmbH - Iran\n                              Als Technische Zeichner (Autocad 2D), Statiker (Etabs & Safe), Bauüberwacher und\n                              Bauleiter bei: Hoch- und Tiefbau, Wohn- und Gewerbauprojekte, Stahlbeton-bau,\n                              Stahlbau, Schlüssel-fertigbau, konstruktiver Ingenieurbau, LPH 1 – 9\n\n  23.12.2009 – 21.06.2010     Verein der Bauingenieure – Bundesland - Iran\n                              Als Experte für berufliche Weiterbildung\n\n  23.10.2003 – 21.06.2009     Bauingenieurunternehmen „Benapad“ AG - Iran\n                              Als Entwurfplaner (Autocad 2D, 3D), Designer (Innen und Außen), Statiker (Etabs &\n                              Safe), Bauleitung (MSP), Vermesser-Assistent für Straßenbauprojekte (Straßen\n                              Stufe 2), Bauleiter-Assistent, Bauüberwacher und Bauleiter bei: Hoch- und Tiefbau,\n                              Wohn- und Gewerbegebäude, Stahlbetonbau, Stahlbau,                Schlüsselfertigbau,\n                              konstruktiver Ingenieurbau, LPH 1 - 9\n\n\n\n\n Ausbildungen:\n  01.02.2023 – 15.04.2023     Softsara, Online-Kurs\n                              Projektmanagement mit Microsoft Projekt (MSP), (240 Std.)\n  02.01.2023 – 27.01.2023     Alfatraining Bildungszentrum GmbH, Berlin\n                              Baumanager     (Bau- und Bauvertragsrecht nach VOB & BGB), (160 Std.)\n        04.2019 – 05.2019     Deutsche Akademie, Berlin\n                              Deutschkurs C1, (64 Std.)\n  10.06.2017 – 12.03.2018     Arian Sadr Kulturhaus, Iran\n                              Deutschkurs von A1 bis B2, (612 Std.)\n  15.07.2009 – 12.10.2009     Baukammer des Bundeslandes, Iran\n                              Als Ausbilder im Aufsichtskommitee, (420 Std.)\n                              Überwachung und Oberleitung von mehr als 200 Wohngebäude sowie 50\n                              Gewerbegebäude und Geschäftshallen, Bundeslandweit (Hoch- und Tiefbau, Stahlbeton-\n                              und Spannbetonbau, Stahlbau)\n                              Organisation für technische und berufliche Bildung (TVTO) - Iran:\n         06.2010 - 09.2010    - Analyst und Designer von 3D-Strukturen mit Software ETABS ,          (112 Std.)\n         06.2009 - 09.2009    - Techniker für die Umsetzung von der Stahlbauen,       (120 Std.)\n         08.2002 - 09.2002    - Microsoft Word,   (27 Std.)\n         12.2001 - 03.2002    - AutoCAD 14 (Windows) 2D & 3D,       (130 Std.)\n         06.2001 - 08.2001    - AutoCAD (Anwendung in Grafiken) 2D       , (60 Std.)\n\n Studium:\n               2006 – 2009    Bachelor im Bauingenieurwesen an der Islamische Azad Universität (Iran)\n                              Hauptfach: Zivilbauingenieur - Zivil Bau\n               2003 – 2005    Postabiturstudium in Fachhochschule für Herren (Iran)\n                              Fachrichtung: Gebäude-Allg. Gebäuden Arbeit\n               1998 – 2002    Abitur – Shahid Fahmideh Gymnasium (Iran)\n                              Fachrichtung: Mathematik und Physik\n\n Fortgeschritten:             AutoCAD (2D)\n                              MicroStation Power Draft (Bently)\n                              Microsoft Project (MSP)\n                              Microsoft Office (Excel, Word, Power point, Outlook, Teams)\n                              Etabs & Safe (CSI)\n                              HOAI, AHO, VOB\n                              Dalux - BIM System (Bauausführung, Mängelmanagement, Checklisten usw.)\n                              Capmo – BIM System (Bauausführung, Mängelmanagement, Checklisten usw.)\n\n Gute Kenntnisse:             AutoCAD (3D)\n                              Orca AVA (Kostenrechnung und Ausschreibung)\n                              BPU (Bau Projekt Unterlagen)\n                              Photoshop\n\n Mittlere Kenntnisse:         Tekla Structure (X-Steel)\n                              Archicad\n\n Sprachen:                    Deutsch          C1\n                              Englisch         Gut in Wort und Schrift\n                              Türkisch         Fließend in Wort\n                              Turkmenisch     Muttersprache\n                              Persisch         Muttersprache\n\n Studierte Fächer:            Projektüberwachung, Projektsteuerung und Projektmanagement, Nachhaltige\n                              Entwicklung im Bau- und Immobilienmanagement, Betriebswirtschaft, Baustellenmanagement,\n                              Renovierung und Sanierung, Immobilientechnologie, Führungserfahrung\n                              und Soziale Kompetenz, Interkulturelle Zusammenarbeit.\n\n",
+    "DocumentLanguage": "de",
+    "DocumentCulture": "de-DE",
+    "ParserSettings": "Coverage.MilitaryHistoryAndSecurityCredentials = True; Coverage.PatentsPublicationsAndSpeakingEvents = True; Coverage.PersonalAttributes = True; Coverage.Training = True; Culture.CountryCodeForUnitedKingdomIsUK = True; Culture.DefaultCountryCode = DE; Culture.DefaultCultureIsBelgium = True; Culture.DefaultCultureIsGermany = True; Culture.Language = German; Culture.PreferEnglishVersionIfTwoLanguagesInDocument = False; Data.NormalizeSkills = True; Data.UserDefinedParsing = False; Data.UseV2SkillsTaxonomy = True; OutputFormat.AssumeCompanyNameFromPrecedingJob = False; OutputFormat.ContactMethod.PackStyle = Split; OutputFormat.DateOutputStyle = ExplicitlyKnownDateInfoOnly; OutputFormat.NestJobsBasedOnDateRanges = True; OutputFormat.NormalizeRegions = False; OutputFormat.SimpleCustomLinkedIn = True; OutputFormat.SkillsStyle = Default; OutputFormat.StripParsedDataFromPositionHistoryDescription = True; OutputFormat.TelcomNumber.Style = Raw; OutputFormat.XmlFormat = HrXmlResume25",
+    "DocumentLastModified": "2026-01-18"
+  }
+}

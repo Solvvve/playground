@@ -1,0 +1,724 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "textkernel-resume-parser-schema",
+    "title": "Textkernel/Sovren Resume Parser Output Schema",
+    "description": "JSON Schema for Textkernel (formerly Sovren) Resume Parser output",
+    "type": "object",
+    "properties": {
+        "ContactInformation": {
+            "type": "object",
+            "description": "Candidate contact details",
+            "properties": {
+                "CandidateName": {
+                    "type": "object",
+                    "properties": {
+                        "FormattedName": {
+                            "type": "string"
+                        },
+                        "GivenName": {
+                            "type": "string"
+                        },
+                        "FamilyName": {
+                            "type": "string"
+                        }
+                    }
+                },
+                "Telephones": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "Raw": {
+                                "type": "string"
+                            },
+                            "Normalized": {
+                                "type": "string"
+                            },
+                            "InternationalCountryCode": {
+                                "type": "string"
+                            },
+                            "SubscriberNumber": {
+                                "type": "string"
+                            }
+                        }
+                    }
+                },
+                "EmailAddresses": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "Location": {
+                    "type": "object",
+                    "properties": {
+                        "CountryCode": {
+                            "type": "string"
+                        },
+                        "PostalCode": {
+                            "type": "string"
+                        },
+                        "Regions": {
+                            "type": "array",
+                            "items": {
+                                "type": "string"
+                            }
+                        },
+                        "Municipality": {
+                            "type": "string"
+                        },
+                        "StreetAddressLines": {
+                            "type": "array",
+                            "items": {
+                                "type": "string"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "PersonalAttributes": {
+            "type": "object",
+            "description": "Personal information like DOB, driving license",
+            "properties": {
+                "DateOfBirth": {
+                    "type": "object",
+                    "properties": {
+                        "Date": {
+                            "type": "string",
+                            "format": "date"
+                        },
+                        "IsCurrentDate": {
+                            "type": "boolean"
+                        },
+                        "FoundYear": {
+                            "type": "boolean"
+                        },
+                        "FoundMonth": {
+                            "type": "boolean"
+                        },
+                        "FoundDay": {
+                            "type": "boolean"
+                        }
+                    }
+                },
+                "DrivingLicense": {
+                    "type": "string"
+                }
+            }
+        },
+        "Education": {
+            "type": "object",
+            "description": "Educational background",
+            "properties": {
+                "HighestDegree": {
+                    "type": "object",
+                    "properties": {
+                        "Name": {
+                            "type": "object",
+                            "properties": {
+                                "Raw": {
+                                    "type": "string"
+                                },
+                                "Normalized": {
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        "NormalizedLocal": {
+                            "type": "object",
+                            "properties": {
+                                "Code": {
+                                    "type": "string"
+                                },
+                                "Description": {
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        "NormalizedInternational": {
+                            "type": "object",
+                            "properties": {
+                                "Code": {
+                                    "type": "string"
+                                },
+                                "Description": {
+                                    "type": "string"
+                                }
+                            }
+                        }
+                    }
+                },
+                "EducationDetails": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "Id": {
+                                "type": "string"
+                            },
+                            "Text": {
+                                "type": "string"
+                            },
+                            "SchoolName": {
+                                "type": "object",
+                                "properties": {
+                                    "Raw": {
+                                        "type": "string"
+                                    },
+                                    "Normalized": {
+                                        "type": "string"
+                                    }
+                                }
+                            },
+                            "SchoolType": {
+                                "type": "string",
+                                "enum": [
+                                    "university",
+                                    "highschool",
+                                    "vocational",
+                                    "other"
+                                ]
+                            },
+                            "Location": {
+                                "type": "object",
+                                "properties": {
+                                    "CountryCode": {
+                                        "type": "string"
+                                    }
+                                }
+                            },
+                            "Degree": {
+                                "type": "object",
+                                "properties": {
+                                    "Name": {
+                                        "type": "object",
+                                        "properties": {
+                                            "Raw": {
+                                                "type": "string"
+                                            },
+                                            "Normalized": {
+                                                "type": "string"
+                                            }
+                                        }
+                                    },
+                                    "NormalizedLocal": {
+                                        "type": "object",
+                                        "properties": {
+                                            "Code": {
+                                                "type": "string"
+                                            },
+                                            "Description": {
+                                                "type": "string"
+                                            }
+                                        }
+                                    },
+                                    "NormalizedInternational": {
+                                        "type": "object",
+                                        "properties": {
+                                            "Code": {
+                                                "type": "string"
+                                            },
+                                            "Description": {
+                                                "type": "string"
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "LastEducationDate": {
+                                "$ref": "#/$defs/DateInfo"
+                            },
+                            "StartDate": {
+                                "$ref": "#/$defs/DateInfo"
+                            },
+                            "EndDate": {
+                                "$ref": "#/$defs/DateInfo"
+                            },
+                            "Graduated": {
+                                "type": "object",
+                                "properties": {
+                                    "Value": {
+                                        "type": "boolean"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "EmploymentHistory": {
+            "type": "object",
+            "description": "Work experience and job history",
+            "properties": {
+                "ExperienceSummary": {
+                    "type": "object",
+                    "properties": {
+                        "Description": {
+                            "type": "string"
+                        },
+                        "MonthsOfWorkExperience": {
+                            "type": "integer"
+                        },
+                        "MonthsOfManagementExperience": {
+                            "type": "integer"
+                        },
+                        "ExecutiveType": {
+                            "type": "string"
+                        },
+                        "AverageMonthsPerEmployer": {
+                            "type": "integer"
+                        },
+                        "FulltimeDirectHirePredictiveIndex": {
+                            "type": "integer"
+                        },
+                        "ManagementStory": {
+                            "type": "string"
+                        },
+                        "CurrentManagementLevel": {
+                            "type": "string"
+                        },
+                        "ManagementScore": {
+                            "type": "integer"
+                        }
+                    }
+                },
+                "Positions": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "Id": {
+                                "type": "string"
+                            },
+                            "Employer": {
+                                "type": "object",
+                                "properties": {
+                                    "Name": {
+                                        "type": "object",
+                                        "properties": {
+                                            "Probability": {
+                                                "type": "string"
+                                            },
+                                            "Raw": {
+                                                "type": "string"
+                                            },
+                                            "Normalized": {
+                                                "type": "string"
+                                            }
+                                        }
+                                    },
+                                    "Location": {
+                                        "type": "object",
+                                        "properties": {
+                                            "CountryCode": {
+                                                "type": "string"
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "RelatedToByCompanyName": {
+                                "type": "array",
+                                "items": {
+                                    "type": "string"
+                                }
+                            },
+                            "IsSelfEmployed": {
+                                "type": "boolean"
+                            },
+                            "IsCurrent": {
+                                "type": "boolean"
+                            },
+                            "JobTitle": {
+                                "type": "object",
+                                "properties": {
+                                    "Raw": {
+                                        "type": "string"
+                                    },
+                                    "Normalized": {
+                                        "type": "string"
+                                    },
+                                    "Probability": {
+                                        "type": "string"
+                                    }
+                                }
+                            },
+                            "StartDate": {
+                                "$ref": "#/$defs/DateInfo"
+                            },
+                            "EndDate": {
+                                "$ref": "#/$defs/DateInfo"
+                            },
+                            "JobType": {
+                                "type": "string"
+                            },
+                            "JobLevel": {
+                                "type": "string"
+                            },
+                            "TaxonomyPercentage": {
+                                "type": "number"
+                            },
+                            "Description": {
+                                "type": "string"
+                            },
+                            "NormalizedProfession": {
+                                "type": "object",
+                                "properties": {
+                                    "Profession": {
+                                        "type": "object",
+                                        "properties": {
+                                            "CodeId": {
+                                                "type": "integer"
+                                            },
+                                            "Description": {
+                                                "type": "string"
+                                            }
+                                        }
+                                    },
+                                    "Group": {
+                                        "type": "object",
+                                        "properties": {
+                                            "CodeId": {
+                                                "type": "integer"
+                                            },
+                                            "Description": {
+                                                "type": "string"
+                                            }
+                                        }
+                                    },
+                                    "Class": {
+                                        "type": "object",
+                                        "properties": {
+                                            "CodeId": {
+                                                "type": "integer"
+                                            },
+                                            "Description": {
+                                                "type": "string"
+                                            }
+                                        }
+                                    },
+                                    "ISCO": {
+                                        "type": "object",
+                                        "properties": {
+                                            "Version": {
+                                                "type": "string"
+                                            },
+                                            "CodeId": {
+                                                "type": "integer"
+                                            },
+                                            "Description": {
+                                                "type": "string"
+                                            }
+                                        }
+                                    },
+                                    "ONET": {
+                                        "type": "object",
+                                        "properties": {
+                                            "Version": {
+                                                "type": "string"
+                                            },
+                                            "CodeId": {
+                                                "type": "string"
+                                            },
+                                            "Description": {
+                                                "type": "string"
+                                            }
+                                        }
+                                    },
+                                    "Confidence": {
+                                        "type": "number"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "Skills": {
+            "type": "object",
+            "description": "Extracted and normalized skills",
+            "properties": {
+                "Raw": {
+                    "type": "array",
+                    "description": "Skills as extracted directly from the document",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "Name": {
+                                "type": "string"
+                            },
+                            "FoundIn": {
+                                "type": "array",
+                                "items": {
+                                    "type": "object",
+                                    "properties": {
+                                        "SectionType": {
+                                            "type": "string",
+                                            "enum": [
+                                                "WORK HISTORY",
+                                                "EDUCATION",
+                                                "ENTIRE_DOCUMENT"
+                                            ]
+                                        },
+                                        "Id": {
+                                            "type": "string"
+                                        }
+                                    }
+                                }
+                            },
+                            "MonthsExperience": {
+                                "type": "object",
+                                "properties": {
+                                    "Value": {
+                                        "type": "integer"
+                                    }
+                                }
+                            },
+                            "LastUsed": {
+                                "type": "object",
+                                "properties": {
+                                    "Value": {
+                                        "type": "string",
+                                        "format": "date"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "Normalized": {
+                    "type": "array",
+                    "description": "Normalized/standardized skills with taxonomy IDs",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "Name": {
+                                "type": "string"
+                            },
+                            "Id": {
+                                "type": "string"
+                            },
+                            "Type": {
+                                "type": "string",
+                                "enum": [
+                                    "IT",
+                                    "Professional",
+                                    "Soft"
+                                ]
+                            },
+                            "FoundIn": {
+                                "type": "array",
+                                "items": {
+                                    "type": "object",
+                                    "properties": {
+                                        "SectionType": {
+                                            "type": "string"
+                                        },
+                                        "Id": {
+                                            "type": "string"
+                                        }
+                                    }
+                                }
+                            },
+                            "MonthsExperience": {
+                                "type": "object",
+                                "properties": {
+                                    "Value": {
+                                        "type": "integer"
+                                    }
+                                }
+                            },
+                            "LastUsed": {
+                                "type": "object",
+                                "properties": {
+                                    "Value": {
+                                        "type": "string",
+                                        "format": "date"
+                                    }
+                                }
+                            },
+                            "RawSkills": {
+                                "type": "array",
+                                "items": {
+                                    "type": "string"
+                                }
+                            }
+                        }
+                    }
+                },
+                "RelatedProfessionClasses": {
+                    "type": "array",
+                    "description": "Profession matching based on skills",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "Name": {
+                                "type": "string"
+                            },
+                            "Id": {
+                                "type": "string"
+                            },
+                            "Percent": {
+                                "type": "integer"
+                            },
+                            "Groups": {
+                                "type": "array",
+                                "items": {
+                                    "type": "object",
+                                    "properties": {
+                                        "Name": {
+                                            "type": "string"
+                                        },
+                                        "Id": {
+                                            "type": "string"
+                                        },
+                                        "Percent": {
+                                            "type": "integer"
+                                        },
+                                        "NormalizedSkills": {
+                                            "type": "array",
+                                            "items": {
+                                                "type": "string"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "Certifications": {
+            "type": "array",
+            "description": "Professional certifications",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "Name": {
+                        "type": "string"
+                    },
+                    "MatchedFromList": {
+                        "type": "boolean"
+                    },
+                    "IsVariation": {
+                        "type": "boolean"
+                    },
+                    "NormalizedName": {
+                        "type": "string"
+                    },
+                    "Id": {
+                        "type": "string"
+                    }
+                }
+            }
+        },
+        "LanguageCompetencies": {
+            "type": "array",
+            "description": "Language skills",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "Language": {
+                        "type": "string"
+                    },
+                    "LanguageCode": {
+                        "type": "string"
+                    },
+                    "FoundInContext": {
+                        "type": "string"
+                    }
+                }
+            }
+        },
+        "ResumeMetadata": {
+            "type": "object",
+            "description": "Document metadata and parser information",
+            "properties": {
+                "FoundSections": {
+                    "type": "array"
+                },
+                "ReservedData": {
+                    "type": "object",
+                    "description": "PII data for scrubbing",
+                    "properties": {
+                        "Phones": {
+                            "type": "array",
+                            "items": {
+                                "type": "string"
+                            }
+                        },
+                        "Names": {
+                            "type": "array",
+                            "items": {
+                                "type": "string"
+                            }
+                        },
+                        "EmailAddresses": {
+                            "type": "array",
+                            "items": {
+                                "type": "string"
+                            }
+                        },
+                        "OtherData": {
+                            "type": "array",
+                            "items": {
+                                "type": "string"
+                            }
+                        }
+                    }
+                },
+                "PlainText": {
+                    "type": "string",
+                    "description": "Full resume text content"
+                },
+                "DocumentLanguage": {
+                    "type": "string"
+                },
+                "DocumentCulture": {
+                    "type": "string"
+                },
+                "ParserSettings": {
+                    "type": "string"
+                },
+                "DocumentLastModified": {
+                    "type": "string",
+                    "format": "date"
+                }
+            }
+        }
+    },
+    "required": [
+        "ContactInformation",
+        "Education",
+        "EmploymentHistory",
+        "Skills",
+        "ResumeMetadata"
+    ],
+    "$defs": {
+        "DateInfo": {
+            "type": "object",
+            "properties": {
+                "Date": {
+                    "type": "string",
+                    "format": "date"
+                },
+                "IsCurrentDate": {
+                    "type": "boolean"
+                },
+                "FoundYear": {
+                    "type": "boolean"
+                },
+                "FoundMonth": {
+                    "type": "boolean"
+                },
+                "FoundDay": {
+                    "type": "boolean"
+                }
+            }
+        }
+    }
+}

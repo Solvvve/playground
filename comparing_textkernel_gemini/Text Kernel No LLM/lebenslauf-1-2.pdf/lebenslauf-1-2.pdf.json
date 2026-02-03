@@ -1,0 +1,371 @@
+{
+  "ContactInformation": {
+    "CandidateName": {
+      "FormattedName": "Al Efish Abdulwali",
+      "GivenName": "Al",
+      "MiddleName": "Efish",
+      "FamilyName": "Abdulwali"
+    },
+    "Telephones": [
+      {
+        "Raw": "+4915732206892",
+        "Normalized": "+49 15732206892",
+        "InternationalCountryCode": "49",
+        "SubscriberNumber": "15732206892"
+      }
+    ],
+    "EmailAddresses": [
+      "abdulwalialefish@gmail.com"
+    ],
+    "Location": {
+      "CountryCode": "DE",
+      "PostalCode": "63452",
+      "Regions": [
+        "DE-HE"
+      ],
+      "Municipality": "Hanau",
+      "StreetAddressLines": [
+        "Büdingerstraße 8"
+      ]
+    }
+  },
+  "Objective": "Erfahrung\n\nIndustria Immobilien GmbH                             06.2018 - 10.2021\nAccount Manager\n\n\nIndustria Immobilien GmbH                              11.2021 - Heute\nProperty Management\n\nÜber mich\n\nMein Zertifikat wurde in\nDeutschland anerkannt, und ich\nhabe darüber hinaus eine\nWeiterbildung im Bereich\nRechnungswesen absolviert. Von\n2018 bis 2021 war ich verantwortlich\nfür die Verwaltung von drei Fonds\nund konnte in diesem Bereich\nwertvolle Erfahrungen sammeln. Im\nAnschluss daran wechselte ich in\nden Bereich Property Management.\nAktuell bin ich als Sachbearbeiter für\n1.200 Wohneinheiten in Berlin,\nPotsdam, Schönefeld, Hamburg,\nBuchholz und Dietzenbach tätig.",
+  "PersonalAttributes": {
+    "DateOfBirth": {
+      "Date": "1988-11-10",
+      "IsCurrentDate": false,
+      "FoundYear": true,
+      "FoundMonth": true,
+      "FoundDay": true
+    },
+    "Gender": "Male"
+  },
+  "Education": {
+    "HighestDegree": {
+      "Name": {
+        "Raw": "Bachelor",
+        "Normalized": "bachelors"
+      },
+      "Type": "bachelors",
+      "NormalizedLocal": {
+        "Code": "DE_7",
+        "Description": "Bachelor"
+      },
+      "NormalizedInternational": {
+        "Code": "3",
+        "Description": "Bachelor"
+      }
+    },
+    "EducationDetails": [
+      {
+        "Id": "DEG-1",
+        "Text": "",
+        "SchoolName": {
+          "Raw": "Damaskus Universität",
+          "Normalized": "Damaskus Universität"
+        },
+        "SchoolType": "university",
+        "Degree": {
+          "Name": {
+            "Raw": "Bachelor",
+            "Normalized": "bachelors"
+          },
+          "Type": "bachelors",
+          "NormalizedLocal": {
+            "Code": "DE_7",
+            "Description": "Bachelor"
+          },
+          "NormalizedInternational": {
+            "Code": "3",
+            "Description": "Bachelor"
+          }
+        },
+        "Majors": [
+          "Buchhaltung"
+        ],
+        "LastEducationDate": {
+          "Date": "2012-06-30",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": true
+        },
+        "StartDate": {
+          "Date": "2007-09-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "2012-06-30",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": true
+        },
+        "Graduated": {
+          "Value": true
+        }
+      }
+    ]
+  },
+  "EmploymentHistory": {
+    "ExperienceSummary": {
+      "Description": "Die Erfahrung von Al Efish Abdulwali scheint einstieg Niveau, mit nur 0 Monate Berufserfahrung.",
+      "MonthsOfWorkExperience": 0,
+      "MonthsOfManagementExperience": 0,
+      "ExecutiveType": "NONE",
+      "AverageMonthsPerEmployer": 0,
+      "FulltimeDirectHirePredictiveIndex": -1,
+      "ManagementStory": "",
+      "CurrentManagementLevel": "",
+      "ManagementScore": 0,
+      "AttentionNeeded": "WARNUNG: Kandidat sucht einen mittleren Niveau Management-Position, aber wir fanden keine Management-Erfahrung."
+    }
+  },
+  "Skills": {
+    "Raw": [
+      {
+        "Name": "Buchhaltung",
+        "FoundIn": [
+          {
+            "SectionType": "EDUCATION",
+            "Id": "DEG-1"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 1
+        }
+      },
+      {
+        "Name": "Immobilien",
+        "FoundIn": [
+          {
+            "SectionType": "ENTIRE_DOCUMENT"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 1
+        }
+      },
+      {
+        "Name": "Immobilienmanagement",
+        "FoundIn": [
+          {
+            "SectionType": "ENTIRE_DOCUMENT"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 1
+        }
+      },
+      {
+        "Name": "Property Management",
+        "FoundIn": [
+          {
+            "SectionType": "ENTIRE_DOCUMENT"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 1
+        }
+      },
+      {
+        "Name": "Rechnungswesen",
+        "FoundIn": [
+          {
+            "SectionType": "ENTIRE_DOCUMENT"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 1
+        }
+      },
+      {
+        "Name": "Verwaltung",
+        "FoundIn": [
+          {
+            "SectionType": "ENTIRE_DOCUMENT"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 1
+        }
+      }
+    ],
+    "Normalized": [
+      {
+        "Name": "Buchhaltung",
+        "Id": "KS1203W702ND09XHKJR5",
+        "Type": "Professional",
+        "FoundIn": [
+          {
+            "SectionType": "ENTIRE_DOCUMENT"
+          },
+          {
+            "SectionType": "EDUCATION",
+            "Id": "DEG-1"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 1
+        },
+        "RawSkills": [
+          "Rechnungswesen",
+          "Buchhaltung"
+        ]
+      },
+      {
+        "Name": "Immobilienverwaltung",
+        "Id": "KS123NJ76GJLK91JS75M",
+        "Type": "Professional",
+        "FoundIn": [
+          {
+            "SectionType": "ENTIRE_DOCUMENT"
+          },
+          {
+            "SectionType": "ENTIRE_DOCUMENT"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 1
+        },
+        "RawSkills": [
+          "Property Management",
+          "Immobilienmanagement"
+        ]
+      },
+      {
+        "Name": "Grundbesitz",
+        "Id": "KS128F265DV4XTBR70H7",
+        "Type": "Professional",
+        "FoundIn": [
+          {
+            "SectionType": "ENTIRE_DOCUMENT"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 1
+        },
+        "RawSkills": [
+          "Immobilien"
+        ]
+      },
+      {
+        "Name": "Verwaltungstätigkeiten",
+        "Id": "KS7G7FY6ZT1MQXD1KTDY",
+        "Type": "Professional",
+        "FoundIn": [
+          {
+            "SectionType": "ENTIRE_DOCUMENT"
+          }
+        ],
+        "MonthsExperience": {
+          "Value": 1
+        },
+        "RawSkills": [
+          "Verwaltung"
+        ]
+      }
+    ],
+    "RelatedProfessionClasses": [
+      {
+        "Name": "Verkauf und Handel",
+        "Id": "21",
+        "Percent": 50,
+        "Groups": [
+          {
+            "Name": "Immobilienmakler (m/w)",
+            "Id": "215",
+            "Percent": 29,
+            "NormalizedSkills": [
+              "KS128F265DV4XTBR70H7",
+              "KS123NJ76GJLK91JS75M"
+            ]
+          },
+          {
+            "Name": "Schalterangestellte und Mitarbeiter Verleih und Vermietung (m/w)",
+            "Id": "214",
+            "Percent": 21,
+            "NormalizedSkills": [
+              "KS123NJ76GJLK91JS75M"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Versicherungen und Finanzen",
+        "Id": "24",
+        "Percent": 41,
+        "Groups": [
+          {
+            "Name": "Wirtschaftsprüfer / Buchhalter / Steuerberater (m/w)",
+            "Id": "218",
+            "Percent": 23,
+            "NormalizedSkills": [
+              "KS1203W702ND09XHKJR5"
+            ]
+          },
+          {
+            "Name": "Manager Versicherungen und Finanzen (m/w)",
+            "Id": "220",
+            "Percent": 18,
+            "NormalizedSkills": [
+              "KS1203W702ND09XHKJR5"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Administration und Kundenbetreuung",
+        "Id": "1",
+        "Percent": 9,
+        "Groups": [
+          {
+            "Name": "Mitarbeiter Verwaltung (m/w)",
+            "Id": "234",
+            "Percent": 9,
+            "NormalizedSkills": [
+              "KS7G7FY6ZT1MQXD1KTDY"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "LanguageCompetencies": [
+    {
+      "Language": "Arabic",
+      "LanguageCode": "ar",
+      "FoundInContext": ""
+    },
+    {
+      "Language": "German",
+      "LanguageCode": "de",
+      "FoundInContext": ""
+    }
+  ],
+  "ResumeMetadata": {
+    "FoundSections": [],
+    "ReservedData": {
+      "Phones": [
+        "+4915732206892"
+      ],
+      "Names": [
+        "Al Efish Abdulwali"
+      ],
+      "EmailAddresses": [
+        "abdulwalialefish@gmail.com"
+      ],
+      "OtherData": [
+        "Büdingerstraße 8"
+      ]
+    },
+    "PlainText": "Abdulwali\n                                                         Lebenslauf\n\nAl Efish\n\nPersönliche Infos\n\n     Büdingerstraße 8\n\n     63452 Hanau\n\n     Deutschland\n\n     015732206892\n\n     abdulwalialefish@gmail.com\n\n     10.11.1988 in Damaskus Syrien\n\n\nErfahrung\n\nIndustria Immobilien GmbH                             06.2018 - 10.2021\nAccount Manager\n\n\nIndustria Immobilien GmbH                              11.2021 - Heute\nProperty Management\n\nÜber mich\n\nMein Zertifikat wurde in\nDeutschland anerkannt, und ich\nhabe darüber hinaus eine\nWeiterbildung im Bereich\nRechnungswesen absolviert. Von\n2018 bis 2021 war ich verantwortlich\nfür die Verwaltung von drei Fonds\nund konnte in diesem Bereich\nwertvolle Erfahrungen sammeln. Im\nAnschluss daran wechselte ich in\nden Bereich Property Management.\nAktuell bin ich als Sachbearbeiter für\n1.200 Wohneinheiten in Berlin,\nPotsdam, Schönefeld, Hamburg,\nBuchholz und Dietzenbach tätig.\n\n\nFähigkeiten\n\nImmobilienmanagement\nRechnungswesen\nFremdsprachen: Deutsch , Englisch ,\nArabisch\n\nAusbildung\n\n\nDamaskus Universität\n2007 - 2012\nBachelor\nBuchhaltung",
+    "DocumentLanguage": "de",
+    "DocumentCulture": "de-DE",
+    "ParserSettings": "Coverage.PersonalAttributes = True; Coverage.Training = True; Culture.CountryCodeForUnitedKingdomIsUK = True; Culture.DefaultCountryCode = DE; Culture.DefaultCultureIsBelgium = True; Culture.DefaultCultureIsGermany = True; Culture.Language = German; Culture.PreferEnglishVersionIfTwoLanguagesInDocument = False; Data.NormalizeSkills = True; Data.UserDefinedParsing = False; Data.UseV2SkillsTaxonomy = True; OutputFormat.AssumeCompanyNameFromPrecedingJob = False; OutputFormat.ContactMethod.PackStyle = Split; OutputFormat.DateOutputStyle = ExplicitlyKnownDateInfoOnly; OutputFormat.NestJobsBasedOnDateRanges = True; OutputFormat.NormalizeRegions = False; OutputFormat.SimpleCustomLinkedIn = True; OutputFormat.SkillsStyle = Default; OutputFormat.StripParsedDataFromPositionHistoryDescription = True; OutputFormat.TelcomNumber.Style = Raw; OutputFormat.XmlFormat = HrXmlResume25",
+    "DocumentLastModified": "2025-02-19"
+  }
+}
