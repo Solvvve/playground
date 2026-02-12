@@ -1,0 +1,231 @@
+# Jobs Management System: Client Request Breakdown
+
+## What Your Client Is Saying (Plain English)
+
+Your client currently uses **Attio Deals** as his CRM pipeline. He realized that a "Job" in recruiting is essentially a "Deal" with extra recruitment-specific attributes (company, hiring manager, salary range, candidates, etc.). Instead of trying to force Attio Deals into being Jobs, he wants to **flip the approach**:
+
+1. **Build the Jobs infrastructure first** in Supabase (tables, relationships)
+2. **Create user-facing views in NocoDB** so the team can actually work with Jobs day-to-day
+3. **Later sync** Attio Deals data into this Jobs system (via n8n workflows)
+
+His specific requests break down like this:
+
+### The "Views" He Wants (NocoDB UI Views, NOT Database Views)
+
+These are NocoDB grid/kanban/form views on top of the Supabase `jobs` table:
+
+| View | What It Shows |
+|------|---------------|
+| **All Open Jobs (Kanban)** | Jobs as cards grouped by pipeline stage (e.g., Open, In Progress, On Hold, Offer, Closed). Like Attio Deals board view. |
+| **All Open Jobs (List)** | Same data but as a filterable table/grid. |
+| **Per-Job: Summary** | One job's details: job description (text field), URL, company, hiring manager, salary, location, etc. Like the Manatal screenshot he sent. |
+| **Per-Job: Longlist** | Candidates linked to that job, with their status in the pipeline (New, Interested, Shortlisted, Client Submission, Interview). Like the Manatal Candidates tab screenshot. |
+| **Per-Job: Activities** | Activity log for that job: notes, emails, status changes, meetings, etc. |
+
+### The "JSON" He Mentions
+
+He likely means **n8n workflow JSON files** that:
+- Pull Deals from Attio API
+- Transform them into the Jobs table format
+- Insert/sync into Supabase
+- NocoDB then reads directly from Supabase tables
+
+### The "Prompt About Business Needs"
+
+He wants you (the AI) to think through the **recruiting business logic** before building anything:
+- How do Jobs relate to Companies?
+- How do Jobs relate to Hiring Managers (contacts)?
+- How do Candidates get linked to Jobs?
+- What pipeline stages should exist?
+- What fields does a Job need?
+
+### Screenshots Analysis
+
+The screenshots he provided are from **Manatal** (an ATS platform):
+
+**Screenshot 1 - Candidates Kanban (Longlist)**
+- Shows a Job called "Auditor / WP" at company "Baker Tilly Germany"
+- Salary: 80,000 - 120,000 EUR
+- Status: "On Hold" with tags "NOT PUBLISHED", "NEW CANDIDATES"
+- Candidates tab with Kanban columns: New Candidates (11), Interested, Shortlisted, Client Submission, Client Interview
+- Tabs at top: Candidates, Summary, Team, AI Recommendations, Activities, Notes, Scorecards, Attachments, Sourcing, Reports
+- Hired: 0, In Pipeline: 11, Dropped: 0
+
+**Screenshot 2 - Job Summary**
+- Job Description field (free text)
+- Job Details: Job Reference, Position Name, Job Location, Remote, Office Address, Headcount, Experience Level, Min/Max Salary, Contract Details, Open Date, Job Industry, Deal Value, Current State
+
+---
+
+## Actionable Prompts (Ordered by Dependency)
+
+### Prompt 1: Design the Jobs Data Model in Supabase
+
+```
+I am building a recruiting/ATS-like Jobs management system in Supabase. Based on best practices from ATS systems like Manatal, JobAdder, and RecruitCRM, design the Supabase table schema for a Jobs system.
+
+Context:
+- I already have these tables in Supabase:
+  - candidates (18,828 unified candidate records with stable UUIDs, linking back to source tables via expandi_id/textkernel_id)
+  - expandi_network (17,842 LinkedIn contacts)
+  - textkernel_resumes (1,234 parsed resumes with related tables for skills, education, positions, contact info)
+  - candidate_chunks (embeddings for semantic search)
+  - expandi_campaign_events (campaign tracking)
+
+Requirements for the Jobs table:
+- Core fields: job_title, job_reference (auto or manual), job_description (long text), job_url, status/stage
+- Company relationship: company_name, company_id (for future company table)
+- Contacts: hiring_manager_name, hiring_manager_email
+- Compensation: salary_min, salary_max, salary_currency, contract_type (fulltime/parttime/contract)
+- Location: job_location, is_remote, office_address
+- Metadata: headcount, experience_level, industry, open_date, close_date, created_at, updated_at
+- Pipeline: stage field with values like "Open", "Sourcing", "In Progress", "On Hold", "Offer Stage", "Filled", "Cancelled"
+- Source tracking: attio_deal_id (to link back to Attio), deal_value
+
+Supporting tables needed:
+- job_candidates: junction table linking jobs to candidates via candidate_id (FK to candidates.id) with a candidate_status field (New, Interested, Shortlisted, Client Submission, Client Interview, Hired, Dropped)
+- job_activities: activity log (type: note/email/status_change/meeting/call, content, created_by, created_at)
+
+Please provide:
+1. Complete CREATE TABLE SQL migration statements
+2. Appropriate indexes
+3. RLS policies (enable but keep open for now)
+4. Any ENUM types or check constraints for status fields
+```
+
+### Prompt 2: Define NocoDB Views Configuration
+
+```
+I have a "jobs" table and "job_candidates" / "job_activities" tables in Supabase, connected to NocoDB. I need to configure these NocoDB views:
+
+1. "All Open Jobs - Kanban": 
+   - Kanban view grouped by "stage" column
+   - Stacked by: Open, Sourcing, In Progress, On Hold, Offer Stage
+   - Card shows: job_title, company_name, hiring_manager_name, salary range, candidate count
+   - Filter: stage NOT IN ('Filled', 'Cancelled')
+
+2. "All Open Jobs - Grid":
+   - Grid/table view with columns: job_reference, job_title, company_name, stage, salary_min, salary_max, open_date, candidate_count
+   - Filter: stage NOT IN ('Filled', 'Cancelled')
+   - Sort: open_date DESC
+
+3. "Job Summary" (per-job form/detail view):
+   - Fields: job_title, job_description, job_url, company_name, hiring_manager_name, hiring_manager_email, salary_min, salary_max, salary_currency, contract_type, job_location, is_remote, headcount, experience_level, industry, open_date, stage, deal_value
+
+4. "Job Longlist" (per-job, linked table view of job_candidates):
+   - Kanban by candidate_status: New, Interested, Shortlisted, Client Submission, Client Interview, Hired, Dropped
+   - Card shows: candidate name, current job title, company, added_at
+   - Also available as Grid view
+
+5. "Job Activities" (per-job, linked table view of job_activities):
+   - Grid sorted by created_at DESC
+   - Columns: activity_type, content, created_by, created_at
+
+For each view, describe the exact NocoDB configuration steps or provide the API calls to create them.
+```
+
+### Prompt 3: Build the Attio-to-Supabase Sync (n8n Workflow)
+
+```
+I need an n8n workflow (exportable as JSON) that syncs Attio Deals to my Supabase "jobs" table.
+
+Attio API context:
+- Deals are a standard object with api_slug "deals"
+- I can list deals via GET /v2/objects/deals/records/query
+- Each deal has attributes accessed via the values endpoint
+- Required scopes: record_permission:read, object_configuration:read
+
+The workflow should:
+1. Trigger: Schedule (every 15 min) OR Webhook from Attio
+2. Fetch all deals from Attio API (paginated)
+3. For each deal, extract and map fields:
+   - Deal name -> job_title
+   - Associated company -> company_name
+   - Deal value -> deal_value
+   - Deal stage -> stage (map Attio stages to my stage enum)
+   - Any custom fields you recommend adding in Attio for: job_description, job_url, salary_min, salary_max, hiring_manager
+4. Upsert into Supabase "jobs" table using attio_deal_id as the unique key
+5. Error handling: log failures, continue processing
+
+Provide the complete n8n workflow JSON.
+```
+
+### Prompt 4: Design Candidate-to-Job Linking Logic
+
+```
+I need to design how candidates get linked to jobs in my system.
+
+I have a unified candidates table (18,828 rows) with stable UUIDs. Each candidate has:
+- id (UUID PK), first_name, last_name, email, linkedin_url, current_title, current_company
+- source ('expandi', 'textkernel', or 'both'), expandi_id, textkernel_id
+- Deduplication enforced via partial unique indexes on linkedin_url, expandi_id, textkernel_id
+
+The job_candidates junction table needs:
+- job_id (FK to jobs)
+- candidate_id (FK to candidates.id)
+- candidate_status: enum (New, Interested, Shortlisted, Client Submission, Client Interview, Hired, Dropped)
+- added_at, updated_at
+- notes (text)
+
+Questions to address:
+1. Should candidate_status changes be logged in job_activities automatically (trigger)?
+2. What candidate fields should be denormalized into job_candidates for NocoDB display performance?
+3. Should there be a unique constraint on (job_id, candidate_id) to prevent the same candidate being added to a job twice?
+```
+
+### Prompt 5: Reference Check Against Best ATS Systems
+
+```
+Review my Jobs data model against these ATS systems and flag anything I am missing:
+
+JobAdder (jobadder.com):
+- Opportunity Pipeline for business development
+- Custom digital "Smart Forms"
+- Configurable pipeline stages with analytics
+- Temp staffing management
+
+RecruitCRM (recruitcrm.io):
+- Kanban board for candidate pipeline
+- Deals pipeline for revenue tracking
+- 100% customizable fields
+- Chrome extension for sourcing
+- Hiring manager portal
+
+Manatal (manatal.com):
+- AI-powered candidate recommendations
+- Candidate quick-screen
+- Customizable recruitment pipeline per job
+- Email integration and activity calendar
+- Analytics: time-to-hire, source effectiveness, conversion rates
+
+My current model has:
+- jobs (with stage pipeline)
+- job_candidates (with candidate_status pipeline)
+- job_activities (activity log)
+
+What am I potentially missing? Consider:
+- Job board posting tracking
+- Fee/revenue tracking per placement
+- Team assignment per job
+- Client/company portal access
+- Scorecard/evaluation templates
+- Document attachments per job
+- Source tracking (where did the job come from)
+- Analytics fields (time_to_fill, candidates_sourced, etc.)
+```
+
+---
+
+## Recommended Execution Order
+
+| Step | Task | Status |
+|------|------|--------|
+| ~~0~~ | ~~Create unified `candidates` table (18,828 rows)~~ | **Done** |
+| 1 | Design + create Jobs data model in Supabase (Prompt 1) | Next |
+| 2 | Review model against ATS best practices (Prompt 5) | |
+| 3 | Refine model based on review | |
+| 4 | Connect NocoDB to new tables | |
+| 5 | Configure NocoDB views (Prompt 2) | |
+| 6 | Design candidate linking logic (Prompt 4) | |
+| 7 | Build n8n sync workflow (Prompt 3) | |
+| 8 | Test end-to-end: Attio Deal -> Supabase -> NocoDB | |

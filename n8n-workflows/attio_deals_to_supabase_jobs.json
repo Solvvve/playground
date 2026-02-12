@@ -1,0 +1,398 @@
+{
+    "name": "Attio Deals → Supabase Jobs",
+    "nodes": [
+        {
+            "parameters": {
+                "rule": {
+                    "interval": [
+                        {
+                            "field": "minutes",
+                            "minutesInterval": 15
+                        }
+                    ]
+                }
+            },
+            "id": "schedule-trigger",
+            "name": "Every 15 Minutes",
+            "type": "n8n-nodes-base.scheduleTrigger",
+            "typeVersion": 1.2,
+            "position": [
+                220,
+                300
+            ]
+        },
+        {
+            "parameters": {
+                "httpMethod": "POST",
+                "path": "attio-deal-webhook",
+                "options": {}
+            },
+            "id": "webhook-trigger",
+            "name": "Attio Webhook",
+            "type": "n8n-nodes-base.webhook",
+            "typeVersion": 2,
+            "position": [
+                220,
+                520
+            ],
+            "webhookId": "attio-deal-sync"
+        },
+        {
+            "parameters": {
+                "conditions": {
+                    "options": {
+                        "caseSensitive": true,
+                        "leftValue": "",
+                        "typeValidation": "strict"
+                    },
+                    "conditions": [
+                        {
+                            "id": "webhook-check",
+                            "leftValue": "={{ $json.event?.event_type }}",
+                            "rightValue": "",
+                            "operator": {
+                                "type": "string",
+                                "operation": "exists",
+                                "singleValue": true
+                            }
+                        }
+                    ],
+                    "combinator": "and"
+                },
+                "options": {}
+            },
+            "id": "is-webhook",
+            "name": "Is Webhook?",
+            "type": "n8n-nodes-base.if",
+            "typeVersion": 2.2,
+            "position": [
+                460,
+                400
+            ]
+        },
+        {
+            "parameters": {
+                "method": "POST",
+                "url": "https://api.attio.com/v2/objects/deals/records/query",
+                "authentication": "genericCredentialType",
+                "genericAuthType": "httpHeaderAuth",
+                "sendBody": true,
+                "specifyBody": "json",
+                "jsonBody": "={{ JSON.stringify({ limit: 50, offset: $json.offset || 0 }) }}",
+                "options": {
+                    "response": {
+                        "response": {
+                            "fullResponse": false
+                        }
+                    }
+                }
+            },
+            "id": "fetch-all-deals",
+            "name": "Fetch All Deals (Paginated)",
+            "type": "n8n-nodes-base.httpRequest",
+            "typeVersion": 4.2,
+            "position": [
+                700,
+                300
+            ],
+            "credentials": {
+                "httpHeaderAuth": {
+                    "id": "ATTIO_HEADER_AUTH_CREDENTIAL_ID",
+                    "name": "Attio API Key"
+                }
+            },
+            "notes": "POST /v2/objects/deals/records/query with limit/offset pagination. Uses Header Auth with 'Authorization: Bearer <token>'. You must create an HTTP Header Auth credential named 'Attio API Key' with Name=Authorization, Value=Bearer <your-attio-api-key>."
+        },
+        {
+            "parameters": {
+                "method": "POST",
+                "url": "=https://api.attio.com/v2/objects/deals/records/query",
+                "authentication": "genericCredentialType",
+                "genericAuthType": "httpHeaderAuth",
+                "sendBody": true,
+                "specifyBody": "json",
+                "jsonBody": "={{ JSON.stringify({ filter: { record_id: { $eq: $json.event.data.id.record_id } } }) }}",
+                "options": {}
+            },
+            "id": "fetch-single-deal",
+            "name": "Fetch Single Deal",
+            "type": "n8n-nodes-base.httpRequest",
+            "typeVersion": 4.2,
+            "position": [
+                700,
+                520
+            ],
+            "credentials": {
+                "httpHeaderAuth": {
+                    "id": "ATTIO_HEADER_AUTH_CREDENTIAL_ID",
+                    "name": "Attio API Key"
+                }
+            },
+            "notes": "For webhook triggers: fetch the single deal that was created/updated."
+        },
+        {
+            "parameters": {
+                "jsCode": "// Extract deal records from the paginated API response\nconst data = $input.first().json.data || [];\n\nconst mapped = data.map(record => {\n  const v = record.values || {};\n\n  // Helper: safely get first value from an attribute array\n  const first = (attr) => {\n    if (!v[attr] || !v[attr].length) return null;\n    return v[attr][0];\n  };\n\n  // Helper: get text/value from first element\n  const textVal = (attr) => {\n    const f = first(attr);\n    if (!f) return null;\n    // Text attributes use .value, name attributes use .first_name/.full_name\n    return f.value || f.first_name || f.full_name || null;\n  };\n\n  // Helper: get number value\n  const numVal = (attr) => {\n    const f = first(attr);\n    if (!f) return null;\n    return f.value != null ? Number(f.value) : null;\n  };\n\n  // Helper: get currency value (Attio stores as { currency_value: num, currency_code: 'EUR' })\n  const currencyVal = (attr) => {\n    const f = first(attr);\n    if (!f) return { value: null, currency: null };\n    return {\n      value: f.currency_value != null ? Number(f.currency_value) : null,\n      currency: f.currency_code || null\n    };\n  };\n\n  // Helper: get status attribute title\n  const statusVal = (attr) => {\n    const f = first(attr);\n    if (!f) return null;\n    return f.status?.title || f.title || null;\n  };\n\n  // Helper: get referenced record (for associated_company, etc.)\n  const refName = (attr) => {\n    const f = first(attr);\n    if (!f) return null;\n    // Record reference attributes have target_record_id and sometimes display data\n    return f.target_record?.values?.name?.[0]?.value ||\n           f.target_record?.values?.name?.[0]?.full_name ||\n           f.display_value ||\n           null;\n  };\n\n  // Map Attio stage to Supabase stage enum\n  const attioStage = statusVal('stage');\n  const stageMap = {\n    // Map your actual Attio stage names here.\n    // Left side = Attio stage title (case-insensitive match)\n    // Right side = Supabase jobs.stage value\n    'new': 'Open',\n    'open': 'Open',\n    'qualified': 'Sourcing',\n    'sourcing': 'Sourcing',\n    'in progress': 'In Progress',\n    'proposal': 'In Progress',\n    'negotiation': 'Offer Stage',\n    'offer': 'Offer Stage',\n    'offer stage': 'Offer Stage',\n    'on hold': 'On Hold',\n    'won': 'Filled',\n    'filled': 'Filled',\n    'closed won': 'Filled',\n    'lost': 'Cancelled',\n    'cancelled': 'Cancelled',\n    'closed lost': 'Cancelled'\n  };\n  const mappedStage = attioStage\n    ? (stageMap[attioStage.toLowerCase()] || 'Open')\n    : 'Open';\n\n  const dealValue = currencyVal('deal_value');\n\n  return {\n    json: {\n      // Unique key for upsert\n      attio_deal_id: record.id?.record_id || null,\n\n      // Core fields\n      job_title: textVal('name') || 'Untitled Deal',\n      job_description: textVal('description') || textVal('job_description') || null,\n      job_url: textVal('job_url') || null,\n\n      // Pipeline\n      stage: mappedStage,\n\n      // Company\n      company_name: refName('associated_company') || textVal('company') || null,\n\n      // Hiring manager (custom fields in Attio)\n      hiring_manager_name: textVal('hiring_manager_name') || textVal('hiring_manager') || null,\n      hiring_manager_email: textVal('hiring_manager_email') || null,\n\n      // Compensation\n      salary_min: numVal('salary_min') || null,\n      salary_max: numVal('salary_max') || null,\n      salary_currency: dealValue.currency || 'EUR',\n      contract_type: textVal('contract_type') || null,\n\n      // Location\n      job_location: textVal('job_location') || textVal('location') || null,\n\n      // Metadata\n      experience_level: textVal('experience_level') || null,\n      industry: textVal('industry') || null,\n\n      // Deal tracking\n      deal_value: dealValue.value\n    }\n  };\n});\n\nreturn mapped;\n"
+            },
+            "id": "map-deal-fields",
+            "name": "Map Deal Fields",
+            "type": "n8n-nodes-base.code",
+            "typeVersion": 2,
+            "position": [
+                960,
+                400
+            ],
+            "notes": "Extracts and maps Attio deal attributes to Supabase jobs columns. Includes stage mapping from Attio statuses to your 7-value enum. Adjust the stageMap object to match your actual Attio stage names."
+        },
+        {
+            "parameters": {
+                "operation": "upsert",
+                "tableId": "jobs",
+                "columns": "attio_deal_id",
+                "fieldsToSend": "autoMapInputData",
+                "options": {}
+            },
+            "id": "upsert-to-supabase",
+            "name": "Upsert to Supabase Jobs",
+            "type": "n8n-nodes-base.supabase",
+            "typeVersion": 1,
+            "position": [
+                1200,
+                400
+            ],
+            "credentials": {
+                "supabaseApi": {
+                    "id": "SUPABASE_CREDENTIAL_ID",
+                    "name": "Supabase"
+                }
+            },
+            "notes": "Upserts into the jobs table using attio_deal_id as the conflict/match column. The partial unique index on attio_deal_id ensures correct upsert behavior."
+        },
+        {
+            "parameters": {
+                "conditions": {
+                    "options": {
+                        "caseSensitive": true,
+                        "leftValue": "",
+                        "typeValidation": "strict"
+                    },
+                    "conditions": [
+                        {
+                            "id": "has-more-pages",
+                            "leftValue": "={{ $('Fetch All Deals (Paginated)').first().json.data.length }}",
+                            "rightValue": 50,
+                            "operator": {
+                                "type": "number",
+                                "operation": "gte"
+                            }
+                        }
+                    ],
+                    "combinator": "and"
+                },
+                "options": {}
+            },
+            "id": "has-more-pages",
+            "name": "More Pages?",
+            "type": "n8n-nodes-base.if",
+            "typeVersion": 2.2,
+            "position": [
+                1440,
+                300
+            ]
+        },
+        {
+            "parameters": {
+                "values": {
+                    "number": [
+                        {
+                            "name": "offset",
+                            "value": "={{ ($json.offset || 0) + 50 }}"
+                        }
+                    ]
+                },
+                "options": {}
+            },
+            "id": "increment-offset",
+            "name": "Next Page Offset",
+            "type": "n8n-nodes-base.set",
+            "typeVersion": 3.4,
+            "position": [
+                1660,
+                200
+            ]
+        },
+        {
+            "parameters": {},
+            "id": "done-node",
+            "name": "Done",
+            "type": "n8n-nodes-base.noOp",
+            "typeVersion": 1,
+            "position": [
+                1660,
+                400
+            ]
+        },
+        {
+            "parameters": {
+                "values": {
+                    "number": [
+                        {
+                            "name": "offset",
+                            "value": 0
+                        }
+                    ]
+                },
+                "options": {}
+            },
+            "id": "init-offset",
+            "name": "Init Offset",
+            "type": "n8n-nodes-base.set",
+            "typeVersion": 3.4,
+            "position": [
+                460,
+                200
+            ]
+        }
+    ],
+    "connections": {
+        "Every 15 Minutes": {
+            "main": [
+                [
+                    {
+                        "node": "Init Offset",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        },
+        "Attio Webhook": {
+            "main": [
+                [
+                    {
+                        "node": "Is Webhook?",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        },
+        "Is Webhook?": {
+            "main": [
+                [
+                    {
+                        "node": "Fetch Single Deal",
+                        "type": "main",
+                        "index": 0
+                    }
+                ],
+                [
+                    {
+                        "node": "Init Offset",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        },
+        "Init Offset": {
+            "main": [
+                [
+                    {
+                        "node": "Fetch All Deals (Paginated)",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        },
+        "Fetch All Deals (Paginated)": {
+            "main": [
+                [
+                    {
+                        "node": "Map Deal Fields",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        },
+        "Fetch Single Deal": {
+            "main": [
+                [
+                    {
+                        "node": "Map Deal Fields",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        },
+        "Map Deal Fields": {
+            "main": [
+                [
+                    {
+                        "node": "Upsert to Supabase Jobs",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        },
+        "Upsert to Supabase Jobs": {
+            "main": [
+                [
+                    {
+                        "node": "More Pages?",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        },
+        "More Pages?": {
+            "main": [
+                [
+                    {
+                        "node": "Next Page Offset",
+                        "type": "main",
+                        "index": 0
+                    }
+                ],
+                [
+                    {
+                        "node": "Done",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        },
+        "Next Page Offset": {
+            "main": [
+                [
+                    {
+                        "node": "Fetch All Deals (Paginated)",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        }
+    },
+    "settings": {
+        "executionOrder": "v1"
+    },
+    "staticData": null,
+    "tags": [
+        {
+            "name": "attio",
+            "id": "attio-tag"
+        },
+        {
+            "name": "supabase",
+            "id": "supabase-tag"
+        }
+    ],
+    "pinData": {}
+}
